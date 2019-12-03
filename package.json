@@ -1,0 +1,22 @@
+{
+  "name": "marianne",
+  "version": "0.0.0",
+  "description": "Marianne Discord.js Bot",
+  "main": "src/Marianne.js",
+  "author": "KunoichiZ",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "node src/Marianne.js",
+    "start": "node src/Marianne.js"
+  },
+  "private": true,
+  "dependencies": {
+    "better-sqlite3": "^5.4.3",
+    "discord.js": "discordjs/discord.js",
+    "discord.js-commando": "discordjs/Commando",
+    "dotenv": "^8.2.0",
+    "klasa": "dirigeants/klasa#settings",
+    "moment": "^2.24.0",
+    "moment-duration-format": "2.2.2"
+  }
+}
