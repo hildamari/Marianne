@@ -17,5 +17,19 @@
     "klasa": "dirigeants/klasa#settings",
     "moment": "^2.24.0",
     "moment-duration-format": "2.2.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/KunoichiZ/Marianne/issues"
+  },
+  "repository": "https://github.com/KunoichiZ/Marianne.git",
+  "keywords": [
+    "discord",
+    "discordjs",
+    "discord-bot",
+    "klasa",
+    "marianne",
+    "fire-emblem-three-houses",
+    "fire-emblem",
+    "three-houses"
+  ]
 }
