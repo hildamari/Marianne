@@ -18,13 +18,6 @@ const MarianneClient = new Client ({
         apiPrefix: '',
 		port: 1123
     },
-    pieceDefaults: {
-		routes: {
-			enabled: true,
-			authenticated: false
-		},
-		middlewares: { enabled: false }
-	},
     providers: { default: 'json' },
     presence: { activity: { name: 'Dorte', type: 'LISTENING' } },
     typing: false,
