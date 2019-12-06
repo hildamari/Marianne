@@ -15,7 +15,7 @@ const MarianneClient = new Client ({
     disableEveryone: true,
     ignoreBots: true,
     dashboardHooks: {
-        apiPrefix: '/',
+        apiPrefix: '',
 		port: 1123
     },
     pieceDefaults: {
