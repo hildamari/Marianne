@@ -12,16 +12,21 @@
   "private": true,
   "dependencies": {
     "better-sqlite3": "^5.4.3",
-    "discord.js": "discordjs/discord.js",
+    "chokidar": "^3.3.0",
+    "discord.js": "github:discordjs/discord.js",
     "dotenv": "^8.2.0",
-    "klasa": "dirigeants/klasa#settings",
+    "klasa": "github:dirigeants/klasa#settings",
+    "klasa-dashboard-hooks": "github:kyranet/klasa-dashboard-hooks#master",
     "moment": "^2.24.0",
-    "moment-duration-format": "2.2.2"
+    "moment-duration-format": "2.2.2",
+    "node-fetch": "^2.6.0",
+    "zlib": "^1.0.5"
   },
   "bugs": {
     "url": "https://github.com/KunoichiZ/Marianne/issues"
   },
   "repository": "https://github.com/KunoichiZ/Marianne.git",
+  "homepage": "https://marianne.hilda.pw",
   "keywords": [
     "discord",
     "discordjs",
