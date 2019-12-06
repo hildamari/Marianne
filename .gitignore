@@ -6,3 +6,6 @@ src/data/.env
 
 # txt files
 *.txt
+
+# logs
+*.log
