@@ -1,10 +1,10 @@
 {
   "name": "marianne",
   "version": "0.0.0",
-  "description": "Marianne Discord.js Bot",
+  "description": "Multipurpose Discord.js bot built with Klasa",
   "main": "src/Marianne.js",
   "author": "KunoichiZ",
-  "license": "GPL-3.0",
+  "license": "Apache-2.0",
   "scripts": {
     "test": "node src/Marianne.js",
     "start": "node src/Marianne.js"
