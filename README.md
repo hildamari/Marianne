@@ -10,6 +10,10 @@
 
 Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda). Marianne is a character from Fire Emblem: Three Houses. She is written with [Discord.js](https://discord.js.org/) and [Klasa](https://klasa.js.org/).
 
+## Todo
+<!-- @todo Add moderation commands -->
+- [ ] Add moderation commands
+
 ## Credits
 * All packages in [package.json](./package.json)
 * todos, remindme, and help commands from [klasa-pieces](https://github.com/dirigeants/klasa-pieces)
