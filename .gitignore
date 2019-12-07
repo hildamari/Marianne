@@ -9,3 +9,7 @@ src/data/.env
 
 # logs
 *.log
+
+# unneeded folders
+Info/
+Misc/
