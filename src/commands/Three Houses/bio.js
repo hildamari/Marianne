@@ -18,7 +18,7 @@ module.exports = class extends Command {
     }
 
     verifyUnit(unit) {
-        const unitEmbed = new MessageEmbed()
+        const unitBioEmbed = new MessageEmbed()
 
         let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '',
         crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '';
@@ -69,7 +69,7 @@ module.exports = class extends Command {
             // case 'Shamir':
           }
 
-          unitEmbed
+          unitBioEmbed
                .setAuthor(name, crestImage)
                .setColor(hexColor)
                .setThumbnail(thumbnail)
@@ -85,7 +85,7 @@ module.exports = class extends Command {
                .addField('Occupation', occupation, true)
                .addField('Starting Class', startingClass)
 
-          return unitEmbed
+          return unitBioEmbed
     }
         
     async run(msg, [unit]) {
