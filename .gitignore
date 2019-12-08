@@ -13,3 +13,6 @@ src/data/.env
 # unneeded folders
 Info/
 Misc/
+
+# .DS_Store
+.DS_Store
