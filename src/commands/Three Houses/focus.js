@@ -15,13 +15,14 @@ module.exports = class extends Command {
     }
 
     verifyUnit(unit) {
-        const unitEmbed = new MessageEmbed()
+        const unitFocusEmbed = new MessageEmbed()
 
-        let name = '', titles = [], descriptions = [], goals = [], hexColor = "#fefff4", image = "";
+        let name = '', titles = [], descriptions = [], goals = [], hexColor = "", image = "";
 
         switch(unit) {
             case 'Edelgard':
                 name = "Edelgard"
+                hexColor = "#fefff4"
                 titles[0] = "__**Lead Like a Lord**__"
                 titles[1] = "__**Strong in Heavy Armor**__"
                 goals[0] = "Focus on sword and authority skills to excel as a Lord."
@@ -31,7 +32,7 @@ module.exports = class extends Command {
                 image = "https://i.imgur.com/HQ3yEk4.png"
         }
 
-        unitEmbed
+        unitFocusEmbed
         .setColor(hexColor)
         .setAuthor(name)
         .setDescription("Areas of Focus")
@@ -41,11 +42,11 @@ module.exports = class extends Command {
         .addField(titles[1], goals[1])
         .addField("Description", descriptions[1])
         if(titles[2]) {
-            unitEmbed.addField(titles[2], goals[2])
-            unitEmbed.addField("Description", descriptions[2])
+            unitFocusEmbed.addField(titles[2], goals[2])
+            unitFocusEmbed.addField("Description", descriptions[2])
         }
 
-        return unitEmbed
+        return unitFocusEmbed
     }
 
     async run(msg, [unit]) {
