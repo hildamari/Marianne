@@ -24,3 +24,6 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 * All packages in [package.json](./package.json)
 * todos, remindme, and help commands from [klasa-pieces](https://github.com/dirigeants/klasa-pieces)
 * reminder and reloadOnChanges tasks from [klasa-pieces](https://github.com/dirigeants/klasa-pieces)
+
+## Copyright
+Fire Emblem is &copy; Nintendo and INTELLIGENT SYSTEMS 2017-2018. All images and names owned and trademarked by Nintendo and INTELLIGENT SYSTEMS are property of their respective owners.
