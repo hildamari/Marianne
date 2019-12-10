@@ -157,14 +157,79 @@ module.exports = class extends Command {
                 unlock = 'N/A'
                 unlockDescription = 'N/A'
                 break;
-            // case 'Dimitri':
-            // case 'Dedue':
-            // case 'Felix':
-            // case 'Ashe':
-            // case 'Sylvain':
-            // case 'Mercedes':
+            case 'Dimitri':
+            case 'dimitri':
+                name = 'Dimitri'
+                thumbnail = 'https://i.imgur.com/Ddl1C8a.png'
+                hexColor = '#fcfba8'
+                proficientIn = [sword, lance, authority]
+                weakTo = [axe, reason]
+                buddingTalent = riding
+                unlock = 'Seal Movement'
+                unlockDescription = 'If unit damages foe during combat, foe suffers Mv -1 for 1 turn after combat.'
+                break;
+            case 'Dedue':
+            case 'dedue':
+                name = 'Dedue'
+                thumbnail = 'https://i.imgur.com/quIqslt.png'
+                hexColor = '#e8e9e2'
+                proficientIn = [lance, axe, fighting, heavyArmor]
+                weakTo = [faith, riding, flying]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Felix':
+            case 'felix':
+                name = 'Felix'
+                thumbnail = 'https://i.imgur.com/YJcGEiK.png'
+                hexColor = '#403f64'
+                proficientIn = [sword, bow, fighting]
+                weakTo = [reason, authority]
+                buddingTalent = reason
+                unlock = 'Black Magic Crit +10'
+                unlockDescription = 'Grants Crit +10 when using black magic.'
+                break;
+            case 'Ashe':
+            case 'ashe':
+                name = 'Ashe'
+                thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
+                hexColor = '#b5bdc6'
+                proficientIn = [axe, bow]
+                weakTo = [reason]
+                buddingTalent = lance
+                unlock = 'Shatter Smash'
+                unlockDescription = 'Enemies hit by this attack suffer -5 Def for 1 turn.'
+                break;
+            case 'Sylvain':
+            case 'sylvain':
+                name = 'Sylvain'
+                thumbnail = 'https://i.imgur.com/77T2SRt.png'
+                hexColor = '#e06c53'
+                proficientIn = [lance, axe, riding]
+                weakTo = [bow]
+                buddingTalent = reason
+                unlock = 'Black Magic Avo +20'
+                unlockDescription = 'Grants Avo +20 when using black magic.'
+                break;
+            case 'Mercedes':
+            case 'mercedes':
+                name = 'Mercedes'
+                thumbnail = 'https://i.imgur.com/y1BWI7T.png'
+                hexColor = '#f4dcc4'
+                proficientIn = [reason, faith]
+                weakTo = [sword, lance, axe, heavyArmor]
+                buddingTalent = bow
+                unlock = 'Waning Shot'
+                unlockDescription = 'Enemies hit by this attack suffer -5 Str for 1 turn.'
+                break;
             // case 'Annette':
+            // case 'annette':
+
             // case 'Ingrid':
+            // case 'ingrid':
+
+            // case 'claude':
             // case 'Claude':
             case 'Hilda':
             case 'hilda':
@@ -178,12 +243,19 @@ module.exports = class extends Command {
                 unlockDescription = 'If unit damages foe during combat, foe suffers Spd -6 for 1 turn after combat.'
                 break;
             // case 'Lorenz':
+            // case 'lorenz':
             // case 'Raphael':
+            // case 'raphael':
             // case 'Ignatz':
+            // case 'ignatz':
             // case 'Lysithea':
+            // case 'lysithea':
             // case 'Marianne':
+            // case 'marianne':
             // case 'Leonie':
+            // case 'leonie':
             // case 'Flayn':
+            // case 'flayn':
             case 'Seteth':
             case 'seteth':
                 name = 'Seteth'
@@ -196,14 +268,23 @@ module.exports = class extends Command {
                 unlockDescription = 'N/A'
                 break;
             // case 'Cyril':
+            // case 'cyril':
             // case 'Anna':
+            // case 'anna':
             // case 'Jeritza':
+            // case 'jeritza':
             // case 'Hanneman':
+            // case 'hanneman':
             // case 'Manuela':
+            // case 'manuela':
             // case 'Gilbert':
+            // case 'gilbert':
             // case 'Alois':
+            // case 'alois':
             // case 'Catherine':
+            // case 'catherine':
             // case 'Shamir':
+            // case 'shamir':
           }
 
           unitProfEmbed
@@ -222,7 +303,5 @@ module.exports = class extends Command {
     async run(msg, [unit]) {
         let result = this.verifyUnit(unit);
         msg.send(result);
-        // const flayn = this.client.emojis.find(emoji => emoji.name === "Fish");
-        // return msg.say(`${flayn} FI-SHY FI-SHY ${flayn}`);
     }
 };
