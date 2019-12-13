@@ -223,14 +223,39 @@ module.exports = class extends Command {
                 unlock = 'Waning Shot'
                 unlockDescription = 'Enemies hit by this attack suffer -5 Str for 1 turn.'
                 break;
-            // case 'Annette':
-            // case 'annette':
-
-            // case 'Ingrid':
-            // case 'ingrid':
-
-            // case 'claude':
-            // case 'Claude':
+            case 'Annette':
+            case 'annette':
+                name = 'Annette'
+                thumbnail = 'https://i.imgur.com/lnE7TRE.png'
+                hexColor = '#f6a67d'
+                proficientIn = [axe, reason, authority]
+                weakTo = [bow, heavyArmor]
+                buddingTalent = "N/A"
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Ingrid':
+            case 'ingrid':
+                name = 'Ingrid'
+                thumbnail = 'https://i.imgur.com/t8fCo54.png'
+                hexColor = '#f8e5a0'
+                proficientIn = [sword, lance, riding, flying]
+                weakTo = ["Nothing"]
+                buddingTalent = "N/A"
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'claude':
+            case 'Claude':
+                name = 'Claude'
+                thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
+                hexColor = '#4a4240'
+                proficientIn = [sword, bow, authority, flying]
+                weakTo = [lance, faith]
+                buddingTalent = axe
+                unlock = 'Diamond Axe'
+                unlockDescription = 'A powerful attack that greatly increases Mt.'
+                break;
             case 'Hilda':
             case 'hilda':
                 name = 'Hilda'
