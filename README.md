@@ -27,6 +27,8 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 - [ ] Add growths command
 <!-- @todo Add combatArts command -->
 - [ ] Add combatArts command
+<!-- @todo Add personal skills command -->
+- [ ] Add personal skills command
 
 ## Credits
 * All packages in [package.json](./package.json)
