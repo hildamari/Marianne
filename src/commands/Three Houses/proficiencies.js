@@ -267,20 +267,38 @@ module.exports = class extends Command {
                 unlock = 'Seal Speed'
                 unlockDescription = 'If unit damages foe during combat, foe suffers Spd -6 for 1 turn after combat.'
                 break;
-            // case 'Lorenz':
-            // case 'lorenz':
-            // case 'Raphael':
-            // case 'raphael':
-            // case 'Ignatz':
-            // case 'ignatz':
-            // case 'Lysithea':
-            // case 'lysithea':
-            // case 'Marianne':
-            // case 'marianne':
-            // case 'Leonie':
-            // case 'leonie':
-            // case 'Flayn':
-            // case 'flayn':
+            case 'Lorenz':
+            case 'lorenz':
+                name = 'Lorenz'
+                thumbnail = 'https://i.imgur.com/uYopDET.png'
+                hexColor = '#7373ac'
+                proficientIn = [lance, reason, riding]
+                weakTo = [fighting]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Raphael':
+            case 'raphael':
+                name = 'Raphael'
+                thumbnail = 'https://i.imgur.com/MB3wRvI.png'
+                hexColor = '#f0d9a1'
+                proficientIn = [axe, fighting]
+                weakTo = [bow, reason, riding]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Ignatz':
+            case 'ignatz':
+            case 'Lysithea':
+            case 'lysithea':
+            case 'Marianne':
+            case 'marianne':
+            case 'Leonie':
+            case 'leonie':
+            case 'Flayn':
+            case 'flayn':
             case 'Seteth':
             case 'seteth':
                 name = 'Seteth'
