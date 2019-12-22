@@ -12,10 +12,12 @@ module.exports = class extends Command {
             if(msg.channel.id != 649063924607614978) {
                 msg.send("You cannot use this command in a non-nsfw channel! Please go to <#649063924607614978>")
             } else {
-                return msg.send(`${marianne} I don't have uno so go fuck off.`);
+                const message = `${marianne} I don't have uno so go fuck off.`
+                return msg.send(message);
             }
         } else {
-            return msg.send(`${marianne} I don't have uno so go fuck off.`);
+            const message = `${marianne} I don't have uno so go fuck off.`
+            return msg.send(message);
         }
     }
 
