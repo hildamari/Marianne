@@ -17,8 +17,7 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 - [ ] Finish bio command
 <!-- @todo Change bio command to canvas image -->
 - [ ] Change bio command to canvas image
-<!-- @todo Finish focus command -->
-- [ ] Finish focus command
+- [x] Finish focus command
 <!-- @todo Add crest command -->
 - [ ] Add crest command
 <!-- @todo Finish proficiencies command -->
