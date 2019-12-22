@@ -291,14 +291,59 @@ module.exports = class extends Command {
                 break;
             case 'Ignatz':
             case 'ignatz':
+                name = 'Ignatz'
+                thumbnail = 'https://i.imgur.com/TUREZkF.png'
+                hexColor = '#c6c69d'
+                proficientIn = [sword, bow, authority]
+                weakTo = [flying]
+                buddingTalent = reason
+                unlock = 'Seal Strength'
+                unlockDescription = 'If unit damages foe during combat, foe suffers Str -6 for 1 turn after combat.'
+                break;
             case 'Lysithea':
             case 'lysithea':
+                name = 'Lysithea'
+                thumbnail = 'https://i.imgur.com/EIm3Zof.png'
+                hexColor = '#fefcfd'
+                proficientIn = [reason, faith, authority]
+                weakTo = [sword, lance, axe, heavyArmor]
+                buddingTalent = sword
+                unlock = 'Soulblade'
+                unlockDescription = 'A magic attack. Mt increases based on unit’s Res.'
+                break;
             case 'Marianne':
             case 'marianne':
+                name = 'Marianne'
+                thumbnail = 'https://i.imgur.com/OyUl9he.png'
+                hexColor = '#aad0fa'
+                proficientIn = [sword, faith, riding, flying]
+                weakTo = [fighting, heavyArmor]
+                buddingTalent = lance
+                unlock = 'Frozen Lance'
+                unlockDescription = 'A magic attack. Mt increases based on unit’s Dex.'
+                break;
             case 'Leonie':
             case 'leonie':
+                name = 'Leonie'
+                thumbnail = 'https://i.imgur.com/yZxvJG4.png'
+                hexColor = '#f17d5b'
+                proficientIn = [lance, bow, riding]
+                weakTo = ["Nothing"]
+                buddingTalent = "N/A"
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
             case 'Flayn':
             case 'flayn':
+                name = 'Flayn'
+                thumbnail = 'https://i.imgur.com/1PcDmnL.png'
+                hexColor = '#9ae5b9'
+                proficientIn = [lance, faith]
+                weakTo = [heavyArmor, riding]
+                buddingTalent = reason
+                unlock = 'Seal Magic'
+                unlockDescription = 'If unit damages foe during combat, foe suffers Mag -6 for 1 turn after combat.'
+                break;
             case 'Seteth':
             case 'seteth':
                 name = 'Seteth'
@@ -310,27 +355,113 @@ module.exports = class extends Command {
                 unlock = 'N/A'
                 unlockDescription = 'N/A'
                 break;
-            // case 'Cyril':
-            // case 'cyril':
-            // case 'Anna':
-            // case 'anna':
-            // case 'Jeritza':
-            // case 'jeritza':
-            // case 'Hanneman':
-            // case 'hanneman':
-            // case 'Manuela':
-            // case 'manuela':
-            // case 'Gilbert':
-            // case 'gilbert':
-            // case 'Alois':
-            // case 'alois':
-            // case 'Catherine':
-            // case 'catherine':
-            // case 'Shamir':
-            // case 'shamir':
+            case 'Cyril':
+            case 'cyril':
+                name = 'Cyril'
+                thumbnail = 'https://i.imgur.com/Oss58fD.png'
+                hexColor = '#453d3b'
+                proficientIn = [lance, axe, bow, riding, flying]
+                weakTo = [reason, faith]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Anna':
+            case 'anna':
+                name = 'Anna'
+                thumbnail = 'https://i.imgur.com/d2dCJxN.png'
+                hexColor = '#d85e77'
+                proficientIn = [sword, axe, bow, faith]
+                weakTo = [reason, authority]
+                buddingTalent = riding
+                unlock = 'Pass'
+                unlockDescription = 'Allows unit to pass through spaces occupied by foes.'
+                break;
+            case 'Jeritza':
+            case 'jeritza':
+                name = 'Jeritza'
+                thumbnail = 'https://i.imgur.com/SSXUCCn.png'
+                hexColor = '#f4dcc4'
+                proficientIn = [sword, lance, fighting, riding]
+                weakTo = [faith, authority]
+                buddingTalent = flying
+                unlock = 'Darting Blow'
+                unlockDescription = 'If unit initiates combat, grants AS +6 during combat'
+                break;
+            case 'Hanneman':
+            case 'hanneman':
+                name = 'Hanneman'
+                thumbnail = 'https://i.imgur.com/fCG6C12.png'
+                hexColor = '#969794'
+                proficientIn = [bow, reason, riding]
+                weakTo = [heavyArmor, flying]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Manuela':
+            case 'manuela':
+                name = 'Manuela'
+                thumbnail = 'https://i.imgur.com/af5exR9.png'
+                hexColor = '#b09b80'
+                proficientIn = [sword, faith, flying]
+                weakTo = [reason, heavyArmor]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Gilbert':
+            case 'gilbert':
+                name = 'Gilbert'
+                thumbnail = 'https://i.imgur.com/wyHkiIQ.png'
+                hexColor = '#f7a77e'
+                proficientIn = [lance, axe, heavyArmor, riding]
+                weakTo = ["Nothing"]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Alois':
+            case 'alois':
+                name = 'Alois'
+                thumbnail = 'https://i.imgur.com/Mz2eAuu.png'
+                hexColor = '#857a67'
+                proficientIn = [axe, fighting, heavyArmor]
+                weakTo = [reason, flying]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Catherine':
+            case 'catherine':
+                name = 'Catherine'
+                thumbnail = 'https://i.imgur.com/7mK0y1K.png'
+                hexColor = '#f8ebc9'
+                proficientIn = [sword, fighting]
+                weakTo = [reason]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            case 'Shamir':
+            case 'shamir':
+                name = 'Shamir'
+                thumbnail = 'https://i.imgur.com/gK1Iz5F.png'
+                hexColor = '#57587e'
+                proficientIn = [lance, bow]
+                weakTo = [faith]
+                buddingTalent = 'N/A'
+                unlock = 'N/A'
+                unlockDescription = 'N/A'
+                break;
+            default:
+                name = "N/A"
           }
 
-          unitProfEmbed
+          if(name == "N/A") {
+              return "Not a playable unit"
+          } else {
+              unitProfEmbed
                .setAuthor(name)
                .setColor(hexColor)
                .setThumbnail(thumbnail)
@@ -340,7 +471,10 @@ module.exports = class extends Command {
                .addField('Unlock', unlock)
                .addField('Unlock Description', unlockDescription)
 
-          return unitProfEmbed
+            return unitProfEmbed
+          }
+          
+          
     }
         
     async run(msg, [unit]) {
