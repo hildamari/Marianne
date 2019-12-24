@@ -13,7 +13,8 @@ module.exports = class extends Command {
             .setTitle("Wave 1")
             .setDescription('Start the school year—and your great adventure—in style.')
             .setImage('https://i.imgur.com/BZ8FS0o.jpg')
-            .addField('Release Date', 'July 26th, 2019');
+            .addField('Release Date', 'July 26th, 2019')
+            .addField('Game Version', 'Ver 1.0.1');
         const wave2Embed = new MessageEmbed()
             .setTitle("Wave 2")
             .setDescription(stripIndents`
@@ -25,7 +26,8 @@ module.exports = class extends Command {
             * A pair of glasses for Byleth to wear.`)
             .setThumbnail('https://i.imgur.com/okbwIJI.jpg')
             .setImage('https://i.imgur.com/6eSlJoE.jpg')
-            .addField('Release Date', 'September 10th, 2019');
+            .addField('Release Date', 'September 10th, 2019')
+            .addField('Game Version', 'Ver 1.0.2');
         const wave3Embed = new MessageEmbed()
             .setTitle("Wave 3")
             .setDescription(stripIndents`
@@ -36,7 +38,8 @@ module.exports = class extends Command {
             * New types of attire for most students`)
             .setThumbnail('https://i.imgur.com/ZdN2fc7.jpg')
             .setImage('https://i.imgur.com/8eF37V6.jpg')
-            .addField('Release Date', 'November 8th, 2019');
+            .addField('Release Date', 'November 8th, 2019')
+            .addField('Game Version', 'Ver 1.1.0');
         const wave3Part2Embed = new MessageEmbed()
             .setTitle("Wave 3 Part 2")
             .setDescription(stripIndents`
@@ -45,6 +48,7 @@ module.exports = class extends Command {
             .setThumbnail("https://i.imgur.com/7CopRth.jpg")
             .setImage("https://i.imgur.com/sOsNOWT.jpg")
             .addField("Release Date", "December 18th, 2019")
+            .addField('Game Version', 'Ver 1.1.1');
         const wave4Embed = new MessageEmbed()
             .setTitle("Wave 4")
             .setDescription("New story content, with additional playable characters, locations, and more—plus a free update—will be released by April 30, 2020.")
@@ -59,6 +63,7 @@ module.exports = class extends Command {
             .setThumbnail("https://i.imgur.com/Xug1K08.jpg")
             .setImage("https://i.imgur.com/pHaan5R.jpg")
             .addField("Release Date", "November 8th, 2019")
+            .addField('Game Version', 'Ver 1.1.0');
         const dlcDisplay = new RichDisplay()
             .addPage(wave1Embed)
             .addPage(wave2Embed)
