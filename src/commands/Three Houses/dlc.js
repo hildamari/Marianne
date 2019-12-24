@@ -36,7 +36,7 @@ module.exports = class extends Command {
             * New types of attire for most students`)
             .setThumbnail('https://i.imgur.com/ZdN2fc7.jpg')
             .setImage('https://i.imgur.com/8eF37V6.jpg')
-            .addField('Release Date', 'September 20th, 2019');
+            .addField('Release Date', 'November 8th, 2019');
         const wave3Part2Embed = new MessageEmbed()
             .setTitle("Wave 3 Part 2")
             .setDescription(stripIndents`
@@ -58,7 +58,7 @@ module.exports = class extends Command {
             * Visit support for more details about this update.`)
             .setThumbnail("https://i.imgur.com/Xug1K08.jpg")
             .setImage("https://i.imgur.com/pHaan5R.jpg")
-            .addField("Release Date", "September 20th, 2019")
+            .addField("Release Date", "November 8th, 2019")
         const dlcDisplay = new RichDisplay()
             .addPage(wave1Embed)
             .addPage(wave2Embed)
