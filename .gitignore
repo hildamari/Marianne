@@ -19,3 +19,6 @@ Misc/
 
 # bwd folder
 bwd/
+
+# webp files
+*.webp
