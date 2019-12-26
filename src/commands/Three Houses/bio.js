@@ -10,11 +10,8 @@ module.exports = class extends Command {
             usage: '<unit:string>'
         });
 
-        let customResponse = this.customizeResponse('unit',
+        this.customizeResponse('unit',
             'You must enter a valid unit!');
-
-        // this.createCustomResolver('unit', (unit, possible, msg) =>
-		// 	arg ? this.client.arguments.get('unit').run(unit, possible, msg) : customResponse);
     }
 
     verifyUnit(unit) {
