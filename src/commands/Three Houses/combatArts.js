@@ -18,7 +18,7 @@ module.exports = class extends Command {
     verifyUnit(weapon) {
         const weaponEmbed = new MessageEmbed()
 
-        let name = '', might, image = '', hit, crit, range = 0, durCost = 0, desc = '', characters = []
+        let name = '', might, image = '', hit, crit, range, durCost = 0, desc = '', characters = []
 
         switch(weapon) {
             case 'Sunder':
@@ -91,13 +91,84 @@ module.exports = class extends Command {
             // Flickering Flower
             // War Master's Strike
 
-            // Curved Shot
-            // Deadeye
-            // Heavy Draw
-            // Encloser
-            // Ward Arrow
-            // Point-Blank Volley
-            // Monster Blast
+            // Bow Combat Arts
+            case "Curved Shot":
+                name = "Curved Shot"
+                might = 1
+                hit = 30
+                crit = "N/A"
+                range = "2 - 3"
+                durCost = 3
+                desc = "-"
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Anyone with a D rank in Bows']
+                break;
+            case "Deadeye":
+                name = "Deadeye"
+                might = 6
+                hit = "N/A"
+                crit = "N/A"
+                range = "3 - 5"
+                durCost = 5
+                desc = "-"
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Bernadetta and Ashe at C+ in Bows.']
+                break;
+            case "Heavy Draw":
+                name = "Heavy Draw"
+                might = 8
+                hit = 10
+                crit = "N/A"
+                range = 2
+                durCost = 5
+                desc = "-"
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Felix, Shamir, and Hubert in C+ in Bows.']
+                break;
+            case "Encloser":
+                name = "Encloser"
+                might = 4
+                hit = 15
+                crit = "N/A"
+                range = 2
+                durCost = 3
+                desc = "Prevents foe from moving for 1 turn."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Bernadetta and Claude in A rank in Bows.']
+                break;
+            case "Ward Arrow":
+                name = "Ward Arrow"
+                might = 4
+                hit = 15
+                crit = "N/A"
+                range = 2
+                durCost = 3
+                desc = "Prevents foe from using magic for 1 turn."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Hanneman and Ignatz in A rank in Bows.']
+                break;
+            case "Point-Blank Volley":
+                name = "Point-Blank Volley"
+                might = 3
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Avoid +10; triggers 2 consecutive hits."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Cyril and Leonie with a C+ and A rank in Bows respectively.']
+                break;
+            case "Monster Blast":
+                name = "Monster Blast"
+                might = 5
+                hit = "N/A"
+                crit = 10
+                range = 2
+                durCost = 4
+                desc = "Effective against Monster foes."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Claude and Shamir with a C+ and A rank in Bows respectively.']
+                break;
             // Waning Shot
             // Break Shot
             // Schism Shot
