@@ -10,7 +10,7 @@ module.exports = class extends Command {
             usage: '<unit:string>'
         });
 
-        let customResponse = this.customizeResponse('unit',
+        this.customizeResponse('unit',
             'You must enter a valid unit!');
     }
 
@@ -64,17 +64,12 @@ module.exports = class extends Command {
                             unitFocusEmbed.addField(titles[2], goals[2])
                             unitFocusEmbed.addField("Description", descriptions[2])
                         }
+                    return unitFocusEmbed
                 }
-
-        return unitFocusEmbed
     }
 
     async run(msg, [unit]) {
-        
-    
         let result = this.verifyUnit(unit);
         msg.send(result);
-            
-            // msg.channel.send({ files: [`./assets/images/units/${unit}.png`] });
     }
 };
