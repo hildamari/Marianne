@@ -105,18 +105,119 @@ module.exports = class extends Command {
             // Hunter's Volley
             // Wind God
 
-            // Draining Blow
-            // Mighty Blow
-            // Bombard
-            // Rushing Blow
-            // Fading Blow
-            // Mystic Blow
-            // Nimble Combo
-            // One-Two Punch
-            // Monster Crusher
-            // Fierce Iron Fist
+            // Gauntlet Combat Arts
+            case "Draining Blow":
+                name = "Draining Blow"
+                might = 5
+                hit = 20
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Restores HP equal to 50% of the damage inflicted to the enemy."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Byleth and Raphael at C+ and A Brawling respectively.']
+                break;
+            case "Mighty Blow":
+                name = "Mighty Blow"
+                might = 10
+                hit = -5
+                crit = 20
+                range = 1
+                durCost = 3
+                desc = "Restores HP equal to 50% of the damage inflicted to the enemy."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Alois, Dedue, and Caspar with an A rank in Brawling.']
+                break;
+            case "Bombard":
+                name = "Bombard"
+                might = 3
+                hit = "N/A"
+                crit = 10
+                range = 1
+                durCost = 3
+                desc = "Triggers 2 consecutive hits."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Caspar and Catherine at C+ and A brawling respectively.']
+                break;
+            case "Rushing Blow":
+                name = "Rushing Blow"
+                might = 7
+                hit = 20
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Avoid +10; after combat, user moves 1 space in front of the enemy."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Anyone with a C rank in Brawling.']
+                break;
+            case "Fading Blow":
+                name = "Fading Blow"
+                might = 6
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Avoid +30; after combat, user moves 1 space backwards."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Anyone with a D rank in Brawling.']
+                break;
+            case "Mystic Blow":
+                name = "Mystic Blow"
+                might = 10
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Deals magic-based damage."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Byleth and Felix with an A rank in Brawling.']
+                break;
+            case "Nimble Combo":
+                name = "Nimble Combo"
+                might = 10
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Avoid +20; triggers 2 consecutive hits."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Catherine and Felix with a C+ rank in Brawling.']
+                break;
+            case "One-Two Punch":
+                name = "One-Two Punch"
+                might = 8
+                hit = 20
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Triggers a follow-up attack."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Alois and Dedue with a C+ rank in Brawling.']
+                break;
+            case "Monster Crusher":
+                name = "Monster Crusher"
+                might = 13
+                hit = 10
+                crit = 10
+                range = 1
+                durCost = 4
+                desc = "Effective against Monster foes."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Raphael with a C+ rank in Brawling.']
+                break;
+            case "Fierce Iron Fist":
+                name = "Fierce Iron Fist"
+                might = 1
+                hit = "N/A"
+                crit = 10
+                range = 1
+                durCost = 5
+                desc = "Grappler only; triggers 3 consecutive hits."
+                image = 'https://i.imgur.com/srjf2mU.png'
+                characters = ['Any male with Grappler Class Mastery']
+                break;
 
-            // Healing Focus
+            // Other Combat Arts
             case "Healing Focus":
                 name = "Healing Focus"
                 might = "-"
