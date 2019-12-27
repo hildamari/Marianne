@@ -169,11 +169,61 @@ module.exports = class extends Command {
                 image = 'https://i.imgur.com/Gz7u1rM.png'
                 characters = ['Claude and Shamir with a C+ and A rank in Bows respectively.']
                 break;
-            // Waning Shot
-            // Break Shot
-            // Schism Shot
-            // Fallen Star
-            // Hunter's Volley
+            case "Waning Shot":
+                name = "Waning Shot"
+                might = 4
+                hit = 40
+                crit = "N/A"
+                range = "2 - 3"
+                durCost = 3
+                desc = "After combat, inflicts Str -5 on foe for 1 turn."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Petra and Ashe with a C+ and A rank in Bows respectively. It is also the budding talent of Mercedes.']
+                break;
+            case "Break Shot":
+                name = "Break Shot"
+                might = 4
+                hit = 5
+                crit = "N/A"
+                range = "2 - 3"
+                durCost = 3
+                desc = "After combat, inflicts Def -5 on foe for 1 turn."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Ignatz and Leonie with a C+ rank in Bows.']
+                break;
+            case "Schism Shot":
+                name = "Schism Shot"
+                might = 4
+                hit = 15
+                crit = "N/A"
+                range = "2 - 3"
+                durCost = 3
+                desc = "After combat, inflicts Res -5 on foe for 1 turn."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Hanneman and Hubert with a C+ and A rank in Bows respectively.']
+                break;
+            case "Fallen Star":
+                name = "Fallen Star"
+                might = 10
+                hit = 30
+                crit = 10
+                range = "2 - 3"
+                durCost = 3
+                desc = "Failnaught only; avoids all attacks during the next round of combat; effective against Dragon foes."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Failnaught only']
+                break;
+            case "Hunter's Volley":
+                name = "Hunter's Volley"
+                might = 1
+                hit = 15
+                crit = 10
+                range = "2 - 3"
+                durCost = 5
+                desc = "Sniper only; triggers 2 consecutive hits."
+                image = 'https://i.imgur.com/Gz7u1rM.png'
+                characters = ['Any character with Sniper Class Mastery']
+                break;
             // Wind God
 
             // Gauntlet Combat Arts
