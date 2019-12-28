@@ -22,8 +22,8 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 - [ ] Add crest command
 <!-- @todo Finish proficiencies command -->
 - [ ] Finish proficiencies command
-<!-- @todo Add spells command -->
-- [ ] Add spells command
+<!-- @todo Finish spells command -->
+- [ ] Finish spells command
 <!-- @todo Add growths command -->
 - [ ] Add growths command
 <!-- @todo Add combatArts command -->
