@@ -90,7 +90,7 @@ module.exports = class extends Command {
                 break;
             case 'Ferdinand':
             case 'ferdinand':
-                name = 'Ferdinand'
+                name = 'Ferdinand von Aegir'
                 thumbnail = 'https://i.imgur.com/iKtyabp.png'
                 hexColor = '#feb472'
                 proficientIn = [sword, lance, axe, riding]
