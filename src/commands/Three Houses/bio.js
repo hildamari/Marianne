@@ -18,8 +18,7 @@ module.exports = class extends Command {
         const unitBioEmbed = new MessageEmbed()
 
         let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '',
-        crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', 
-        hexColor = '', thumbnail = '', crestImage = '', vA = '';
+        crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '', vA = '';
 
         switch(unit) {
             // case 'BylethM':
@@ -64,7 +63,7 @@ module.exports = class extends Command {
             // case 'claude':
             case 'Hilda':
             case 'hilda':
-                name = 'Hilda Valentine Goneril', aliases = 'N/A', gender = 'Female', race = 'Human', birthday = 'February 3rd', fodlanBirth = '3rd of the Pegasus Moon, Year 1162', relatives = 'Father, Holst Goneril, Goneril', crest = 'Minor Crest of Goneril', nationality = 'Leicester', hometown = 'Duchy of Goneril', residence = 'Garreg Mach Monastery', faction = 'Golden Deer', occupation = 'Student at the Officers Academy', startingClass = 'Noble', thumbnail = 'https://i.imgur.com/zoScHRC.png', crestImage = 'https://i.imgur.com/mKK2nws.png', vA = 'Salli Saffioti (English)\n Yūki Kuwahara (Japanese)'
+                name = 'Hilda Valentine Goneril', aliases = 'N/A', gender = 'Female', race = 'Human', birthday = 'February 3rd', fodlanBirth = '3rd of the Pegasus Moon, Year 1162', relatives = 'Father, Holst Goneril, Goneril', crest = 'Minor Crest of Goneril', nationality = 'Leicester', hometown = 'Duchy of Goneril', residence = 'Garreg Mach Monastery', faction = 'Golden Deer', occupation = 'Student at the Officers Academy', startingClass = 'Noble', thumbnail = 'https://i.imgur.com/zoScHRC.png', crestImage = 'https://i.imgur.com/mKK2nws.png', vA = 'Salli Saffioti (English)\n Yūki Kuwahara (Japanese)', hexColor = '#fcafb7'
               break;
             // case 'Lorenz':
             // case 'lorenz':
