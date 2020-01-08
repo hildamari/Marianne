@@ -5,7 +5,7 @@ module.exports = class extends Command {
     constructor(...args) {
         super(...args, { 
             description: 'Changes the avatar of the bot',
-            permissionLevel: 9
+            permissionLevel: 10
         });
     }
 
