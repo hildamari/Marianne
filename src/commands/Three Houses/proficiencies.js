@@ -31,6 +31,8 @@ module.exports = class extends Command {
         const heavyArmor = this.client.emojis.find(emoji => emoji.name === "heavyarmor");
         const riding = this.client.emojis.find(emoji => emoji.name === "riding");
         const flying = this.client.emojis.find(emoji => emoji.name === "flying");
+        const profUp = this.client.emojis.find(emoji => emoji.name === "professorup");
+        const profDown = this.client.emojis.find(emoji => emoji.name === "professordown");
 
         switch(unit) {
             case 'BylethM':
@@ -462,9 +464,9 @@ module.exports = class extends Command {
                .setAuthor(name)
                .setColor(hexColor)
                .setThumbnail(thumbnail)
-               .addField('Proficient In', proficientIn.join(" "))
-               .addField('Weak To', weakTo.join(" "))
-               .addField('Budding Talent', `${buddingTalentEmote} ${buddingTalent}`)
+               .addField(`${profUp} Proficient In`, proficientIn.join(" "))
+               .addField(`${profDown} Weak To`, weakTo.join(" "))
+               .addField(`${buddingTalentEmote} Budding Talent`, `${buddingTalent}`)
                .addField('Unlock', unlock)
                .addField('Unlock Description', unlockDescription)
 
