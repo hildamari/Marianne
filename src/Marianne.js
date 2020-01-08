@@ -21,7 +21,7 @@ const MarianneClient = new Client ({
     providers: { default: 'json' },
     presence: { activity: { name: 'Dorte', type: 'LISTENING' } },
     typing: false,
-    owners: ['147800635046232064'],
+    owner: '147800635046232064',
     readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`});
     
 MarianneClient.login(process.env.TOKEN);
