@@ -17,7 +17,9 @@ module.exports = class extends Command {
     verifyUnit(unit) {
         const unitSpellsEmbed = new MessageEmbed()
 
-        let name = '', thumbnail = "", reasonSpells = [], faithSpells = [], hexColor = ''
+        let name = '', thumbnail = "", reasonSpells = [], faithSpells = [], hexColor = '';
+        const reason = this.client.emojis.find(emoji => emoji.name === "reason");
+        const faith = this.client.emojis.find(emoji => emoji.name === "faith");
 
         switch(unit) {
             case 'BylethM':
@@ -110,20 +112,68 @@ module.exports = class extends Command {
                 break;
             case 'Dimitri':
             case 'dimitri':
+                name = 'Dimitri'
+                thumbnail = 'https://i.imgur.com/Ddl1C8a.png'
+                hexColor = '#fcfba8'
+                reasonSpells = ["Thunder (D)", "Thoron (C)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Aura (A)"]
+                break;
             case 'Dedue':
             case 'dedue':
+                name = 'Dedue'
+                thumbnail = 'https://i.imgur.com/quIqslt.png'
+                hexColor = '#e8e9e2'
+                reasonSpells = ["Fire (D)", "Bolganone (C)", "Ragnarok (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                break;
             case 'Felix':
             case 'felix':
+                name = 'Felix'
+                thumbnail = 'https://i.imgur.com/YJcGEiK.png'
+                hexColor = '#403f64'
+                reasonSpells = ["Thunder (D)", "Thoron (C)"]
+                faithSpells = ["Heal (D)", "Noferatu (D+)", "Recover (C)", "Restore (B)"]
+                break;
             case 'Ashe':
             case 'ashe':
+                name = 'Ashe'
+                thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
+                hexColor = '#b5bdc6'
+                reasonSpells = ["Wind (D)", "Cutting Gale (C)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)"]
+                break;
             case 'Sylvain':
             case 'sylvain':
+                name = 'Sylvain'
+                thumbnail = 'https://i.imgur.com/77T2SRt.png'
+                hexColor = '#e06c53'
+                reasonSpells = ["Fire (D)", "Bolganone (C)", "Sagittae (B)", "Ragnarok (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Seraphim (B)"]
+                break;
             case 'Mercedes':
             case 'mercedes':
+                name = 'Mercedes'
+                thumbnail = 'https://i.imgur.com/y1BWI7T.png'
+                hexColor = '#f4dcc4'
+                reasonSpells = ["Fire (D)", "Thunder (D+)", "Bolganone (C)", "Ragnarok (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Restore (B)", "Fortify (A)"]
+                break;
             case 'Annette':
             case 'annette':
+                name = 'Annette'
+                thumbnail = 'https://i.imgur.com/lnE7TRE.png'
+                hexColor = '#f6a67d'
+                reasonSpells = ["Wind (D)", "Cutting Gale (C)", "Sagittae (B)", "Excalibur (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Abraxas (A)"]
+                break;
             case 'Ingrid':
             case 'ingrid':
+                name = 'Ingrid'
+                thumbnail = 'https://i.imgur.com/t8fCo54.png'
+                hexColor = '#f8e5a0'
+                reasonSpells = ["Blizzard (D)", "Thoron (C)", "Fimbulvetr (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Seraphim (B)"]
+                break;
             case 'Claude':
             case 'claude':
             case 'Hilda':
@@ -177,8 +227,8 @@ module.exports = class extends Command {
                .setAuthor(name)
                .setColor(hexColor)
                .setThumbnail(thumbnail)
-               .addField('Reason Spells', reasonSpells.join(", "))
-               .addField('Faith Spells', faithSpells.join(", "))
+               .addField(`${reason} Reason Spells`, reasonSpells.join(", "))
+               .addField(`${faith} Faith Spells`, faithSpells.join(", "))
 
             return unitSpellsEmbed
           }
