@@ -93,7 +93,7 @@ module.exports = class extends Command {
 		await Promise.all(this.client.commands.map((command) => run(command, true)
 			.then(() => {
 				const category = commands.get(command.category);
-				if (category) category.push(command);
+				if (category) category.push(command).filter(command => command.permissionLevel <= 10);
 				else commands.set(command.category, [command]);
 			}).catch(() => {
 				// noop
