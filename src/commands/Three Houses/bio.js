@@ -18,7 +18,8 @@ module.exports = class extends Command {
         const unitBioEmbed = new MessageEmbed()
 
         let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '',
-        crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '', recruitment = [];
+        crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', 
+        hexColor = '', thumbnail = '', crestImage = '', vA = '';
 
         switch(unit) {
             // case 'BylethM':
@@ -63,7 +64,7 @@ module.exports = class extends Command {
             // case 'claude':
             case 'Hilda':
             case 'hilda':
-                name = 'Hilda Valentine Goneril', aliases = 'N/A', gender = 'Female', race = 'Human', birthday = 'February 3rd', fodlanBirth = '3rd of the Pegasus Moon, Year 1162', relatives = 'Father, Holst Goneril, Goneril', crest = 'Minor Crest of Goneril', nationality = 'Leicester', hometown = 'Duchy of Goneril', residence = 'Garreg Mach Monastery', faction = 'Golden Deer', occupation = 'Student at the Officers Academy', startingClass = 'Noble', thumbnail = 'https://i.imgur.com/zoScHRC.png', crestImage = 'https://i.imgur.com/mKK2nws.png'
+                name = 'Hilda Valentine Goneril', aliases = 'N/A', gender = 'Female', race = 'Human', birthday = 'February 3rd', fodlanBirth = '3rd of the Pegasus Moon, Year 1162', relatives = 'Father, Holst Goneril, Goneril', crest = 'Minor Crest of Goneril', nationality = 'Leicester', hometown = 'Duchy of Goneril', residence = 'Garreg Mach Monastery', faction = 'Golden Deer', occupation = 'Student at the Officers Academy', startingClass = 'Noble', thumbnail = 'https://i.imgur.com/zoScHRC.png', crestImage = 'https://i.imgur.com/mKK2nws.png', vA = 'Salli Saffioti (English)\n Yūki Kuwahara (Japanese)'
               break;
             // case 'Lorenz':
             // case 'lorenz':
@@ -117,7 +118,8 @@ module.exports = class extends Command {
                .addField('Residence', residence, true)
                .addField('Faction', faction, true)
                .addField('Occupation', occupation, true)
-               .addField('Starting Class', startingClass)
+               .addField('Starting Class', startingClass, true)
+               .addField('VAs', vA, true)
 
           return unitBioEmbed
     }
