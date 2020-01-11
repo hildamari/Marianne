@@ -4,7 +4,7 @@ module.exports = class extends Command {
 
 	constructor(...args) {
 		super(...args, {
-			description: 'creates a reminder',
+			description: 'Creates a reminder',
 			usage: '<when:time> <text:...str>',
 			usageDelim: ', '
 		});
