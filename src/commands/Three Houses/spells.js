@@ -176,46 +176,101 @@ module.exports = class extends Command {
                 break;
             case 'Claude':
             case 'claude':
+                name = 'Claude'
+                thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
+                hexColor = '#4a4240'
+                reasonSpells = ["Wind (D)", "Sagittae (C)", "Cutting Gale (B)", "Excalibur (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Silence (A)"]
+                break;
             case 'Hilda':
             case 'hilda':
-                
-              break;
+                name = 'Hilda'
+                thumbnail = 'https://i.imgur.com/zoScHRC.png'
+                hexColor = '#fcafb7'
+                reasonSpells = ["Thunder (D)", "Thoron (C)", "Bolting (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                break;
             case 'Lorenz':
             case 'lorenz':
+                name = 'Lorenz'
+                thumbnail = 'https://i.imgur.com/uYopDET.png'
+                hexColor = '#7373ac'
+                reasonSpells = ["Fire (D)", "Sagittae (C)", "Ragnarok (B)", "Agnea’s Arrow (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Ward (B)"]
+                break;
             case 'Raphael':
             case 'raphael':
+                name = 'Raphael'
+                thumbnail = 'https://i.imgur.com/MB3wRvI.png'
+                hexColor = '#f0d9a1'
+                reasonSpells = ["Fire (D)", "Bolganone (C)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                break;
             case 'Ignatz':
             case 'ignatz':
+                name = 'Ignatz'
+                thumbnail = 'https://i.imgur.com/TUREZkF.png'
+                hexColor = '#c6c69d'
+                reasonSpells = ["Blizzard (D)", "Cutting Gale (C)", "Fimbulvetr (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Ward (B)"]
+                break;
             case 'Lysithea':
             case 'lysithea':
+                name = 'Lysithea'
+                thumbnail = 'https://i.imgur.com/EIm3Zof.png'
+                hexColor = '#fefcfd'
+                reasonSpells = ["Miasma Δ (D)", "Swarm Ζ (D+)", "Luna Λ (C)", "Dark Spikes Τ (B)", "Hades Ω (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Seraphim (C)", "Warp (B)", "Abraxas (A)"]
+                break;
             case 'Marianne':
             case 'marianne':
+                name = 'Marianne'
+                thumbnail = 'https://i.imgur.com/EIm3Zof.png'
+                hexColor = '#aad0fa'
+                reasonSpells = ["Blizzard (D)", "Thoron (C)", "Cutting Gale (B)", "Fimbulvetr (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Silence (B)", "Aura (A)"]
+                break;
             case 'Leonie':
             case 'leonie':
+                name = 'Leonie'
+                thumbnail = 'https://i.imgur.com/yZxvJG4.png'
+                hexColor = '#f17d5b'
+                reasonSpells = ["Fire (D)", "Bolganone (C)", "Ragnarok (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Restore (B)"]
+                break;
             case 'Flayn':
             case 'flayn':
+
             case 'Seteth':
             case 'seteth':
-                
-              break;
+
             case 'Cyril':
             case 'cyril':
+
             case 'Anna':
             case 'anna':
+
             case 'Jeritza':
             case 'jeritza':
+
             case 'Hanneman':
             case 'hanneman':
+
             case 'Manuela':
             case 'manuela':
+
             case 'Gilbert':
             case 'gilbert':
+
             case 'Alois':
             case 'alois':
+
             case 'Catherine':
             case 'catherine':
+
             case 'Shamir':
             case 'shamir':
+
             default:
                 name = "N/A"
           }
