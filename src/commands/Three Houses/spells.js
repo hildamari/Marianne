@@ -240,13 +240,28 @@ module.exports = class extends Command {
                 break;
             case 'Flayn':
             case 'flayn':
-
+                name = 'Flayn'
+                thumbnail = 'https://i.imgur.com/1PcDmnL.png'
+                hexColor = '#9ae5b9'
+                reasonSpells = ["Wind (D)", "Fire (D+)", "Cutting Gale (C)", "Excalibur (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Restore (C)", "Rescue (B)", "Fortify (A)"]
+                break;
             case 'Seteth':
             case 'seteth':
-
+                name = 'Seteth'
+                thumbnail = 'https://i.imgur.com/s35oLUZ.png'
+                hexColor = '#71bea4'
+                reasonSpells = ["Wind (D)", "Cutting Gale (C)", "Bolganone (B)", "Excalibur (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                break;
             case 'Cyril':
             case 'cyril':
-
+                name = 'Cyril'
+                thumbnail = 'https://i.imgur.com/Oss58fD.png'
+                hexColor = '#71bea4'
+                reasonSpells = ["Wind (D)", "Cutting Gale (C)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                break;
             case 'Anna':
             case 'anna':
 
@@ -255,10 +270,20 @@ module.exports = class extends Command {
 
             case 'Hanneman':
             case 'hanneman':
-
+                name = 'Hanneman'
+                thumbnail = 'https://i.imgur.com/fCG6C12.png'
+                hexColor = '#969794'
+                reasonSpells = ["Wind (D)", "Sagittae (C)", "Thoron (B)", "Ragnarok (A)", "Meteor (A+)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Ward (B)"]
+                break;
             case 'Manuela':
             case 'manuela':
-
+                name = 'Manuela'
+                thumbnail = 'https://i.imgur.com/af5exR9.png'
+                hexColor = '#b09b80'
+                reasonSpells = ["Thunder (D)", "Bolganone (C)", "Bolting (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Ward (C)", "Silence (B)", "Warp (A)"]
+                break;
             case 'Gilbert':
             case 'gilbert':
 
