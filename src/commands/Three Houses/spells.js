@@ -225,7 +225,7 @@ module.exports = class extends Command {
             case 'Marianne':
             case 'marianne':
                 name = 'Marianne'
-                thumbnail = 'https://i.imgur.com/EIm3Zof.png'
+                thumbnail = 'https://i.imgur.com/OyUl9he.png'
                 hexColor = '#aad0fa'
                 reasonSpells = ["Blizzard (D)", "Thoron (C)", "Cutting Gale (B)", "Fimbulvetr (A)"]
                 faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Silence (B)", "Aura (A)"]
