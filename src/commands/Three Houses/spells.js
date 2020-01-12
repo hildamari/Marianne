@@ -74,7 +74,7 @@ module.exports = class extends Command {
             case 'linhardt':
                 name = 'Linhardt'
                 thumbnail = 'https://i.imgur.com/X41XIXq.png'
-                hexColor = '#feb472'
+                hexColor = '#476352'
                 reasonSpells = ["Wind (D)",	"Fire (D+)", "Cutting Gale (C)", "Bolganone (B)", "Excalibur (A)"]
                 faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Restore (B)", "Warp (A)"]
                 break;
