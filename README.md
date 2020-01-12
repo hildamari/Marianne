@@ -38,7 +38,7 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 
 ## Credits
 * All packages in [package.json](./package.json)
-* Fire Emblem Three Houses data and images from SerenesForest, and both Fire Emblem Wikis ([https://fireemblem.fandom.com/wiki/](https://fireemblem.fandom.com/wiki/) and [https://www.fireemblemwiki.org/wiki/](https://www.fireemblemwiki.org/wiki/Hilda))
+* Fire Emblem Three Houses data and images from [SerenesForest](https://serenesforest.net/three-houses/), and both Fire Emblem Wikis ([https://fireemblem.fandom.com/wiki/](https://fireemblem.fandom.com/wiki/) and [https://www.fireemblemwiki.org/wiki/](https://www.fireemblemwiki.org/wiki/))
 * todos, remindme, and help commands from [klasa-pieces](https://github.com/dirigeants/klasa-pieces)
 * reminder and reloadOnChanges tasks from [klasa-pieces](https://github.com/dirigeants/klasa-pieces)
 
