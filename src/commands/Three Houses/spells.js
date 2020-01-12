@@ -286,16 +286,36 @@ module.exports = class extends Command {
                 break;
             case 'Gilbert':
             case 'gilbert':
-
+                name = 'Gilbert'
+                thumbnail = 'https://i.imgur.com/wyHkiIQ.png'
+                hexColor = '#f7a77e'
+                reasonSpells = ["Thunder (D)", "Thoron (C)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Ward (C)"]
+                break;
             case 'Alois':
             case 'alois':
-
+                name = 'Alois'
+                thumbnail = 'https://i.imgur.com/Mz2eAuu.png'
+                hexColor = '#857a67'
+                reasonSpells = ["Fire (D)", "Bolganone (C)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                break;
             case 'Catherine':
             case 'catherine':
-
+                name = 'Catherine'
+                thumbnail = 'https://i.imgur.com/7mK0y1K.png'
+                hexColor = '#f8ebc9'
+                reasonSpells = ["Fire (D)", "Bolganone (C)", "Ragnarok (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                break;
             case 'Shamir':
             case 'shamir':
-
+                name = 'Shamir'
+                thumbnail = 'https://i.imgur.com/gK1Iz5F.png'
+                hexColor = '#57587e'
+                reasonSpells = ["Blizzard (D)", "Wind (D+)", "Sagittae (C)", "Fimbulvetr (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)"]
+                break;
             default:
                 name = "N/A"
           }
