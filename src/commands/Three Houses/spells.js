@@ -264,10 +264,20 @@ module.exports = class extends Command {
                 break;
             case 'Anna':
             case 'anna':
-
+                name = 'Anna'
+                thumbnail = 'https://i.imgur.com/d2dCJxN.png'
+                hexColor = '#d85e77'
+                reasonSpells = ["Fire (D)", "Thunder (D+)", "Meteor (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Ward (C)", "Rescue (B)"]
+                break;
             case 'Jeritza':
             case 'jeritza':
-
+                name = 'Jeritza'
+                thumbnail = 'https://i.imgur.com/SSXUCCn.png'
+                hexColor = '#f4dcc4'
+                reasonSpells = ["Wind (D)", "Sagittae (C)", "Thoron (B)", "Ragnarok (A)", "Meteor (A+)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Restore (C)"]
+                break;
             case 'Hanneman':
             case 'hanneman':
                 name = 'Hanneman'
