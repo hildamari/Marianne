@@ -44,9 +44,9 @@ module.exports = class extends Command {
                 descriptions[1] = "My father was renowned for his horsemanship in battle, even from a young age. I, too, have a fondness for that pursuit, but to reach his heights, my lance and riding skills will need some polish."
                 image = "https://i.imgur.com/Ddl1C8a.png"
                 break;
-                default:
-                    name = "N/A"
-              }
+            default:
+                name = "N/A"
+        }
     
               if(name == "N/A") {
                   return "Not a playable unit"
