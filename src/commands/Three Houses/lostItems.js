@@ -272,6 +272,7 @@ module.exports = class extends Command {
                 thumbnail = 'https://i.imgur.com/d4f9iBI.png'
                 hexColor = '#d2bc93'
                 lostItems = ["Wooden Flask"]
+                break;
             default:
                 name = "N/A"
         }
@@ -283,7 +284,7 @@ module.exports = class extends Command {
                         .setColor(hexColor)
                         .setAuthor(name)
                         .setThumbnail(thumbnail)
-                        .addField("Lost Items", lostItems.join(", "))
+                        .addField("Lost Items", lostItems.join("\n"))
                     return unitLostItemsEmbed
                 }
     }
