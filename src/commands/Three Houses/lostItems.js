@@ -135,61 +135,143 @@ module.exports = class extends Command {
                 break;
             case 'Claude':
             case 'claude':
-
+                name = 'Claude'
+                thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
+                hexColor = '#4a4240'
+                lostItems = ["Leather Bow Sheath", "Mild Stomach Poison", "Board Game Piece"]
+                break;
             case 'Hilda':
             case 'hilda':
-
+                name = 'Hilda'
+                thumbnail = 'https://i.imgur.com/zoScHRC.png'
+                hexColor = '#fcafb7'
+                lostItems = ["Handmade Hair Clip", "Spotless Bandage", "Used Bottle of Perfume"]
+                break;
             case 'Lorenz':
             case 'lorenz':
-
+                name = 'Lorenz'
+                thumbnail = 'https://i.imgur.com/uYopDET.png'
+                hexColor = '#7373ac'
+                lostItems = ["Artificial Flower", "A Treatise on Etiquette", "Silk Handkerchief"]
+                break;
             case 'Raphael':
             case 'raphael':
-
+                name = 'Raphael'
+                thumbnail = 'https://i.imgur.com/MB3wRvI.png'
+                hexColor = '#f0d9a1'
+                lostItems = ["Wooden Button", "Burlap Sack of Rocks", "Big Spoon"]
+                break;
             case 'Ignatz':
             case 'ignatz':
-
+                name = 'Ignatz'
+                thumbnail = 'https://i.imgur.com/TUREZkF.png'
+                hexColor = '#c6c69d'
+                lostItems = ["Blue Stone", "Art Book", "Letter to the Goddess"]
+                break;
             case 'Lysithea':
             case 'lysithea':
-
+                name = 'Lysithea'
+                thumbnail = 'https://i.imgur.com/EIm3Zof.png'
+                hexColor = '#fefcfd'
+                lostItems = ["Encyclopedia of Sweets", "Princess Doll", "New Bottle of Perfume"]
+                break;
             case 'Marianne':
             case 'marianne':
-
+                name = 'Marianne'
+                thumbnail = 'https://i.imgur.com/OyUl9he.png'
+                hexColor = '#aad0fa'
+                lostItems = ["Bag of Seeds", "How to be Tidy", "Confessional Letter"]
+                break;
             case 'Leonie':
             case 'leonie':
-
+                name = 'Leonie'
+                thumbnail = 'https://i.imgur.com/yZxvJG4.png'
+                hexColor = '#f17d5b'
+                lostItems = ["Hand Drawn Map", "Crude Arrowheads", "Fur Scarf"]
+                break;
             case 'Flayn':
             case 'flayn':
-
+                name = 'Flayn'
+                thumbnail = 'https://i.imgur.com/1PcDmnL.png'
+                hexColor = '#9ae5b9'
+                lostItems = ["Antique Clasp", "Old Map of Enbarr", "Dusty Book of Fables"]
+                break;
             case 'Seteth':
             case 'seteth':
-
+                name = 'Seteth'
+                thumbnail = 'https://i.imgur.com/s35oLUZ.png'
+                hexColor = '#71bea4'
+                lostItems = ["Unfinished Fable", "Old Fishing Rod", "Snapped Writing Quill"]
+                break;
             case 'Cyril':
             case 'cyril':
-
+                name = 'Cyril'
+                thumbnail = 'https://i.imgur.com/Oss58fD.png'
+                hexColor = '#71bea4'
+                lostItems = ["Well-Used Hatchet", "Portrait of Rhea", "Old Cleaning Cloth"]
+                break;
             case 'Anna':
             case 'anna':
-
+                name = 'Anna'
+                thumbnail = 'https://i.imgur.com/d2dCJxN.png'
+                hexColor = '#d85e77'
+                lostItems = ["Secret Ledger", "Balance Scale", "Rare Item Index"]
+                break;
             case 'Jeritza':
             case 'jeritza':
-
+                name = 'Jeritza'
+                thumbnail = 'https://i.imgur.com/SSXUCCn.png'
+                hexColor = '#f4dcc4'
+                lostItems = ["Jar of Sweets", "Black Hair Tie", "Armor Clasp"]
+                break;
             case 'Hanneman':
             case 'hanneman':
-
+                name = 'Hanneman'
+                thumbnail = 'https://i.imgur.com/fCG6C12.png'
+                hexColor = '#969794'
+                lostItems = ["Lens Cloth", "Hammer and Chisel", "Sketch of a Sigil"]
+                break;
             case 'Manuela':
             case 'manuela':
-
+                name = 'Manuela'
+                thumbnail = 'https://i.imgur.com/af5exR9.png'
+                hexColor = '#b09b80'
+                lostItems = ["Wellness Herbs", "Clean Dusting Cloth", "Light Purple Veil"]
+                break;
             case 'Gilbert':
             case 'gilbert':
-
+                name = 'Gilbert'
+                thumbnail = 'https://i.imgur.com/wyHkiIQ.png'
+                hexColor = '#f7a77e'
+                lostItems = ["Noseless Puppet", "Carving Hammer", "Silver Necklace"]
+                break;
             case 'Alois':
             case 'alois':
-
+                name = 'Alois'
+                thumbnail = 'https://i.imgur.com/Mz2eAuu.png'
+                hexColor = '#857a67'
+                lostItems = ["Introduction to Magic", "Foreign Gold Coin", "Mysterious Notebook"]
+                break;
             case 'Catherine':
             case 'catherine':
-
+                name = 'Catherine'
+                thumbnail = 'https://i.imgur.com/7mK0y1K.png'
+                hexColor = '#f8ebc9'
+                lostItems = ["Weathered Cloak", "Letter to Rhea", "Badge of Graduation"]
+                break;
             case 'Shamir':
             case 'shamir':
-
+                name = 'Shamir'
+                thumbnail = 'https://i.imgur.com/gK1Iz5F.png'
+                hexColor = '#57587e'
+                lostItems = ["Bundle of Dry Hemp", "Centipede Picture", "Animal Bone Dice"]
+                break;
+            case 'jeralt':
+            case 'Jeralt':
+                name = 'Jeralt'
+                thumbnail = 'https://i.imgur.com/d4f9iBI.png'
+                hexColor = '#d2bc93'
+                lostItems = ["Wooden Flask"]
             default:
                 name = "N/A"
         }
