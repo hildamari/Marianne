@@ -17,8 +17,7 @@ module.exports = class extends Command {
     verifyUnit(unit) {
         const unitBioEmbed = new MessageEmbed()
 
-        let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '',
-        crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '', vA = '';
+        let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '', crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '', vA = '';
 
         switch(unit) {
             // case 'BylethM':
@@ -101,6 +100,7 @@ module.exports = class extends Command {
             // case 'catherine':
             // case 'Shamir':
             // case 'shamir':
+            // default
           }
 
           unitBioEmbed
