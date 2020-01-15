@@ -100,6 +100,10 @@ module.exports = class extends Command {
             // case 'catherine':
             // case 'Shamir':
             // case 'shamir':
+            // case 'jeralt':
+            // case 'Jeralt':
+            // case 'rhea':
+            // case 'Rhea':
             // default
           }
 
