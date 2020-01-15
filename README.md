@@ -38,7 +38,8 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 * All packages in [package.json](./package.json)
 * Fire Emblem Three Houses data and images from [SerenesForest](https://serenesforest.net/three-houses/), and both Fire Emblem Wikis ([https://fireemblem.fandom.com/wiki/](https://fireemblem.fandom.com/wiki/) and [https://www.fireemblemwiki.org/wiki/](https://www.fireemblemwiki.org/wiki/))
 * todos, remindme, and help commands from [klasa-pieces](https://github.com/dirigeants/klasa-pieces)
-* reminder and reloadOnChanges tasks from [klasa-pieces](https://github.com/dirigeants/klasa-pieces)
+* reminder and reloadOnChanges tasks from [klasa-pieces](https://github.com/dirigeants/klasa-pieces/tree/master/tasks)
+* Moderation commands from [klasa-pieces](https://github.com/dirigeants/klasa-pieces/tree/master/commands/Moderation)
 
 ## Copyright
 Fire Emblem is &copy; Nintendo and INTELLIGENT SYSTEMS 2017-2018. All images and names owned and trademarked by Nintendo and INTELLIGENT SYSTEMS are property of their respective owners.
