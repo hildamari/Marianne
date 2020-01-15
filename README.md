@@ -8,7 +8,7 @@
     <a href="./LICENSE"><img src="https://img.shields.io/github/license/KunoichiZ/Marianne"></a> <a href="https://depfu.com/repos/github/KunoichiZ/Marianne?project_id=10267"><img src="https://badges.depfu.com/badges/1443c30d60757bae8753f21ab4395111/overview.svg"></a>
 </p>
 
-Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda). Marianne is a character from Fire Emblem: Three Houses. She is written with [Discord.js](https://discord.js.org/) and [Klasa](https://klasa.js.org/).
+Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda). Marianne is a character from Fire Emblem: Three Houses. She is written with [Discord.js](https://discord.js.org/) and [Klasa](https://klasa.js.org/). Displays information about character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.
 
 ## Todo
 - [x] Add moderation commands
