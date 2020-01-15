@@ -79,60 +79,117 @@ module.exports = class extends Command {
                 break;
             case 'Dimitri':
             case 'dimitri':
-                // lostItems = ["Dulled Longsword", "Black Leather Gloves", "Training Logbook"]
-                // break;
+                name = 'Dimitri'
+                thumbnail = 'https://i.imgur.com/Ddl1C8a.png'
+                hexColor = '#fcfba8'
+                lostItems = ["Dulled Longsword", "Black Leather Gloves", "Training Logbook"]
+                break;
             case 'Dedue':
             case 'dedue':
+                name = 'Dedue'
+                thumbnail = 'https://i.imgur.com/quIqslt.png'
+                hexColor = '#e8e9e2'
+                lostItems = ["Gold Earring", "Gardening Sheers", "Iron Cooking Pot"]
+                break;
             case 'Felix':
             case 'felix':
+                name = 'Felix'
+                thumbnail = 'https://i.imgur.com/YJcGEiK.png'
+                hexColor = '#403f64'
+                lostItems = ["Black Iron Spur", "Sword Belt Fragment", "Toothed Dagger"]
+                break;
             case 'Ashe':
             case 'ashe':
+                name = 'Ashe'
+                thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
+                hexColor = '#b5bdc6'
+                lostItems = ["Moon Knight’s Tale", "Evil-Repelling Amulet", "Bundle of Herbs"]
+                break;
             case 'Sylvain':
             case 'sylvain':
+                name = 'Sylvain'
+                thumbnail = 'https://i.imgur.com/77T2SRt.png'
+                hexColor = '#e06c53'
+                lostItems = ["Unused Lipstick", "Crumpled Love Letter", "The History of Sreng"]
+                break;
             case 'Mercedes':
             case 'mercedes':
+                name = 'Mercedes'
+                thumbnail = 'https://i.imgur.com/y1BWI7T.png'
+                hexColor = '#f4dcc4'
+                lostItems = ["Book of Ghost Stories", "Fruit Preserves", "How to Bake Sweets"]
+                break;
             case 'Annette':
             case 'annette':
+                name = 'Annette'
+                thumbnail = 'https://i.imgur.com/lnE7TRE.png'
+                hexColor = '#f6a67d'
+                lostItems = ["Unfinished Score", "School of Sorcery Book", "Wax Diptych"]
+                break;
             case 'Ingrid':
             case 'ingrid':
+                name = 'Ingrid'
+                thumbnail = 'https://i.imgur.com/t8fCo54.png'
+                hexColor = '#f8e5a0'
+                lostItems = ["Pegasus Horseshoes", "Jousting Almanac", "Curry Comb"]
+                break;
             case 'Claude':
             case 'claude':
+
             case 'Hilda':
             case 'hilda':
+
             case 'Lorenz':
             case 'lorenz':
+
             case 'Raphael':
             case 'raphael':
+
             case 'Ignatz':
             case 'ignatz':
+
             case 'Lysithea':
             case 'lysithea':
+
             case 'Marianne':
             case 'marianne':
+
             case 'Leonie':
             case 'leonie':
+
             case 'Flayn':
             case 'flayn':
+
             case 'Seteth':
             case 'seteth':
+
             case 'Cyril':
             case 'cyril':
+
             case 'Anna':
             case 'anna':
+
             case 'Jeritza':
             case 'jeritza':
+
             case 'Hanneman':
             case 'hanneman':
+
             case 'Manuela':
             case 'manuela':
+
             case 'Gilbert':
             case 'gilbert':
+
             case 'Alois':
             case 'alois':
+
             case 'Catherine':
             case 'catherine':
+
             case 'Shamir':
-            // case 'shamir':
+            case 'shamir':
+
             default:
                 name = "N/A"
         }
@@ -143,7 +200,6 @@ module.exports = class extends Command {
                     unitLostItemsEmbed
                         .setColor(hexColor)
                         .setAuthor(name)
-                        .setDescription("Character Recruitment")
                         .setThumbnail(thumbnail)
                         .addField("Lost Items", lostItems.join(", "))
                     return unitLostItemsEmbed
