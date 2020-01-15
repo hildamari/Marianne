@@ -4,6 +4,7 @@ require('dotenv').config({path: path.join(__dirname, 'data/.env')});
 
 Client.use(require('klasa-dashboard-hooks'));
 Client.defaultUserSchema.add('TODOs', 'any', { array: true });
+Client.defaultGuildSchema.add('minAccAge', 'integer', { default: 1800000 });
 
 const MarianneClient = new Client ({
     clientID: process.env.CLIENT_ID,
