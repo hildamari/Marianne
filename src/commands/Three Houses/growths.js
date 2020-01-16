@@ -211,14 +211,25 @@ module.exports = class extends Command {
               break;
             case 'Flayn':
             case 'flayn':
-
+              name = 'Flayn'
+              thumbnail = 'https://i.imgur.com/1PcDmnL.png'
+              hexColor = '#9ae5b9'
+              hp = 25, str = 25, mag = 55, dex = 45, spd = 35, lck = 15, def = 25, res = 50, cha = 45
+              break;
             case 'Seteth':
             case 'seteth':
-                
+              name = 'Seteth'
+              thumbnail = 'https://i.imgur.com/s35oLUZ.png'
+              hexColor = '#71bea4'
+              hp = 50, str = 45, mag = 35, dex = 50, spd = 50, lck = 25, def = 30, res = 25, cha = 45
               break;
             case 'Cyril':
             case 'cyril':
-
+              name = 'Cyril'
+              thumbnail = 'https://i.imgur.com/Oss58fD.png'
+              hexColor = '#453d3b'
+              hp = 35, str = 20, mag = 15, dex = 40, spd = 40, lck = 30, def = 10, res = 10, cha = 15
+              break;
             case 'Anna':
             case 'anna':
 
@@ -227,10 +238,18 @@ module.exports = class extends Command {
 
             case 'Hanneman':
             case 'hanneman':
-
+              name = 'Hanneman'
+              thumbnail = 'https://i.imgur.com/fCG6C12.png'
+              hexColor = '#969794'
+              hp = 40, str = 30, mag = 55, dex = 45, spd = 20, lck = 35, def = 25, res = 40, cha = 35
+              break;
             case 'Manuela':
             case 'manuela':
-
+              name = 'Manuela'
+              thumbnail = 'https://i.imgur.com/af5exR9.png'
+              hexColor = '#b09b80'
+              hp = 50, str = 35, mag = 35, dex = 40, spd = 60, lck = 35, def = 30, res = 25, cha = 50
+              break;
             case 'Gilbert':
             case 'gilbert':
               
