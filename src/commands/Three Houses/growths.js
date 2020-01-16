@@ -252,16 +252,32 @@ module.exports = class extends Command {
               break;
             case 'Gilbert':
             case 'gilbert':
-              
+              name = 'Gilbert'
+              thumbnail = 'https://i.imgur.com/wyHkiIQ.png'
+              hexColor = '#f7a77e'
+              hp = 55, str = 45, mag = 20, dex = 45, spd = 30, lck = 15, def = 45, res = 10, cha = 35
+              break;
             case 'Alois':
             case 'alois':
-
+              name = 'Alois'
+              thumbnail = 'https://i.imgur.com/Mz2eAuu.png'
+              hexColor = '#857a67'
+              hp = 45, str = 45, mag = 20, dex = 35, spd = 40, lck = 30, def = 40, res = 20, cha = 40
+              break;
             case 'Catherine':
             case 'catherine':
-
+              name = 'Catherine'
+              thumbnail = 'https://i.imgur.com/7mK0y1K.png'
+              hexColor = '#f8ebc9'
+              hp = 50, str = 50, mag = 25, dex = 40, spd = 55, lck = 30, def = 30, res = 20, cha = 25
+              break;
             case 'Shamir':
             case 'shamir':
-
+              name = 'Shamir'
+              thumbnail = 'https://i.imgur.com/gK1Iz5F.png'
+              hexColor = '#57587e'
+              hp = 35, str = 40, mag = 20, dex = 55, spd = 40, lck = 55, def = 20, res = 15, cha = 30
+              break;
             default:
               name = "N/A"
         }
