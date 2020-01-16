@@ -33,112 +33,128 @@ module.exports = class extends Command {
                 name = 'Hubert'
                 thumbnail = 'https://i.imgur.com/KCc36C6.png'
                 hexColor = '#343d3e'
-                lostItems = ["Hresvelg Treatise", "Noxious Handkerchief", "Folding Razor"]
+                likedGifts = ["Coffee Beans", "Board Game", "The History of Fódlan"]
+                dislikedGifts = ["Legends of Chivalry", "Gemstone Beads", "Landscape Painting"]
                 break;
             case 'Ferdinand':
             case 'ferdinand':
                 name = 'Ferdinand von Aegir'
                 thumbnail = 'https://i.imgur.com/iKtyabp.png'
                 hexColor = '#feb472'
-                lostItems = ["Maintenance Oil", "Agricultural Survey", "Bag of Tea Leaves"]
+                likedGifts = ["Riding Boots", "Whetstone", "Tea Leaves"]
+                dislikedGifts = ["Blue Cheese", "Coffee Beans"]
                 break;
             case 'Linhardt':
             case 'linhardt':
                 name = 'Linhardt'
                 thumbnail = 'https://i.imgur.com/X41XIXq.png'
                 hexColor = '#476352'
-                lostItems = ["The Saints Revealed", "Feather Pillow", "Animated Bait"]
+                likedGifts = ["Tasty Baked Treat", "Book of Crest Designs", "Fishing Float"]
+                dislikedGifts = ["Training Weight", "Hunting Dagger"]
                 break;
             case 'Caspar':
             case 'caspar':
                 name = 'Caspar'
                 thumbnail = 'https://i.imgur.com/mo0C51Q.png'
                 hexColor = '#a6e4e2'
-                lostItems = ["Thunderbrand Replica", "Tattered Overcoat", "Grounding Charm"]
+                likedGifts = ["Training Weight", "Whetstone", "Hunting Dagger", "Smoked Meat"]
+                dislikedGifts = ["Fishing Float", "Floral Adornment", "Stylish Hair Clip"]
                 break;
             case 'Bernadetta':
             case 'bernadetta':
                 name = 'Bernadetta'
                 thumbnail = 'https://i.imgur.com/xowUlBr.png'
                 hexColor = '#a080a8'
-                lostItems = ["Needle and Thread", "Still-Life Picture",  "Hedgehog Case"]
+                likedGifts = ["Pitcher Plant", "Armored Bear Stuffy", "Book of Sheet Music", "Watering Can", "Landscape Painting", "Dapper Handkerchief"]
+                dislikedGifts = ["Training Weight", "Hunting Dagger", "Ceremonial Sword"]
                 break;
             case 'Dorothea':
             case 'dorothea':
                 name = 'Dorothea'
                 thumbnail = 'https://i.imgur.com/S3FNa04.png'
                 hexColor = '#7b585b'
-                lostItems = ["Silver Brooch", "Songstress Poster", "Lovely Comb"]
+                likedGifts = ["Book of Sheet Music", "Gemstone Beads", "Stylish Hair Clip"]
+                dislikedGifts = ["Goddess Statuette", "Floral Adornment"]
                 break;
             case 'Petra':
             case 'petra':
                 name = 'Petra'
                 thumbnail = 'https://i.imgur.com/ZfvRIX6.png'
                 hexColor = '#824364'
-                lostItems = ["Exotic Feather", "Small Tanned Hide", "Annotated Dictionary"]
+                likedGifts = ["Sunflower", "Hunting Dagger", "Exotic Spices", "Smoked Meat"]
+                dislikedGifts = ["Arithmetic Textbook", "Book of Crest Designs"]
                 break;
             case 'Dimitri':
             case 'dimitri':
                 name = 'Dimitri'
                 thumbnail = 'https://i.imgur.com/Ddl1C8a.png'
                 hexColor = '#fcfba8'
-                lostItems = ["Dulled Longsword", "Black Leather Gloves", "Training Logbook"]
+                likedGifts = ["Training Weight", "Whetstone", "Riding Boots", "Ceremonial Sword"]
+                dislikedGifts = ["Gemstone Beads", "Armored Bear Stuffy", "Book of Sheet Music"]
                 break;
             case 'Dedue':
             case 'dedue':
                 name = 'Dedue'
                 thumbnail = 'https://i.imgur.com/quIqslt.png'
                 hexColor = '#e8e9e2'
-                lostItems = ["Gold Earring", "Gardening Sheers", "Iron Cooking Pot"]
+                likedGifts = ["Exotic Spices", "Floral Adornment", "Watering Can"]
+                dislikedGifts = ["Book of Sheet Music", "The History of Fódlan"]
                 break;
             case 'Felix':
             case 'felix':
                 name = 'Felix'
                 thumbnail = 'https://i.imgur.com/YJcGEiK.png'
                 hexColor = '#403f64'
-                lostItems = ["Black Iron Spur", "Sword Belt Fragment", "Toothed Dagger"]
+                likedGifts = ["Smoked Meat", "Hunting Dagger", "Training Weight", "Ceremonial Sword"]
+                dislikedGifts = ["Legends of Chivalry", "Armored Bear Stuffy", "Tasty Bake Treat"]
                 break;
             case 'Ashe':
             case 'ashe':
                 name = 'Ashe'
                 thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
                 hexColor = '#b5bdc6'
-                lostItems = ["Moon Knight’s Tale", "Evil-Repelling Amulet", "Bundle of Herbs"]
+                likedGifts = ["Violet", "Legends of Chivalry", "Exotic Spices", "Tasty Baked Treat", "Ancient Coin"]
+                dislikedGifts = ["Arithmetic Textbook", "Monarch Studies Book", "Board Game"]
                 break;
             case 'Sylvain':
             case 'sylvain':
                 name = 'Sylvain'
                 thumbnail = 'https://i.imgur.com/77T2SRt.png'
                 hexColor = '#e06c53'
-                lostItems = ["Unused Lipstick", "Crumpled Love Letter", "The History of Sreng"]
+                likedGifts = ["Landscape Painting", "Dapper Handkerchief", "Board Game"]
+                dislikedGifts = ["Book of Crest Designs", "Watering Can", "Floral Adornment"]
                 break;
             case 'Mercedes':
             case 'mercedes':
                 name = 'Mercedes'
                 thumbnail = 'https://i.imgur.com/y1BWI7T.png'
                 hexColor = '#f4dcc4'
-                lostItems = ["Book of Ghost Stories", "Fruit Preserves", "How to Bake Sweets"]
+                likedGifts = ["Lavender", "Tasty Bake Treat", "Goddess Statuette", "Armored Bear Stuffy", "Gemstone Beads"]
+                dislikedGifts = ["Whetstone", "Ancient Coin", "Riding Boots"]
                 break;
             case 'Annette':
             case 'annette':
                 name = 'Annette'
                 thumbnail = 'https://i.imgur.com/lnE7TRE.png'
                 hexColor = '#f6a67d'
-                lostItems = ["Unfinished Score", "School of Sorcery Book", "Wax Diptych"]
+                likedGifts = ["Book of Sheet Music", "Stylish Hair Clip", "Arithmetic Textbook"]
+                dislikedGifts = ["Ceremonial Sword", "Hunting Dagger", "Coffee Beans"]
                 break;
             case 'Ingrid':
             case 'ingrid':
                 name = 'Ingrid'
                 thumbnail = 'https://i.imgur.com/t8fCo54.png'
                 hexColor = '#f8e5a0'
-                lostItems = ["Pegasus Horseshoes", "Jousting Almanac", "Curry Comb"]
+                likedGifts = ["Riding Boots", "Smoked Meat", "Legends of Chivalry"]
+                dislikedGifts = ["Gemstone Beads", "Stylish Hair Clip"]
                 break;
             case 'Claude':
             case 'claude':
                 name = 'Claude'
                 thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
                 hexColor = '#4a4240'
-                lostItems = ["Riding Boots", "Book of Crest Designs", "Exotic Spices", "Board Game"]
+                likedGifts = ["Riding Boots", "Book of Crest Designs", "Exotic Spices", "Board Game"]
+                dislikedGifts = ["Book of Sheet Music", "Blue Cheese"]
                 break;
             case 'Hilda':
             case 'hilda':
