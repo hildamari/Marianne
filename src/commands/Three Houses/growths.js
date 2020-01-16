@@ -232,10 +232,18 @@ module.exports = class extends Command {
               break;
             case 'Anna':
             case 'anna':
-
+              name = 'Anna'
+              thumbnail = 'https://i.imgur.com/d2dCJxN.png'
+              hexColor = '#d85e77'
+              hp = 35, str = 35, mag = 35, dex = 45, spd = 55, lck = 45, def = 30, res = 40, cha = 50
+              break;
             case 'Jeritza':
             case 'jeritza':
-
+              name = 'Jeritza'
+              thumbnail = 'https://i.imgur.com/SSXUCCn.png'
+              hexColor = '#f4dcc4'
+              hp = 50, str = 50, mag = 35, dex = 35, spd = 60, lck = 30, def = 40, res = 25, cha = 25
+              break;
             case 'Hanneman':
             case 'hanneman':
               name = 'Hanneman'
