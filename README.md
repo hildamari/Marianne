@@ -15,8 +15,6 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 - [x] Add VAs to bio command
 <!-- @todo Finish bio command -->
 - [ ] Finish bio command
-<!-- @todo Change bio command to canvas image -->
-- [ ] Change bio command to canvas image
 - [ ] Finish focus command
 - [x] Add crest command
 - [x] Finish proficiencies command
@@ -29,6 +27,10 @@ Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda).
 - [x] Add recruit command
 - [x] Add lost items command 
 - [x] Add gifts command 
+
+## Todo after bot releases
+<!-- @todo Change bio command to canvas image -->
+- [ ] Change bio command to canvas image
 
 ## Credits
 * All packages in [package.json](./package.json)
