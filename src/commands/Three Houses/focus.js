@@ -26,24 +26,49 @@ module.exports = class extends Command {
                 hexColor = "#fefff4"
                 titles[0] = "__**Lead Like a Lord**__"
                 titles[1] = "__**Strong in Heavy Armor**__"
-                goals[0] = "Focus on sword and authority skills to excel as a Lord."
-                goals[1] = "Focus on axe and heavy armor skills to excel as a heavy armor class."
+                goals[0] = "Focus on **sword and authority** skills to excel as a Lord."
+                goals[1] = "Focus on **axe and heavy armor** skills to excel as a heavy armor class."
                 descriptions[0] = "A Lord must know how to command others. Authority is therefore a must. It is also traditional to study sword technique. Will you help me with these endeavors?"
                 descriptions[1] = "Perhaps it is due to the power of Crests, but heavy armor has never slowed me down. Still, it wouldn't hurt to improve further in that regard. As it were, nothing complements heavy armor better than an axe."
                 thumbnail = "https://i.imgur.com/HQ3yEk4.png"
                 break;
+            // hubert
+            // ferdinand
+            // linhardt
+            // caspar
+            // bernadetta
+            // dorothea
+            // petra
             case 'Dimitri':
             case 'dimitri':
                 name = "Dimitri"
                 hexColor = "#fcfba8"
                 titles[0] = "__**Lead Like a Lord**__"
                 titles[1] = "__**His Father's Footsteps**__"
-                goals[0] = "Focus on sword and authority skills to excel as a Lord."
-                goals[1] = "Focus on lance and riding skills to excel as a cavalry class."
+                goals[0] = "Focus on **sword and authority** skills to excel as a Lord."
+                goals[1] = "Focus on **lance and riding** skills to excel as a cavalry class."
                 descriptions[0] = "Lords must be leaders, so strong authority should be considered a requirement. They also fight from the front lines, and thus need to know how to handle a sword. Such are my goals... Are we aligned?"
                 descriptions[1] = "My father was renowned for his horsemanship in battle, even from a young age. I, too, have a fondness for that pursuit, but to reach his heights, my lance and riding skills will need some polish."
                 thumbnail = "https://i.imgur.com/Ddl1C8a.png"
                 break;
+            // dedue
+            // felix
+            // ashe
+            // sylvain
+            // mercedes
+            // annette
+            // ingrid
+            // claude
+            // hilda
+            // lorenz
+            // raphael
+            // ignatz
+            // lysithea
+            // marianne
+            // leonie
+            // flayn
+            // cyril
+            // anna
             default:
                 name = "N/A"
         }
