@@ -16,7 +16,6 @@ module.exports = class extends Command {
 
     verifyCrest(crest) {
         const crestEmbed = new MessageEmbed()
-        const space = ""
         let name = '', thumbnail = '', description = '', majorBearer = '', minorBearer = '', legendaryWeapons = [], crestItem = '', effect = ''
         switch(crest) {
             case 'Ernest':
