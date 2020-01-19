@@ -332,7 +332,7 @@ module.exports = class extends Command {
                 crit = "N/A"
                 range = 1
                 durCost = 4
-                desc = "Avoid +10; Might increases based on user’s Defence."
+                desc = "Avoid +10; Might increases based on user’s Defense."
                 image = 'https://i.imgur.com/T2sijAO.png'
                 characters = ['Dimitri (A), Gilbert (A), Jeritza (A)']
                 break;
@@ -408,23 +408,188 @@ module.exports = class extends Command {
                 image = 'https://i.imgur.com/T2sijAO.png'
                 characters = ['Dimitri only']
                 break;
-                
+
             // Axe Combat Arts
-            // Smash
-            // Spike
-            // Helm Splitter
-            // Monster Breaker
-            // Diamond Axe
-            // Exhaustive Strike
-            // Armored Strike
-            // Wild Abandon
-            // Focused Strike
-            // Lightning Axe
-            // Apocalypic Flame
-            // Dust
-            // Raging Storm
-            // Flickering Flower
-            // War Master's Strike
+            case 'Smash':
+            case 'smash':
+                name = "Smash"
+                might = 5
+                hit = 15
+                crit = 10
+                range = 1
+                durCost = 5
+                desc = "-"
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Anyone with D Rank in Axes']
+                break;
+            case 'Spike':
+            case 'spike':
+                name = "Spike"
+                might = 5
+                hit = 15
+                crit = 10
+                range = 1
+                durCost = 5
+                desc = "-"
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Sylvain (C+), Hilda (C+), Alois (C+), Gilbert (C+), Anna (C+)']
+                break;
+            case 'Helm Splitter':
+            case 'helm splitter':
+                name = "Helm Splitter"
+                might = 5
+                hit = 15
+                crit = 10
+                range = 1
+                durCost = 5
+                desc = "-"
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Anyone with C Rank in Axes']
+                break;
+            case 'Monster Breaker':
+            case 'monster breaker':
+                name = "Monster Breaker"
+                might = 9
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 5
+                desc = "Effective against Monster foes."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Edelgard (C+), Dedue (C+), Cyril (C+)']
+                break;
+            case 'Diamond Axe':
+            case 'diamond axe':
+                name = "Diamond Axe"
+                might = 14
+                hit = -20
+                crit = "N/A"
+                range = 1
+                durCost = 7
+                desc = "-"
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Petra (A), Hilda (A), Seteth (A)']
+                break;
+            case 'Exhaustive Strike':
+            case 'exhaustive strike':
+                name = "Exhaustive Strike"
+                might = 3
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 1
+                desc = "Depletes all of the weapon’s remaining durability and adds 30% of that value to Might."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Caspar (A), Alois (A)']
+                break;
+            case 'Armored Strike':
+            case 'armored strike':
+                name = "Armored Strike"
+                might = 3
+                hit = "N/A"
+                crit = 10
+                range = 1
+                durCost = 4
+                desc = "Might increases based on user’s Defense."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Ferdinand (A), Dedue (A), Cyril (A), Anna (A)']
+                break;
+            case 'Wild Abandon':
+            case 'wild abandon':
+                name = "Wild Abandon"
+                might = 10
+                hit = -30
+                crit = 30
+                range = 1
+                durCost = 3
+                desc = "-"
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Caspar (C+), Petra (C+), Raphael (C+)']
+                break;
+            case 'Focused Strike':
+            case 'focused strike':
+                name = "Focused Strike"
+                might = 0
+                hit = 30
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "-"
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Ferdinand (C+), Ashe (C+), Seteth (C+)']
+                break;
+            case 'Lightning Axe':
+            case 'lightning axe':
+                name = "Lightning Axe"
+                might = 4
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Deals magic-based damage. Might increases based on user’s Resistance."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Edelgard (A), Annette (C+), Sylvain (A)']
+                break;
+            case 'Apocalyptic Flame':
+            case 'apocalyptic flame':
+                name = "Apocalyptic Flame"
+                might = 15
+                hit = 20
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Freikugel only; inflicts Str -5 on foe for 1 turn, effective against Dragon foes."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Hilda only']
+                break;
+            case 'Dust':
+            case 'dust':
+                name = "Dust"
+                might = 20
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Crusher only; inflicts Def -5 on foe for 1 turn, effective against Dragon foes."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Annette only']
+                break;
+            case 'Raging Storm':
+            case 'raging storm':
+                name = "Raging Storm"
+                might = 14
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Aymr only; if attack lands, user can move again, effective against Dragon foes."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Edelgard only']
+                break;
+            case 'Flickering Flower':
+            case 'flickering flower':
+                name = "Flickering Flower"
+                might = 10
+                hit = 10
+                crit = 10
+                range = 1
+                durCost = 3
+                desc = "Emperor only; prevents foe from moving for 1 turn"
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Edelgard only']
+                break;
+            case "War Master's Strike":
+            case "war master's strike":
+                name = "Helm Splitter"
+                might = 3
+                hit = 30
+                crit = "N/A"
+                range = 1
+                durCost = 5
+                desc = "War Master only; effective against all foes."
+                image = 'https://i.imgur.com/kjWPElQ.png'
+                characters = ['Any male with War Master Class Mastery']
+                break;
 
             // Bow Combat Arts
             case "Curved Shot":
