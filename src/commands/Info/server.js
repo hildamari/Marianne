@@ -1,5 +1,5 @@
 const { Command } = require('klasa');
-const { MessageEmbed, Role } = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 const moment = require('moment');
 require('moment-duration-format');
 
