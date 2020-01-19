@@ -22,8 +22,7 @@
     "klasa-dashboard-hooks": "github:kyranet/klasa-dashboard-hooks#master",
     "moment": "^2.24.0",
     "moment-duration-format": "2.2.2",
-    "node-fetch": "^2.6.0",
-    "zlib": "^1.0.5"
+    "node-fetch": "^2.6.0"
   },
   "bugs": {
     "url": "https://github.com/KunoichiZ/Marianne/issues"
