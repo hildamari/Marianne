@@ -233,22 +233,174 @@ module.exports = class extends Command {
                 startingClass = 'Commoner'
                 vA = 'Shizuka Ishigami\nFaye Mata'
                 break;
-            // case 'Dimitri':
-            // case 'dimitri':
-            // case 'Dedue':
-            // case 'dedue':
-            // case 'Felix':
-            // case 'felix':
-            // case 'Ashe':
-            // case 'ashe':
-            // case 'Sylvain':
-            // case 'sylvain':
-            // case 'Mercedes':
-            // case 'mercedes':
-            // case 'Annette':
-            // case 'annette':
-            // case 'Ingrid':
-            // case 'ingrid':
+            case 'Dimitri':
+            case 'dimitri':
+                name = 'Dimitri Alexandre Blaiddyd'
+                thumbnail = 'https://i.imgur.com/Ddl1C8a.png'
+                hexColor = '#fcfba8'
+                aliases = 'The Boar Prince, Prince/King of Delusion, The Tempest King, The Savior King'
+                vA = 'Kaito Ishikawa (Japanese), Mai Nishikawa (Japanese, young)\nChris Hackney (English)'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'December 20th'
+                fodlanBirth = '20th of the Ethereal Moon, Imperial Year 1162'
+                relatives = 'Blaiddyd (ancestor), Loog (ancestor), Klaus I (ancestor), Lambert (father), Unnamed mother, Patricia (stepmother), Rufus (paternal uncle), Volkhard (step-uncle), Edelgard (stepsister), Duke Riegan (distant relative), Godfrey (distant relative), Claude (distant relative)'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'Fhirdiad'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Blue Lions'
+                occupation = 'Crown Prince of the Holy Kingdom of Faerghus, Squire of the Holy Kingdom Army (formerly), Student at the Officers Academy, House leader of the Blue Lions, King of the Holy Kingdom of Faerghus'
+                startingClass = 'Noble'
+                crest = 'Minor Crest of Blaiddyd'
+                crestImage = 'https://i.imgur.com/sS6zBAe.png'
+                break;
+            case 'Dedue':
+            case 'dedue':
+                name = 'Dedue Molinaro'
+                thumbnail = 'https://i.imgur.com/quIqslt.png'
+                hexColor = '#e8e9e2'
+                aliases = 'N/A'
+                gender = 'Male'
+                race = 'Human'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                birthday = 'August 31st'
+                fodlanBirth = '31st of the Verdant Rain Moon, Imperial Year 1161'
+                nationality = 'Duscur'
+                hometown = 'Holy Kingdom of Faerghus'
+                residence = 'Garreg Mach Monastery, Holy Kingdom of Faerghus'
+                faction = 'Blue Lions'
+                occupation = 'Student at the Officers Academy, Vassal of Dimitri'
+                relatives = 'Unnamed father (deceased)'
+                startingClass = 'Commoner'
+                vA = 'Takahashi Hidenori (Japanese)\nBen Lepley (English)'
+                break;
+            case 'Felix':
+            case 'felix':
+                name = 'Felix Hugo Fraldarius'
+                thumbnail = 'https://i.imgur.com/YJcGEiK.png'
+                hexColor = '#403f64'
+                aliases = 'N/A'
+                crest = 'Major Crest of Fraldarius'
+                crestImage = 'https://i.imgur.com/2yiRHM4.png'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'February 20th'
+                fodlanBirth = '20th of the Pegasus Moon, Imperial Year 1163'
+                relatives = 'Fraldarius (Ancestor), Kyphon (Presumed Ancestor), Rodrigue (Father), Unnamed Uncle, Glenn (Older Brother)'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'Dukedom of Fraldarius'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Blue Lions'
+                occupation = 'Student at the Officers Academy, Heir of House Fraldarius, Squire of the Holy Kingdom Army (Formerly)'
+                startingClass = 'Noble'
+                vA = 'Yuichi Jose (Japanese)\nLucien Dodge (English)'
+                break;
+            case 'Ashe':
+            case 'ashe':
+                name = 'Ashe Ubert'
+                thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
+                hexColor = '#b5bdc6'
+                aliases = 'N/A'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'October 17th'
+                fodlanBirth = '17th of the Wyvern Moon, Imperial Year 1163'
+                relatives = 'Unnamed father, Unnamed mother, Lonato (adoptive father), Unnamed brother, Unnamed sister, Christophe (adoptive brother)'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'Gaspard'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Blue Lions'
+                occupation = 'Student at the Officers Academy, Heir of House Gaspard'
+                startingClass = 'Commoner'
+                vA = 'Yūki Inoue (Japanese)\nShannon Mckain (English)'
+                break;
+            case 'Sylvain':
+            case 'sylvain':
+                name = 'Sylvain Jose Gautier'
+                thumbnail = 'https://i.imgur.com/77T2SRt.png'
+                hexColor = '#e06c53'
+                gender = 'Male'
+                aliases = 'N/A'
+                crest = 'Minor Crest of Gautier'
+                crestImage = 'https://i.imgur.com/3bhkFyP.png'
+                race = 'Human'
+                birthday = 'June 5th'
+                fodlanBirth = '5th of the Garland Moon, Imperial Year 1160'
+                relatives = 'Gautier (Ancestor), Margrave Gautier (Father), Miklan (Elder brother)'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'Margravate of Gautier'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Blue Lions'
+                occupation = 'Student at the Officers Academy, Heir of House Gautier'
+                startingClass = 'Noble'
+                vA = 'Makoto Furukawa (Japanese)\nJoe Brogie (English)'
+                break;
+            case 'Mercedes':
+            case 'mercedes':
+                name = 'Mercedes von Martritz'
+                thumbnail = 'https://i.imgur.com/y1BWI7T.png'
+                hexColor = '#f4dcc4'
+                aliases = 'Mercie, Mercedes von Bartels'
+                gender = 'Female'
+                race = 'Human'
+                crest = 'Minor Crest of Lamine'
+                crestImage = 'https://i.imgur.com/I7c4voa.png'
+                birthday = 'May 27th'
+                fodlanBirth = '27th of the Harpstring Moon, Imperial Year 1157'
+                relatives = 'Lamine (Ancestor), Baron Matritz (Father), Unnamed Mother, Baron Bartels (Step-father), Unnamed Adoptive Father, Emile (Younger Half-Brother), Unnamed Half-Siblings'
+                nationality = 'Holy Kingdom of Faerghus, Adrestian Empire (Formerly)'
+                hometown = 'Barony of Martritz, Fhirdiad'
+                residence = 'Garreg Mach Monastery, Barony of Bartels (Formerly)'
+                faction = 'Blue Lions'
+                occupation = 'Student at the Officers Academy, Student at Fhirdiad School of Sorcery (Formerly)'
+                startingClass = 'Commoner'
+                vA = 'Yumiri Hanamori (Japanese)\nDorothy Elias-Fahn (English)'
+                break;
+            case 'Annette':
+            case 'annette':
+                name = 'Annette Fantine Dominic'
+                thumbnail = 'https://i.imgur.com/lnE7TRE.png'
+                hexColor = '#f6a67d'
+                gender = 'Female'
+                aliases = 'Annie'
+                race = 'Human'
+                crest = 'Minor Crest of Dominic'
+                crestImage = 'https://i.imgur.com/TZwUtSr.png'
+                birthday = 'May 9th'
+                fodlanBirth = '9th of the Harpstring Moon, Imperial Year 1163'
+                relatives = 'Dominic (Ancestor), Gilbert (Father), Unnamed Mother, Baron Dominic (Uncle)'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'Fhirdiad'
+                residence = 'Garreg Mach Monastery, Barony of Dominic'
+                faction = 'Blue Lions'
+                occupation = 'Student at the Officers Academy, Student at Fhirdiad School of Sorcery (Formerly)'
+                startingClass = 'Noble'
+                vA = 'Takako Tanaka (Japanese)\nAbby Trott (English)'
+                break;
+            case 'Ingrid':
+            case 'ingrid':
+                name = 'Ingrid Brandl Galatea'
+                thumbnail = 'https://i.imgur.com/t8fCo54.png'
+                hexColor = '#f8e5a0'
+                gender = 'Female'
+                race = 'Human'
+                aliases = 'N/A'
+                crest = 'Minor Crest of Daphnel'
+                crestImage = 'https://i.imgur.com/WVtYgs8.png'
+                birthday = 'January 4th'
+                fodlanBirth = '4th of the Guardian Moon, Imperial Year 1163'
+                relatives = 'Daphnel (Ancestor), Unnamed Grandmother, Count Galatea (Father), Unnamed Siblings, Judith (Distant Relative), Glenn (Fiance)'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'County of Galatea'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Blue Lions'
+                occupation = 'Student at the Officers Academy'
+                startingClass = 'Noble'
+                vA = 'Manaka Iwami (Japanese)\nBrittany Cox (English)'
+                break;
             // case 'Claude':
             // case 'claude':
             case 'Hilda':
