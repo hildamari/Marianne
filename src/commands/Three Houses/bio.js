@@ -22,8 +22,12 @@ module.exports = class extends Command {
         switch(unit) {
             // case 'BylethM':
             // case 'bylethm':
+            // case 'bylad':
+            // case 'Bylad':
             // case 'bylethf':
             // case 'BylethF':
+            // case 'bylass':
+            // case 'Bylass':
             // case 'byleth':
             // case 'Byleth':
             // case 'Edelgard':
