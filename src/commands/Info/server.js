@@ -44,7 +44,7 @@ module.exports = class extends Command {
             .setDescription(`Roles: ${roles}`)
             .addField('Channels', `• **${tChannels}** Text Channel(s), **${vChannels}** Voice Channel(s), and **${cChannels}** Categories\n• AFK Channel: ${afk}`, true)
             .addField('Members', `• **${msg.guild.memberCount}** members\n • Owner: **${owner.username}#${owner.discriminator}** (ID: **${owner.id}**)`, true)
-            .addField('Others', `Roles: **${msg.guild.roles.size}**\nRegion: **${msg.guild.region}**\nCreated at: **${moment(msg.guild.createdTimestamp).format('MMMM Do YYYY [at] HH:mm:ss [UTC]Z')}**`, true);
+            .addField('Others', `• Roles: **${msg.guild.roles.size}**\n• Region: **${msg.guild.region}**\n• Created at: **${moment(msg.guild.createdTimestamp).format('MMMM Do YYYY [at] HH:mm:ss [UTC]Z')}**`, true);
         
         return msg.channel.send(serverEmbed);
    }
