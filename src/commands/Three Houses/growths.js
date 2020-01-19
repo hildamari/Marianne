@@ -22,6 +22,8 @@ module.exports = class extends Command {
         switch(unit) {
             case 'BylethM':
             case 'bylethm':
+            case 'bylad':
+            case 'Bylad':
               name = 'Byleth'
               thumbnail = 'https://i.imgur.com/6WmePDH.png'
               hexColor = '#4a7588'
@@ -29,6 +31,8 @@ module.exports = class extends Command {
               break;
             case 'BylethF':
             case 'bylethf':
+            case 'bylass':
+            case 'Bylass':
               name = 'Byleth'
               thumbnail = 'https://i.imgur.com/ZCGC8Jk.png'
               hexColor = '#4a7588'
