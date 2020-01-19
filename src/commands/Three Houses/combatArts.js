@@ -21,6 +21,7 @@ module.exports = class extends Command {
         let name = '', might, image = '', hit, crit, range, durCost = 0, desc = '', characters = []
 
         switch(art) {
+            // Sword Combat Arts
             case 'Sunder':
             case 'sunder':
                 name = "Sunder"
@@ -238,22 +239,177 @@ module.exports = class extends Command {
                 characters = ['Anyone who won the White Heron Cup']
                 break;
 
-            // Tempest Lance
-            // tempest lance
-            // Shatter Slash
-            // Knightkneeler
-            // Hit and Run
-            // Monster Piercer
-            // Lance Jab
-            // Vengeance
-            // Glowing Ember
-            // Swift Strikes
-            // Frozen Lance
-            // Ruined Sky
-            // Atrocity
-            // Burning Quake
-            // Paraselene
-
+            // Lance Combat Arts
+            case 'Tempest Lance':
+            case 'tempest lance':
+                name = "Tempest Lance"
+                might = 8
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 5
+                desc = "-"
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Anyone with D Rank in Lances']
+                break;
+            case 'Shatter Slash':
+            case 'shatter slash':
+                name = "Shatter Slash"
+                might = 4
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "After combat, inflicts Def -5 on foe for 1 turn."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Ferdinand (C+), Hilda (C+), Gilbert (C+), Jeritza (C+)']
+                break;
+            case 'Knightkneeler':
+            case 'knightkneeler':
+                name = "Knightkneeler"
+                might = 5
+                hit = 15
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Effective against Cavalry foes."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Anyone with C Rank in Lances']
+                break;
+            case 'Hit and Run':
+            case 'hit and run':
+                name = "Knightkneeler"
+                might = 4
+                hit = 10
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Avoid +20; after combat, user moves 1 space backwards."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Ingrid (C), Flayn (C+), Shamir (C+)']
+                break;
+            case 'Monster Piercer':
+            case 'monster piercer':
+                name = "Monster Piercer"
+                might = 7
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Avoid +10; effective against Monster foes."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Dimitri (C+), Sylvain (C+), Leonie (C+), Seteth (C+)']
+                break;
+            case 'Lance Jab':
+            case 'lance jab':
+                name = "Lance Jab"
+                might = 3
+                hit = "N/A"
+                crit = 10
+                range = 1
+                durCost = 5
+                desc = "Might increases based on user’s Speed."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Leonie (A), Cyril (A), Shamir (A)']
+                break;
+            case 'Vengeance':
+            case 'vengeance':
+                name = "Vengeance"
+                might = 3
+                hit = "N/A"
+                crit = 10
+                range = 1
+                durCost = 5
+                desc = "Might increases based on user’s Speed."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Bernadetta (C+), Dedue (C+), Cyril (C+)']
+                break;
+            case 'Glowing Ember':
+            case 'glowing ember':
+                name = "Vengeance"
+                might = 2
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Avoid +10; Might increases based on user’s Defence."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Dimitri (A), Gilbert (A), Jeritza (A)']
+                break;
+            case 'Swift Strikes':
+            case 'swift strikes':
+                name = "Swift Strikes"
+                might = 2
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Triggers 2 consecutive hits."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Ferdinand (A), Sylvain (A), Seteth (A)']
+                break;
+            case 'Frozen Lance':
+            case 'frozen lance':
+                name = "Frozen Lance"
+                might = 3
+                hit = 5
+                crit = "N/A"
+                range = 1
+                durCost = 4
+                desc = "Deals magic-based damage. Might increases based on user’s Dexterity."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Ingrid (A), Lorenz (C+), Flayn (A)']
+                break;
+            case 'Ruined Sky':
+            case 'ruined sky':
+                name = "Ruined Sky"
+                might = 13
+                hit = 10
+                crit = 10
+                range = 1
+                durCost = 3
+                desc = "Lance of Ruin only; Avoid +10, effective against Flying and Dragon foes."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Sylvain only']
+                break;
+            case 'Atrocity':
+            case 'atrocity':
+                name = "Atrocity"
+                might = 15
+                hit = 20
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Areadbhar only; effective against all foes."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Dimitri only']
+                break;
+            case 'Burning Quake':
+            case 'burning quake':
+                name = "Burning Quake"
+                might = 8
+                hit = "N/A"
+                crit = 20
+                range = 1
+                durCost = 3
+                desc = "Lúin only; Avoid +10; Might increases based on user’s Speed, effective against Dragon foes."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Ingrid only']
+                break;
+            case 'Paraselene':
+            case 'paraselene':
+                name = "Paraselene"
+                might = 10
+                hit = "N/A"
+                crit = "N/A"
+                range = 1
+                durCost = 3
+                desc = "Great Lord only; Avoid +10, after combat, user moves 1 space backwards."
+                image = 'https://i.imgur.com/T2sijAO.png'
+                characters = ['Dimitri only']
+                break;
+                
+            // Axe Combat Arts
             // Smash
             // Spike
             // Helm Splitter
