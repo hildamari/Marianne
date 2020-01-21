@@ -306,6 +306,8 @@ module.exports = class extends Command {
                 break;
             case 'rhea':
             case 'Rhea':
+            case 'seiros':
+            case 'Seiros':
                 name = 'Rhea'
                 thumbnail = 'https://i.imgur.com/HdH739v.png'
                 hexColor = '#bbf7d0'
