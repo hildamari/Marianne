@@ -155,6 +155,9 @@ module.exports = class extends Command {
                 break;
             case 'felix':
             case 'Felix':
+                name = 'Felix'
+                thumbnail = 'https://i.imgur.com/YJcGEiK.png'
+                hexColor = '#403f64'
                 titles[0] = ''
                 titles[1] = ''
                 titles[2] = ''
@@ -167,6 +170,9 @@ module.exports = class extends Command {
                 break;
             case 'ashe':
             case 'Ashe':
+                name = 'Ashe'
+                thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
+                hexColor = '#b5bdc6'
                 titles[0] = ''
                 titles[1] = ''
                 titles[2] = ''
@@ -179,6 +185,9 @@ module.exports = class extends Command {
                 break;
             case 'Sylvain':
             case 'sylvain':
+                name = 'Sylvain'
+                thumbnail = 'https://i.imgur.com/77T2SRt.png'
+                hexColor = '#e06c53'
                 titles[0] = ''
                 titles[1] = ''
                 titles[2] = ''
@@ -191,6 +200,9 @@ module.exports = class extends Command {
                 break;
             case 'mercedes':
             case 'Mercedes':
+                name = 'Mercedes'
+                thumbnail = 'https://i.imgur.com/y1BWI7T.png'
+                hexColor = '#f4dcc4'
                 titles[0] = ''
                 titles[1] = ''
                 goals[0] = ''
@@ -200,6 +212,9 @@ module.exports = class extends Command {
                 break;
             case 'Annette':
             case 'annette':
+                name = 'Annette'
+                thumbnail = 'https://i.imgur.com/lnE7TRE.png'
+                hexColor = '#f6a67d'
                 titles[0] = ''
                 titles[1] = ''
                 goals[0] = ''
@@ -209,6 +224,9 @@ module.exports = class extends Command {
                 break;
             case 'ingrid':
             case 'Ingrid':
+                name = 'Ingrid'
+                thumbnail = 'https://i.imgur.com/t8fCo54.png'
+                hexColor = '#f8e5a0'
                 titles[0] = ''
                 titles[1] = ''
                 goals[0] = ''
@@ -218,8 +236,21 @@ module.exports = class extends Command {
                 break;
             case 'claude':
             case 'Claude':
+                name = 'Claude'
+                thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
+                hexColor = '#4a4240'
+                titles[0] = ''
+                titles[1] = ''
+                goals[0] = ''
+                goals[1] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                break;
             case 'hilda':
             case 'Hilda':
+                name = 'Hilda'
+                thumbnail = 'https://i.imgur.com/zoScHRC.png'
+                hexColor = '#fcafb7'
                 titles[0] = ''
                 titles[1] = ''
                 goals[0] = ''
@@ -229,6 +260,9 @@ module.exports = class extends Command {
                 break;
             case 'lorenz':
             case 'Lorenz':
+                name = 'Lorenz'
+                thumbnail = 'https://i.imgur.com/uYopDET.png'
+                hexColor = '#7373ac'
                 titles[0] = ''
                 titles[1] = ''
                 goals[0] = ''
@@ -238,6 +272,9 @@ module.exports = class extends Command {
                 break;
             case 'raphael':
             case 'Raphael':
+                name = 'Raphael'
+                thumbnail = 'https://i.imgur.com/MB3wRvI.png'
+                hexColor = '#f0d9a1'
                 titles[0] = ''
                 titles[1] = ''
                 titles[2] = ''
@@ -250,6 +287,9 @@ module.exports = class extends Command {
                 break;
             case 'Ignatz':
             case 'ignatz':
+                name = 'Ignatz'
+                thumbnail = 'https://i.imgur.com/TUREZkF.png'
+                hexColor = '#c6c69d'
                 titles[0] = ''
                 titles[1] = ''
                 titles[2] = ''
