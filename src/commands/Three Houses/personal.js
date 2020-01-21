@@ -259,6 +259,8 @@ module.exports = class extends Command {
                 break;
             case 'Flayn':
             case 'flayn':
+            case 'cethleann':
+            case 'Cethleann':
                 name = 'Flayn'
                 thumbnail = 'https://i.imgur.com/1PcDmnL.png'
                 hexColor = '#9ae5b9'
@@ -267,6 +269,8 @@ module.exports = class extends Command {
                 break;
             case 'Seteth':
             case 'seteth':
+            case 'Cichol':
+            case 'cichol':
                 name = 'Seteth'
                 thumbnail = 'https://i.imgur.com/s35oLUZ.png'
                 hexColor = '#71bea4'

@@ -599,6 +599,8 @@ module.exports = class extends Command {
                 break;
             case 'Seteth':
             case 'seteth':
+            case 'Cichol':
+            case 'cichol':
                 name = 'Seteth'
                 aliases = '||Cichol||'
                 gender = 'Male'
