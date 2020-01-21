@@ -443,18 +443,132 @@ module.exports = class extends Command {
                 vA = 'Salli Saffioti (English)\n Yūki Kuwahara (Japanese)'
                 hexColor = '#fcafb7'
               break;
-            // case 'Lorenz':
-            // case 'lorenz':
-            // case 'Raphael':
-            // case 'raphael':
-            // case 'Ignatz':
-            // case 'ignatz':
-            // case 'Lysithea':
-            // case 'lysithea':
-            // case 'Marianne':
-            // case 'marianne':
-            // case 'Leonie':
-            // case 'leonie':
+            case 'Lorenz':
+            case 'lorenz':
+                name = 'Lorenz Hellman Gloucester'
+                thumbnail = 'https://i.imgur.com/uYopDET.png'
+                hexColor = '#7373ac'
+                aliases = 'N/A'
+                startingClass = 'Noble'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'June 13th'
+                fodlanBirth = '13th of the Garland Moon, Imperial Year 1161'
+                relatives = 'Gloucester (Ancestor), Count Gloucester (Father)'
+                nationality = 'Leicester Alliance'
+                hometown = 'County of Gloucester'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Golden Deer'
+                occupation = 'Student at the Officers Academy, Heir of House Gloucester, Student at Fhirdiad School of Sorcery (Formerly)'
+                vA = 'Hiroshi Watanabe (Japanese)\nBen Diskin (English)'
+                crest = 'Minor Crest of Gloucester'
+                crestImage = 'https://i.imgur.com/xPdFnyE.png'
+                break;
+            case 'Raphael':
+            case 'raphael':
+                name = 'Raphael Kirsten'
+                thumbnail = 'https://i.imgur.com/MB3wRvI.png'
+                hexColor = '#f0d9a1'
+                aliases = 'Beast of Leicester'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'May 18th'
+                fodlanBirth = '18th of the Harpstring Moon, Imperial Year 1162'
+                relatives = 'Unnamed grandfather, Unnamed parents (deceased), Maya (younger sister)'
+                nationality = 'Leicester Alliance'
+                hometown = 'Leicester Alliance'
+                occupation = 'Student at the Officers Academy'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Golden Deer'
+                vA = 'Takaki Otomari (Japanese)\nZachary Rice (English)'
+                startingClass = 'Commoner'
+                crestImage = 'N/A'
+                crest = 'N/A'
+                break;
+            case 'Ignatz':
+            case 'ignatz':
+                name = 'Ignatz Victor'
+                thumbnail = 'https://i.imgur.com/TUREZkF.png'
+                hexColor = '#c6c69d'
+                aliases = 'N/A'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'March 14th'
+                fodlanBirth = '14th of the Lone Moon, Imperial Year 1163'
+                relatives = 'Unnamed parents, Unnamed elder brother'
+                nationality = 'Leicester Alliance'
+                hometown = 'Leicester Alliance'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Golden Deer'
+                occupation = 'Student at the Officers Academy'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                startingClass = 'Commoner'
+                vA = 'Shougo Yano (Japanese)\nChristian Le Monte (English)'
+                break;
+            case 'Lysithea':
+            case 'lysithea':
+                name = 'Lysithea'
+                thumbnail = 'https://i.imgur.com/EIm3Zof.png'
+                hexColor = '#fefcfd'
+                aliases = 'N/A'
+                gender = 'Female'
+                race = 'Human'
+                birthday = 'February 28th'
+                fodlanBirth = '28th of the Pegasus Moon, Imperial Year 1165'
+                relatives = 'Count Ordelia (Father)'
+                nationality = 'Leicester Alliance'
+                hometown = 'County of Ordelia'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Golden Deer'
+                occupation = 'Student at the Officers Academy, Heir of House Ordelia'
+                crest = 'Minor Crest of Charon, Major Crest of Gloucester'
+                startingClass = 'Noble, Mage'
+                crestImage = 'https://i.imgur.com/xPdFnyE.png'
+                vA = 'Aoi Yuki (Japanese)\nJanice Roman Roku (English)'
+                break;
+            case 'Marianne':
+            case 'marianne':
+                name = 'Marianne von Edmund'
+                thumbnail = 'https://i.imgur.com/OyUl9he.png'
+                hexColor = '#aad0fa'
+                aliases = 'N/A'
+                gender = 'Female'
+                race = 'Human'
+                birthday = 'November 23rd'
+                fodlanBirth = '23rd of the Red Wolf Moon, Imperial Year 1162'
+                relatives = 'Maurice (Ancestor), Margrave Edmund (Distant Relative/Adoptive father)'
+                nationality = 'Leicester Alliance'
+                hometown = 'Margravate of Edmund'
+                faction = 'Golden Deer'
+                residence = 'Garreg Mach Monastery'
+                occupation = 'Student at the Officers Academy, Heir of House Edmund'
+                crest = 'Crest of the Beast'
+                startingClass = 'Noble'
+                crestImage = 'https://i.imgur.com/qPQz1gu.png'
+                vA = 'Sawako Hata (Japanese)\nXanthe Huynh (English)'
+                break;
+            case 'Leonie':
+            case 'leonie':
+                name = 'Leonie Pinelli'
+                thumbnail = 'https://i.imgur.com/yZxvJG4.png'
+                hexColor = '#f17d5b'
+                aliases = 'Blade Breaker II'
+                gender = 'Female'
+                race = 'Human'
+                birthday = 'August 21st'
+                fodlanBirth = '21st of the Verdant Rain Moon, Imperial Year 1160'
+                relatives = 'Unnamed Father'
+                nationality = 'Leicester Alliance'
+                hometown = 'Sauin Village, County of Gloucester'
+                faction = 'Golden Deer'
+                residence = 'Garreg Mach Monastery'
+                occupation = 'Student at the Officers Academy, Hunter'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                startingClass = 'Commoner'
+                vA = 'Sakura Nogawa (Japanese)\nRatana (English)'
+                break;
             case 'Flayn':
             case 'flayn':
                 name = 'Flayn'
