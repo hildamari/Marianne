@@ -34,7 +34,7 @@ module.exports = class extends Command {
                 fodlanBirth = '20th of the Horsebow Moon, Year 1159'
                 crest = 'Crest of Flames'
                 relatives = 'Jeralt, unnamed mother'
-                nationality = 'N/A'
+                nationality = 'Fódlan'
                 hometown = 'N/A'
                 residence = 'Garreg Mach Monastery'
                 faction = 'Church of Seiros'
@@ -401,8 +401,27 @@ module.exports = class extends Command {
                 startingClass = 'Noble'
                 vA = 'Manaka Iwami (Japanese)\nBrittany Cox (English)'
                 break;
-            // case 'Claude':
-            // case 'claude':
+            case 'Claude':
+            case 'claude':
+                name = 'Claude von Riegan'
+                thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
+                hexColor = '#4a4240'
+                aliases = 'The Master Tactician, King of Unification'
+                gender = 'Male'
+                race = 'Human'
+                crest = 'Minor Crest of Riegan'
+                crestImage = 'https://i.imgur.com/Hitf9Kg.png'
+                birthday = 'July 24th'
+                fodlanBirth = '24th of the Blue Sea Moon, Imperial Year 1162'
+                relatives = 'Riegan (Ancestor), Blaiddyd (Ancestor), Loog (Ancestor), Klaus I (Ancestor), Duke Riegan (Maternal grandfather), King of Almyra (Father), Unnamed Mother, Godfrey (Maternal uncle), Unnamed Cousin, Lambert (Distant relative), Rufus (Distant relative), Dimitri (Distant relative)'
+                nationality = 'Almyra, Leicester Alliance'
+                hometown = 'Almyra, Derdriu'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Golden Deer'
+                occupation = 'Heir of House Riegan, Leader of the Leicester Alliance (Post-timeskip), Prince of Almyra, Student at the Officers Academy, House leader of the Golden Deer'
+                startingClass = 'Noble'
+                vA = 'Toshiyuki Toyonaga (Japanese)\nJoe Zieja (English)'
+                break;
             case 'Hilda':
             case 'hilda':
                 name = 'Hilda Valentine Goneril'
@@ -436,17 +455,35 @@ module.exports = class extends Command {
             // case 'marianne':
             // case 'Leonie':
             // case 'leonie':
-            // case 'Flayn':
-            // case 'flayn':
+            case 'Flayn':
+            case 'flayn':
+                name = 'Flayn'
+                thumbnail = 'https://i.imgur.com/1PcDmnL.png'
+                hexColor = '#9ae5b9'
+                aliases = '||Cethleann||'
+                gender = 'Female'
+                race = '||Light Dragon||'
+                birthday = 'July 12th'
+                fodlanBirth = '12th of the Blue Sea Moon, Year ????'
+                relatives = '||Sothis (Ancestor), Cichol (Seteth, Father), Indech (Uncle), Macuil (Uncle), Rhea (Aunt)||'
+                crest = 'Major Crest of Cethleann'
+                crestImage = 'https://i.imgur.com/0NAUtkv.png'
+                nationality = '||Nabatean||'
+                hometown = 'Enbarr'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Church of Seiros, ||Four Saints||'
+                occupation = 'Unofficial student at the Officers Academy'
+                startingClass = 'Priest'
+                vA = 'Yuko Ono (Japanese)\nDeva Marie Gregory (English)'
             case 'Seteth':
             case 'seteth':
                 name = 'Seteth'
                 aliases = '||Cichol||'
                 gender = 'Male'
-                race = 'Earth Dragon'
+                race = '||Earth Dragon||'
                 birthday = 'December 27'
                 fodlanBirth = '27th of the Ethereal Moon, Year ????'
-                relatives = 'Flayn ||(Cethleann), Macuil, Indech, Rhea (Seiros), Sothis||'
+                relatives = 'Flayn ||(Cethleann, Daughter), Macuil (Brother), Indech (Brother), Rhea (Seiros, Sister), Sothis (Mother)||'
                 crest = 'Major Crest of Cichol'
                 nationality = '||Nabatean||'
                 hometown = '||Zanado||'
@@ -459,28 +496,246 @@ module.exports = class extends Command {
                 crestImage = 'https://i.imgur.com/mJsn0KU.png'
                 vA = 'Takehito Koyasu (Japanese)\nMark Whitten (English)'
               break;
-            // case 'Cyril':
-            // case 'cyril':
-            // case 'Anna':
-            // case 'anna':
-            // case 'Jeritza':
-            // case 'jeritza':
-            // case 'Hanneman':
-            // case 'hanneman':
-            // case 'Manuela':
-            // case 'manuela':
-            // case 'Gilbert':
-            // case 'gilbert':
-            // case 'Alois':
-            // case 'alois':
-            // case 'Catherine':
-            // case 'catherine':
-            // case 'Shamir':
-            // case 'shamir':
-            // case 'jeralt':
-            // case 'Jeralt':
-            // case 'rhea':
-            // case 'Rhea':
+            case 'Cyril':
+            case 'cyril':
+                name = 'Cyril'
+                thumbnail = 'https://i.imgur.com/Oss58fD.png'
+                hexColor = '#453d3b'
+                aliases = 'N/A'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'October 25th'
+                fodlanBirth = '25th of the Wyvern Moon, Imperial Year ????'
+                residence = 'Garreg Mach Monastery'
+                relatives = 'Unnamed parents'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                nationality = 'Almyra'
+                hometown = 'N/A'
+                faction = 'Church of Seiros'
+                occupation = 'Aid to Archbishop Rhea'
+                startingClass = 'Commoner'
+                vA = 'Kengo Kawanishi (Japanese)\nGriffin Burns (English)'
+                break;
+            case 'Anna':
+            case 'anna':
+                name = 'Anna'
+                thumbnail = 'https://i.imgur.com/d2dCJxN.png'
+                hexColor = '#d85e77'
+                aliases = 'N/A'
+                gender = 'Female'
+                race = 'Human'
+                birthday = 'June 9th'
+                fodlanBirth = '9th of the Garland Moon, Imperial Year 1155'
+                relatives = 'Ernest (ancestor), Anna (Various sisters, cousins, and extended family)'
+                nationality = 'Fódlan'
+                residence = 'Garreg Mach Monastery'
+                occupation = 'Merchant'
+                hometown = 'N/A'
+                crest = 'Major Crest of Ernest'
+                crestImage = 'https://i.imgur.com/BWk2BuO.png'
+                faction = 'N/A'
+                startingClass = 'Myrmidon (Academy Phase)/Thief (War Phase)'
+                vA = 'Saori Seto (Japanese)\nKaren Strassman (English)'
+                break;
+            case 'Jeritza':
+            case 'jeritza':
+            case 'Emile':
+            case 'emile':
+                name = 'Jeritza von Hyrm'
+                thumbnail = 'https://i.imgur.com/SSXUCCn.png'
+                hexColor = '#f4dcc4'
+                aliases = '||Death Knight, Emile von Bartels||'
+                startingClass = '||Death Knight||'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'March 4th'
+                fodlanBirth = '4th of the Lone Moon, Imperial Year 1158'
+                relatives = 'Lamine (Ancestor), ||Baron Bartels (Father)||, Unnamed Mother, ||Mercedes (Elder Half-Sister)||, Unnamed Half-Siblings'
+                nationality = 'Adrestian Empire'
+                hometown = 'Viscounty of Hrym'
+                residence = 'Barony of Bartels (Formerly), Garreg Mach Monastery'
+                faction = '||Flame Emperor Army||'
+                occupation = 'Teacher at the Officers Academy, ||General of the Adrestian Empire||, Viscount of Hrym, ||Heir of House Bartels (Formerly)||'
+                crest = 'Minor Crest of Lamine'
+                crestImage = 'https://i.imgur.com/I7c4voa.png'
+                vA = 'Atsushi Imaruoka (Japanese)\nPatrick Seitz (English)'
+                break;
+            case 'Hanneman':
+            case 'hanneman':
+                name = 'Hanneman von Essar'
+                thumbnail = 'https://i.imgur.com/fCG6C12.png'
+                hexColor = '#969794'
+                aliases = 'Father of Crestology'
+                startingClass = 'Mage'
+                gender = 'Male'
+                race = 'Human'
+                crest = 'Minor Crest of Indech'
+                birthday = 'February 8th'
+                fodlanBirth = '8th of the Pegasus Moon, Imperial Year 1129'
+                crestImage = 'https://i.imgur.com/ZzLhoeL.png'
+                relatives = 'Unnamed Grandfather, Unnamed Father, Unnamed Younger Sister, Undefined Niece/Nephew(s), Unnamed Wife (deceased)'
+                nationality = 'Adrestian Empire'
+                hometown = 'Essar'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Church of Seiros'
+                occupation = 'Teacher at the Officers Academy'
+                vA = 'Kenji Hamada (Japanese)\nW. T. Falke (English)'
+                break;
+            case 'Manuela':
+            case 'manuela':
+                name = 'Manuela Casagranda'
+                thumbnail = 'https://i.imgur.com/af5exR9.png'
+                hexColor = '#b09b80'
+                aliases = 'Divine Songstress'
+                birthday = 'August 3rd'
+                fodlanBirth = '3rd of the Verdant Rain Moon, Imperial Year ????'
+                nationality = 'Adrestian Empire'
+                hometown = 'Enbarr'
+                relatives = 'N/A'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Mittelfrank Opera Company (Formerly), Church of Seiros'
+                occupation = 'Teacher and Doctor at the Officers Academy, Songstress'
+                gender = 'Female'
+                race = 'Human'
+                startingClass = 'Priest'
+                vA = 'Sachiko Kojima (English)\nVeronica Taylor (English)'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                break;
+            case 'Gilbert':
+            case 'gilbert':
+            case 'Gustave':
+            case 'gustave':
+                name = 'Gilbert Pronislav'
+                thumbnail = 'https://i.imgur.com/wyHkiIQ.png'
+                hexColor = '#f7a77e'
+                aliases = 'Gustave Eddie Dominic'
+                birthday = 'January 26th'
+                gender = 'Male'
+                race = 'Human'
+                fodlanBirth = '26th of the Guardian Moon, Imperial Year 1124'
+                relatives = 'Annette (daughter), unnamed wife, Dominic (Ancestor), Baron Dominic (Younger Brother)'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Knights of Seiros'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'Barony of Dominic, Fhirdiad'
+                startingClass = 'Fortress Knight'
+                occupation = 'Teacher at the Officers Academy, One of the Knights of Seiros, Royal Knight (Formerly), Baron Dominic (Formerly)'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                vA = 'Hiriomichi Kogami (Japanese)\nDoug Stone (English)'
+                break;
+            case 'Alois':
+            case 'alois':
+                name = 'Alois Rangeld'
+                thumbnail = 'https://i.imgur.com/Mz2eAuu.png'
+                hexColor = '#857a67'
+                gender = 'Male'
+                race = 'Human'
+                aliases = 'N/A'
+                birthday = 'December 1st'
+                fodlanBirth = '1st of the Ethereal Moon, Imperial Year 1135'
+                relatives = 'Unnamed parents, Unnamed wife, Unnamed daughter'
+                nationality = 'N/A'
+                hometown = 'N/A'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Knights of Seiros'
+                occupation = 'Teacher at the Officers Academy, One of the Knights of Seiros'
+                startingClass = 'Warrior'
+                vA = 'Manabu Sakamaki (Japanese)\nRaymond K. Essel (English)'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                break;
+            case 'Catherine':
+            case 'catherine':
+            case 'Cassandra':
+            case 'cassandra':
+                name = 'Cassandra Rubens Charon'
+                thumbnail = 'https://i.imgur.com/7mK0y1K.png'
+                hexColor = '#f8ebc9'
+                aliases = 'Thunder Catherine, Thunderstrike Cassandra'
+                faction = 'Knights of Seiros'
+                gender = 'Female'
+                race = 'Human'
+                crest = 'Major Crest of Charon'
+                birthday = 'September 15th'
+                fodlanBirth = '15th of the Horsebow Moon, Imperial Year 1152'
+                relatives = 'Charon (Ancestor), Count Charon (Father), Unnamed Brothers and Sisters'
+                startingClass = 'Swordmaster'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'County of Charon'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Knights of Seiros'
+                occupation = 'Teacher at the Officers Academy, One of the Holy Knights of Seiros'
+                vA = 'Chie Matsuura (Japanese)\nLaura Post (English)'
+                crestImage = 'https://i.imgur.com/2oGFZnj.png'
+                break;
+            case 'Shamir':
+            case 'shamir':
+                name = 'Shamir Nevrand'
+                thumbnail = 'https://i.imgur.com/gK1Iz5F.png'
+                hexColor = '#57587e'
+                gender = 'Female'
+                race = 'Human'
+                birthday = 'March 27th'
+                fodlanBirth = '27th of the Lone Moon, Imperial Year 1155'
+                relatives = 'Unnamed lover'
+                nationality = 'Dagda'
+                hometown = 'Dagda'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Knights of Seiros'
+                aliases = 'Distant Archer'
+                occupation = 'Teacher at the Officers Academy, One of the Knights of Seiros, Mercenary (Formerly)'
+                vA = 'Yurina Watanabe (Japanese)\nAllegra Clark (English)'
+                crest = 'N/A'
+                startingClass = 'Sniper'
+                crestImage = 'N/A'
+                break;
+            case 'jeralt':
+            case 'Jeralt':
+                name = 'Jeralt Reus Eisner'
+                thumbnail = 'https://i.imgur.com/d4f9iBI.png'
+                hexColor = '#d2bc93'
+                aliases = 'Blade Breaker'
+                relatives = 'Unnamed Wife (deceased), Byleth (Child)'
+                birthday = 'N/A'
+                fodlanBirth = 'N/A'
+                gender = 'Male'
+                race = 'Human'
+                nationality = 'N/A'
+                residence = 'Garreg Mach Monastery'
+                hometown = 'N/A'
+                faction = 'Knights of Seiros'
+                startingClass = 'Paladin'
+                occupation = 'Leader of a Mercenary Company, One of the Knights of Seiros, Captain of the Knights of Seiros (Formerly), Soldier of the Holy Kingdom of Faerghus (Formerly)'
+                crest = 'Major Crest of Seiros'
+                crestImage = 'https://i.imgur.com/PeVchzu.png'
+                vA = 'Akio Ōtsuka (Japanese)\nDavid Lodge (English)'
+                break;
+            case 'rhea':
+            case 'Rhea':
+            case 'seiros':
+            case 'Seiros':
+                name = 'Rhea'
+                thumbnail = 'https://i.imgur.com/HdH739v.png'
+                hexColor = '#bbf7d0'
+                aliases = '||Seiros, Immaculate One||'
+                gender = 'Female'
+                race = '||Sky Dragon||'
+                relatives = '||Sothis (Mother), Cichol (Seteth, Brother), Indech (Brother), Macuil (Brother), Cethleann (Flayn, Niece)||'
+                birthday = 'January 11th'
+                fodlanBirth = '11th of the Guardian Moon, Imperial Year ????'
+                nationality = '||Nabatean||'
+                hometown = '||Zanado||'
+                residence = 'Garreg Mach Monastery'
+                faction = 'Church of Seiros'
+                startingClass = 'Archbishop'
+                vA = 'Kikuko Inoue (Japanese)\nCherami Leigh (English)'
+                occupation = 'Archbishop and supreme leader of the Church of Seiros'
+                crest = 'Major Crest of Seiros'
+                crestImage = 'https://i.imgur.com/PeVchzu.png'
+                break;
             default:
                 name = "N/A"
           }
