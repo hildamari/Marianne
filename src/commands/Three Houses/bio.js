@@ -19,6 +19,11 @@ module.exports = class extends Command {
 
         let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '', crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '', vA = '';
 
+        const lysitheaCrests = ['https://i.imgur.com/2oGFZnj.png', 'https://i.imgur.com/xPdFnyE.png']
+        let max = 1
+        let min = 0
+        let lysitheaCrest = lysitheaCrests[Math.floor(Math.random() * (max - min + 1) + min)]
+
         switch(unit) {
             case 'BylethM':
             case 'bylethm':
@@ -508,7 +513,7 @@ module.exports = class extends Command {
                 break;
             case 'Lysithea':
             case 'lysithea':
-                name = 'Lysithea'
+                name = 'Lysithea von Ordelia'
                 thumbnail = 'https://i.imgur.com/EIm3Zof.png'
                 hexColor = '#fefcfd'
                 aliases = 'N/A'
@@ -524,7 +529,7 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy, Heir of House Ordelia'
                 crest = 'Minor Crest of Charon, Major Crest of Gloucester'
                 startingClass = 'Noble, Mage'
-                crestImage = 'https://i.imgur.com/xPdFnyE.png'
+                crestImage = lysitheaCrest
                 vA = 'Aoi Yuki (Japanese)\nJanice Roman Roku (English)'
                 break;
             case 'Marianne':
@@ -571,6 +576,8 @@ module.exports = class extends Command {
                 break;
             case 'Flayn':
             case 'flayn':
+            case 'cethleann':
+            case 'Cethleann':
                 name = 'Flayn'
                 thumbnail = 'https://i.imgur.com/1PcDmnL.png'
                 hexColor = '#9ae5b9'
@@ -589,6 +596,7 @@ module.exports = class extends Command {
                 occupation = 'Unofficial student at the Officers Academy'
                 startingClass = 'Priest'
                 vA = 'Yuko Ono (Japanese)\nDeva Marie Gregory (English)'
+                break;
             case 'Seteth':
             case 'seteth':
                 name = 'Seteth'
