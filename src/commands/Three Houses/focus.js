@@ -141,24 +141,208 @@ module.exports = class extends Command {
                 descriptions[1] = "My father was renowned for his horsemanship in battle, even from a young age. I, too, have a fondness for that pursuit, but to reach his heights, my lance and riding skills will need some polish."
                 thumbnail = "https://i.imgur.com/Ddl1C8a.png"
                 break;
-            // dedue
-            // felix
-            // ashe
-            // sylvain
-            // mercedes
-            // annette
-            // ingrid
-            // claude
-            // hilda
-            // lorenz
-            // raphael
-            // ignatz
-            // lysithea
-            // marianne
-            // leonie
-            // flayn
-            // cyril
-            // anna
+            case 'dedue':
+            case 'Dedue':
+                name = 'Dedue'
+                thumbnail = 'https://i.imgur.com/quIqslt.png'
+                hexColor = '#e8e9e2'
+                titles[0] = '__**His Highness\'s Shield**__'
+                titles[1] = '__**His Highness\'s Strength**__'
+                goals[0] = 'Focus on **axe and heavy armor** skills to excel as a heavy armor class.'
+                goals[1] = 'Focus on the **brawling** skill to excel as a Grappler.'
+                descriptions[0] = 'My purpose is to be a shield for His Highness. Please help me improve my axe and heavy armor skills.'
+                descriptions[1] = 'I must be able to guard His Highness at all times, even when I am unarmed. Please train me in hand-to-hand brawling.'
+                break;
+            case 'felix':
+            case 'Felix':
+                titles[0] = ''
+                titles[1] = ''
+                titles[2] = ''
+                goals[0] = ''
+                goals[1] = ''
+                goals[2] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                descriptions[2] = ''
+                break;
+            case 'ashe':
+            case 'Ashe':
+                titles[0] = ''
+                titles[1] = ''
+                titles[2] = ''
+                goals[0] = ''
+                goals[1] = ''
+                goals[2] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                descriptions[2] = ''
+                break;
+            case 'Sylvain':
+            case 'sylvain':
+                titles[0] = ''
+                titles[1] = ''
+                titles[2] = ''
+                goals[0] = ''
+                goals[1] = ''
+                goals[2] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                descriptions[2] = ''
+                break;
+            case 'mercedes':
+            case 'Mercedes':
+                titles[0] = ''
+                titles[1] = ''
+                goals[0] = ''
+                goals[1] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                break;
+            case 'Annette':
+            case 'annette':
+                titles[0] = ''
+                titles[1] = ''
+                goals[0] = ''
+                goals[1] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                break;
+            case 'ingrid':
+            case 'Ingrid':
+                titles[0] = ''
+                titles[1] = ''
+                goals[0] = ''
+                goals[1] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                break;
+            case 'claude':
+            case 'Claude':
+            case 'hilda':
+            case 'Hilda':
+                titles[0] = ''
+                titles[1] = ''
+                goals[0] = ''
+                goals[1] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                break;
+            case 'lorenz':
+            case 'Lorenz':
+                titles[0] = ''
+                titles[1] = ''
+                goals[0] = ''
+                goals[1] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                break;
+            case 'raphael':
+            case 'Raphael':
+                titles[0] = ''
+                titles[1] = ''
+                titles[2] = ''
+                goals[0] = ''
+                goals[1] = ''
+                goals[2] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                descriptions[2] = ''
+                break;
+            case 'Ignatz':
+            case 'ignatz':
+                titles[0] = ''
+                titles[1] = ''
+                titles[2] = ''
+                goals[0] = ''
+                goals[1] = ''
+                goals[2] = ''
+                descriptions[0] = ''
+                descriptions[1] = ''
+                descriptions[2] = ''
+                break;
+            case 'lysithea':
+            case 'Lysithea':
+                name = 'Lysithea'
+                thumbnail = 'https://i.imgur.com/EIm3Zof.png'
+                hexColor = '#fefcfd'
+                titles[0] = '__**Suited for Sorcery**__'
+                titles[1] = '__**Putting Faith in Reason**__'
+                goals[0] = 'Focus on the **reason** skill to excel as a Warlock'
+                goals[1] = 'Focus on **reason and faith** skills to excel as a Gremory.'
+                descriptions[0] = 'Sorcery is my natural talent, so it was inevitable that I\'d choose to be a Warlock. It\'s not easy, but no need to fear. I will never tire of studying reason.'
+                descriptions[1] = 'I would hypothesize that reason, while necessary, cannot result in true understanding without a little faith. You\'ll let me test this theory, won\'t you?'
+                break;
+            case 'marianne':
+            case 'Marianne':
+                name = 'Marianne'
+                thumbnail = 'https://i.imgur.com/OyUl9he.png'
+                hexColor = '#aad0fa'
+                titles[0] = '__**Praying for Guidance**__'
+                titles[1] = '__**Heroic on a Horse**__'
+                titles[2] = '__**Prancing and Praying**__'
+                titles[3] = '__**Friend of the Animals**__'
+                goals[0] = 'Focus on the **faith** skill to excel as a Bishop.'
+                goals[1] = 'Focus on **lance and riding** skills to excel as a cavalry class.'
+                goals[2] = 'Focus on **faith and riding** skills to excel as a Holy Knight.'
+                goals[3] = 'Focus on **lance and flying** skills to excel as a flying class.'
+                descriptions[0] = 'I don\'t have any talents of my own, so all I can really do is pray to the goddess. Maybe if I truly master my faith, she\'ll show me the role I am meant to fulfill.'
+                descriptions[1] = 'I get along well with horses, so I\'m OK at riding them. If I were more confident with a lance, then maybe...I might start to feel stronger.'
+                descriptions[2] = 'Since I spend most of my time looking after horses and praying to the goddess, I think it makes sense for me to be a Holy Knight. With that in mind...would you help me refine my faith and riding skills?'
+                descriptions[3] = 'I get along well with animals. Even in the darkest times, a pegasus or a wyvern can be a reassuring presence. I think I would like to train my lance and flying skills.'
+                break;
+            case 'leonie':
+            case 'Leonie':
+                name = 'Leonie'
+                thumbnail = 'https://i.imgur.com/yZxvJG4.png'
+                hexColor = '#f17d5b'
+                titles[0] = '__**Just Like Jeralt**__'
+                titles[1] = '__**Bow on the Go**__'
+                goals[0] = 'Focus on **lance and riding** skills to excel as a cavalry class.'
+                goals[1] = 'Focus on **bow and riding** skills to excel as a Bow Knight.'
+                descriptions[0] = 'I love bows, of course, but archery alone will never make me an elite mercenary. If I want to follow Captain Jeralt\'s example, I need to hone my riding and lance skills.'
+                descriptions[1] = 'It\'d be really useful if I could fire a bow more accurately from horseback. Think we could work on my riding, along with my bow skills?'
+                break;
+            case 'flayn':
+            case 'Flayn':
+            case 'Cethleann':
+            case 'cethleann':
+                name = 'Flayn'
+                thumbnail = 'https://i.imgur.com/1PcDmnL.png'
+                hexColor = '#9ae5b9'
+                titles[0] = '__**A Passion to Heal**__'
+                titles[1] = '__**A Passion to Protect**__'
+                goals[0] = 'Focus on the **faith** skill to excel as a Bishop.'
+                goals[1] = 'Focus on **reason and faith** skills to excel as a Gremory.'
+                descriptions[0] = 'I believe I am better suited to healing than fighting. Rather than train with traditional weapons, then, I think it best for me to focus upon my faith.'
+                descriptions[1] = 'While I find healing to be important and necessary, there are times when I feel it is insufficient. To be truly useful, I would like to improve at offensive magic as well, so my training can involve a balance of reason and faith.'
+                break;
+            case 'cyril':
+            case 'Cyril':
+                name = 'Cyril'
+                thumbnail = 'https://i.imgur.com/Oss58fD.png'
+                hexColor = '#453d3b'
+                titles[0] = '__**Flying Toward Foes**__'
+                titles[1] = '__**Harrier on High**__'
+                goals[0] = 'Focus on **axe and flying** skills to excel as a Wyvern Rider.'
+                goals[1] = 'Focus on **bow and riding** skills to excel as a Bow Knight.'
+                descriptions[0] = 'I used to look after wyverns back in Almyra, so I know how to handle \'em. I can ride one into battle. But it\'d be nice if ya helped me work on my axe and flying skills.'
+                descriptions[1] = 'Shamir taught me lots about bows, and I\'ve always gotten along real well with horses. Think we could work on both riding and bow skills?'
+                break;
+            case 'anna':
+            case 'Anna':
+                name = 'Anna'
+                thumbnail = 'https://i.imgur.com/d2dCJxN.png'
+                hexColor = '#d85e77'
+                titles[0] = '__**On the Value of Swords**__'
+                titles[1] = '__**Journey to the Great Knight**__'
+                titles[2] = '__**In Remembrance of Origins**__'
+                goals[0] = 'Focus on **sword** skills to excel as a sword fighting class.'
+                goals[1] = 'Focus on **axe and riding** skills to excel as a Great Knight.'
+                goals[2] = 'Focus on **sword and faith** skills to become a sword fighting class.'
+                descriptions[0] = 'I don\'t understand their inherent value. I\'d like to better understand swords, so I can better sell them! Focusing on my skill with the blade seems the best way.'
+                descriptions[1] = 'I want to be a Great Knight. I know I\'ve got the chops,what with my business sense, rapport with horses, and my undeniable brute strength. There\'s a big payoff if you let me—I just know it! What do you say?'
+                descriptions[2] = 'I can see study of sword and faith really going hand in hand. Physical defense plus divine protection, you know? So? How about it?'
+                break;
             default:
                 name = "N/A"
         }
