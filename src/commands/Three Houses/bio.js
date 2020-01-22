@@ -5,7 +5,7 @@ module.exports = class extends Command {
 
     constructor(...args) {
         super(...args, { 
-            description: 'Replies with information about specific units from Fire Emblem Three Houses',
+            description: 'Replies with information about specific units',
             extendedHelp: 'This command contains spoilers for Fire Emblem Three Houses!',
             usage: '<unit:string>'
         });

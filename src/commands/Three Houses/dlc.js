@@ -5,7 +5,7 @@ const { stripIndents } = require('common-tags');
 module.exports = class extends Command {
 
     constructor(...args) {
-        super(...args, { description: 'Gives details on the available DLC for Fire Emblem Three Houses' });
+        super(...args, { description: 'Gives details on the available DLC' });
     }
 
     async run(msg) {
