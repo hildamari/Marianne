@@ -27,7 +27,6 @@ module.exports = class extends Command {
             
         aboutEmbed.addField('Uptime', moment.duration(process.uptime() * 1000).format('D [days], H [hours] [and] m [minutes]'))
         aboutEmbed.addField('License', 'Apache 2.0')
-        aboutEmbed.addField('Source Code', 'https://github.com/KunoichiZ/Marianne')
         aboutEmbed.addField('Source Code', 'https://github.com/hildamari/Marianne');
         aboutEmbed.addField('Documentation', 'https://hilda.pw');
 
