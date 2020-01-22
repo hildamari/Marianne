@@ -25,9 +25,9 @@
     "node-fetch": "^2.6.0"
   },
   "bugs": {
-    "url": "https://github.com/KunoichiZ/Marianne/issues"
+    "url": "https://github.com/hildamari/Marianne/issues"
   },
-  "repository": "https://github.com/KunoichiZ/Marianne.git",
+  "repository": "https://github.com/hildamari/Marianne.git",
   "homepage": "https://hilda.pw",
   "keywords": [
     "discord",
