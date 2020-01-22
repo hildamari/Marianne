@@ -11,21 +11,7 @@
 Marianne is a sister Discord bot to [Hilda](https://github.com/KunoichiZ/Hilda). Marianne is a character from Fire Emblem: Three Houses. She is written with [Discord.js](https://discord.js.org/) and [Klasa](https://klasa.js.org/). Displays information about character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.
 
 ## Todo
-- [x] Add moderation commands
-- [x] Add VAs to bio command
-<!-- @todo Finish bio command -->
-- [ ] Finish bio command
-- [ ] Finish focus command
-- [x] Add crest command
-- [x] Finish proficiencies command
-- [x] Finish spells command
-- [x] Add growths command
-- [x] Add combatArts command
-- [x] Add personal skills command
-- [x] Finish DLC command
-- [x] Add recruit command
-- [x] Add lost items command 
-- [x] Add gifts command 
+- N/A
 
 ## Todo after bot releases
 <!-- @todo Change bio command to canvas image -->
