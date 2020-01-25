@@ -14,7 +14,7 @@ const MarianneClient = new Client ({
     prefix: process.env.PREFIX,
     commandEditing: true,
     disableEveryone: true,
-    ignoreBots: true,
+    ignoreBots: false,
     dashboardHooks: {
         apiPrefix: '',
 		port: 1123
