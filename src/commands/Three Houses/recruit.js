@@ -345,6 +345,14 @@ module.exports = class extends Command {
                 fromChapter = 14
                 recruitment = "Need to be Level 15 \n(If leading the Black Eagles, automatically joins during Chapter 12 if you ||ally with the church|| during Chapter 11)"
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
         }

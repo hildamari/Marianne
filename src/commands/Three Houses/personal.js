@@ -355,6 +355,14 @@ module.exports = class extends Command {
                 personalSkillName = 'Survival Instinct'
                 personalSkillDesc = '	If unit initiates combat and defeats foe, grants Str/Mag/Dex/Spd +4 for one turn'
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
         }

@@ -283,6 +283,14 @@ module.exports = class extends Command {
                 hexColor = '#d2bc93'
                 lostItems = ["Wooden Flask"]
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
         }

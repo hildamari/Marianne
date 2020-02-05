@@ -467,6 +467,14 @@ module.exports = class extends Command {
                 unlock = 'N/A'
                 unlockDescription = 'N/A'
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
           }

@@ -300,6 +300,14 @@ module.exports = class extends Command {
               hexColor = '#57587e'
               hp = 35, str = 40, mag = 20, dex = 55, spd = 40, lck = 55, def = 20, res = 15, cha = 30
               break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
               name = "N/A"
         }

@@ -386,6 +386,14 @@ module.exports = class extends Command {
                 descriptions[1] = 'I want to be a Great Knight. I know I\'ve got the chops,what with my business sense, rapport with horses, and my undeniable brute strength. There\'s a big payoff if you let me—I just know it! What do you say?'
                 descriptions[2] = 'I can see study of sword and faith really going hand in hand. Physical defense plus divine protection, you know? So? How about it?'
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
         }

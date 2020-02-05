@@ -340,6 +340,14 @@ module.exports = class extends Command {
                 reasonSpells = ["Blizzard (D)", "Wind (D+)", "Sagittae (C)", "Fimbulvetr (A)"]
                 faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)"]
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
           }

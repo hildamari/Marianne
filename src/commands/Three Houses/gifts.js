@@ -320,6 +320,14 @@ module.exports = class extends Command {
                 likedGifts = ["Landscape Painting", "Goddess Statuette", "Ancient Coin"]
                 dislikedGifts = ["Exotic Spices"]
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
         }

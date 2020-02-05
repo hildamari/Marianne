@@ -860,6 +860,14 @@ module.exports = class extends Command {
                 crest = 'Major Crest of Seiros'
                 crestImage = 'https://i.imgur.com/PeVchzu.png'
                 break;
+            // case 'yuri':
+            // case 'Yuri':
+            // case 'hapi':
+            // case 'Hapi':
+            // case 'Balthus':
+            // case 'balthus':
+            // case 'constance':
+            // case 'Constance':
             default:
                 name = "N/A"
           }
