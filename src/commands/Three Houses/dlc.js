@@ -52,6 +52,7 @@ module.exports = class extends Command {
         const wave4Embed = new MessageEmbed()
             .setTitle("Wave 4")
             .setDescription(stripIndents`
+            Unearth the secrets beneath Garreg Mach in this expansive new content.
             * Play a complete side story that is separate from the main story.
             * Explore a new location, Abyss, beneath the monastery.
             * Meet four new characters from the secret Ashen Wolves house that can be recruited in the main game as you progress in the side story.
