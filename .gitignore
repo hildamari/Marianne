@@ -21,3 +21,6 @@ src/bwd/
 
 # webp files
 *.webp
+
+# package-lock.json
+package-lock.json
