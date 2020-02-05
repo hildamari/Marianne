@@ -868,6 +868,8 @@ module.exports = class extends Command {
             // case 'balthus':
             // case 'constance':
             // case 'Constance':
+            // case 'alphard':
+            // case 'Alphard':
             default:
                 name = "N/A"
           }
