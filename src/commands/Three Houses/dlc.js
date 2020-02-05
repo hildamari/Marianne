@@ -51,7 +51,15 @@ module.exports = class extends Command {
             .addField('Game Version', 'Ver 1.1.1');
         const wave4Embed = new MessageEmbed()
             .setTitle("Wave 4")
-            .setDescription("New story content, with additional playable characters, locations, and more—plus a free update—will be released by April 30, 2020.")
+            .setDescription(stripIndents`
+            * Play a complete side story that is separate from the main story.
+            * Explore a new location, Abyss, beneath the monastery.
+            * Meet four new characters from the secret Ashen Wolves house that can be recruited in the main game as you progress in the side story.
+            * Access new quests, activities, paralogues, and classes in the main story as you progress through the side story.`)
+            .setThumbnail('https://i.imgur.com/lw6FPDQ.jpg')
+            .setImage('https://i.imgur.com/NrBIXMZ.jpg')
+            .addField('Release Date', 'February 12th, 2020')
+            .addField('Game Version', 'Ver ???')
         const freeUpdateEmbed = new MessageEmbed()
             .setTitle("Free Update")
             .setDescription(stripIndents`
