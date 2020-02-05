@@ -17,7 +17,7 @@ Misc/
 .DS_Store
 
 # bwd folder
-bwd/
+src/bwd/
 
 # webp files
 *.webp
