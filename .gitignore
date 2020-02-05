@@ -24,3 +24,8 @@ src/bwd/
 
 # package-lock.json
 package-lock.json
+
+# Testing stuff
+Testing/
+monitors/
+src/data/messages.json
