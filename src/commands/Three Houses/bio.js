@@ -17,7 +17,7 @@ module.exports = class extends Command {
     verifyUnit(unit) {
         const unitBioEmbed = new MessageEmbed()
 
-        let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '', crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '', vA = '';
+        let name = '', aliases = '', gender = '', race = '', birthday = '', fodlanBirth = '', relatives = '', crest = '', nationality = '', hometown = '', residence = '', faction = '', occupation = '', startingClass = '', hexColor = '', thumbnail = '', crestImage = '', vA = '', heightInCM, heightInCMPart2;
 
         const lysitheaCrests = ['https://i.imgur.com/2oGFZnj.png', 'https://i.imgur.com/xPdFnyE.png']
         let max = 1
@@ -47,6 +47,7 @@ module.exports = class extends Command {
                 startingClass = 'Commoner'
                 vA = 'Chris Niosi (Former), Zach Aguilar (Current)\n Yūsuke Kobayashi (Japanese)'
                 crestImage = 'https://i.imgur.com/nBEWjAw.png'
+                heightInCM = 175
                 break;
             case 'bylethf':
             case 'BylethF':
@@ -70,6 +71,7 @@ module.exports = class extends Command {
                 startingClass = 'Commoner'
                 vA = 'Jeannie Tirado (English)\n Shizuka Ito (Japanese)'
                 crestImage = 'https://i.imgur.com/nBEWjAw.png'
+                heightInCM = 164
                 break;
             case 'Edelgard':
             case 'edelgard':
@@ -90,6 +92,7 @@ module.exports = class extends Command {
                 occupation = 'Heir apparent of the Adrestian Empire, Student at the Officers Academy, House leader of the Black Eagles, Emperor of the Adrestian Empire (Going from Chapter 12)'
                 vA = 'Cristina Vee (E3 2018 Trailer), Tara Platt (English), Ai Kakuma (Japanese)'
                 residence = 'Garreg Mach Monastery, Fhirdiad (Formerly)'
+                heightInCM = 158
                 break;
             case 'Hubert':
             case 'hubert':
@@ -111,6 +114,7 @@ module.exports = class extends Command {
                 startingClass = 'Noble'
                 vA = 'Katsuyuki Konishi (Japanese)\nRobbie Daymond (English)'
                 crestImage = 'N/A'
+                heightInCM = 188
                 break;
             case 'Ferdinand':
             case 'ferdinand':
@@ -132,6 +136,8 @@ module.exports = class extends Command {
                 startingClass = 'Noble'
                 vA = 'Taito Ban (Japanese)\nBilly Kametz (English)'
                 crestImage = 'https://i.imgur.com/IFS5RGj.png'
+                heightInCM = 175
+                heightInCMPart2 = 180
                 break;
             case 'Linhardt':
             case 'linhardt':
@@ -153,6 +159,7 @@ module.exports = class extends Command {
                 startingClass = 'Noble'
                 vA = 'Shun Horie (Japanese)\nChris Patton (English)'
                 crestImage = 'https://i.imgur.com/0NAUtkv.png'
+                heightInCM = 177
                 break;
             case 'Caspar':
             case 'caspar':
@@ -174,6 +181,8 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy'
                 startingClass = 'Noble'
                 vA = 'Satoru Murakami (Japanese)\nBen Diskin (English)'
+                heightInCM = 159
+                heightInCMPart2 = 173
                 break;
             case 'Bernadetta':
             case 'bernadetta':
@@ -195,6 +204,8 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy, Heir of House Varley'
                 startingClass = 'Noble'
                 vA = 'Ayumi Tsuji (Japanese)\nErica Mendez (English)'
+                heightInCM = 150
+                heightInCMPart2 = 165
                 break;
             case 'Dorothea':
             case 'dorothea':
@@ -216,6 +227,7 @@ module.exports = class extends Command {
                 occupation = 'Songstress, Student at the Officers Academy'
                 startingClass = 'Commoner'
                 vA = 'Juri Nagatsuma (Japanese)\nAllegra Clark (English)'
+                heightInCM = 170
                 break;
             case 'Petra':
             case 'petra':
@@ -237,6 +249,7 @@ module.exports = class extends Command {
                 occupation = 'Crown Princess of Brigid, Student at the Officers Academy'
                 startingClass = 'Commoner'
                 vA = 'Shizuka Ishigami\nFaye Mata'
+                heightInCM = 161
                 break;
             case 'Dimitri':
             case 'dimitri':
@@ -258,6 +271,8 @@ module.exports = class extends Command {
                 startingClass = 'Noble'
                 crest = 'Minor Crest of Blaiddyd'
                 crestImage = 'https://i.imgur.com/sS6zBAe.png'
+                heightInCM = 180
+                heightInCMPart2 = 188
                 break;
             case 'Dedue':
             case 'dedue':
@@ -279,6 +294,7 @@ module.exports = class extends Command {
                 relatives = 'Unnamed father (deceased)'
                 startingClass = 'Commoner'
                 vA = 'Takahashi Hidenori (Japanese)\nBen Lepley (English)'
+                heightInCM = 204
                 break;
             case 'Felix':
             case 'felix':
@@ -300,6 +316,7 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy, Heir of House Fraldarius, Squire of the Holy Kingdom Army (Formerly)'
                 startingClass = 'Noble'
                 vA = 'Yuichi Jose (Japanese)\nLucien Dodge (English)'
+                heightInCM = 174
                 break;
             case 'Ashe':
             case 'ashe':
@@ -321,6 +338,8 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy, Heir of House Gaspard'
                 startingClass = 'Commoner'
                 vA = 'Yūki Inoue (Japanese)\nShannon Mckain (English)'
+                heightInCM = 164
+                heightInCMPart2 = 174
                 break;
             case 'Sylvain':
             case 'sylvain':
@@ -342,6 +361,7 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy, Heir of House Gautier'
                 startingClass = 'Noble'
                 vA = 'Makoto Furukawa (Japanese)\nJoe Brogie (English)'
+                heightInCM = 186
                 break;
             case 'Mercedes':
             case 'mercedes':
@@ -363,6 +383,7 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy, Student at Fhirdiad School of Sorcery (Formerly)'
                 startingClass = 'Commoner'
                 vA = 'Yumiri Hanamori (Japanese)\nDorothy Elias-Fahn (English)'
+                heightInCM = 169
                 break;
             case 'Annette':
             case 'annette':
@@ -384,6 +405,8 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy, Student at Fhirdiad School of Sorcery (Formerly)'
                 startingClass = 'Noble'
                 vA = 'Takako Tanaka (Japanese)\nAbby Trott (English)'
+                heightInCM = 151
+                heightInCMPart2 = 153
                 break;
             case 'Ingrid':
             case 'ingrid':
@@ -405,6 +428,7 @@ module.exports = class extends Command {
                 occupation = 'Student at the Officers Academy'
                 startingClass = 'Noble'
                 vA = 'Manaka Iwami (Japanese)\nBrittany Cox (English)'
+                heightInCM = 165
                 break;
             case 'Claude':
             case 'claude':
@@ -426,6 +450,7 @@ module.exports = class extends Command {
                 occupation = 'Heir of House Riegan, Leader of the Leicester Alliance (Post-timeskip), Prince of Almyra, Student at the Officers Academy, House leader of the Golden Deer'
                 startingClass = 'Noble'
                 vA = 'Toshiyuki Toyonaga (Japanese)\nJoe Zieja (English)'
+                heightInCM = 175
                 break;
             case 'Hilda':
             case 'hilda':
@@ -447,6 +472,7 @@ module.exports = class extends Command {
                 crestImage = 'https://i.imgur.com/mKK2nws.png'
                 vA = 'Salli Saffioti (English)\n Yūki Kuwahara (Japanese)'
                 hexColor = '#fcafb7'
+                heightInCM = 154
               break;
             case 'Lorenz':
             case 'lorenz':
@@ -468,6 +494,7 @@ module.exports = class extends Command {
                 vA = 'Hiroshi Watanabe (Japanese)\nBen Diskin (English)'
                 crest = 'Minor Crest of Gloucester'
                 crestImage = 'https://i.imgur.com/xPdFnyE.png'
+                heightInCM = 188
                 break;
             case 'Raphael':
             case 'raphael':
@@ -489,6 +516,7 @@ module.exports = class extends Command {
                 startingClass = 'Commoner'
                 crestImage = 'N/A'
                 crest = 'N/A'
+                heightInCM = 190
                 break;
             case 'Ignatz':
             case 'ignatz':
@@ -510,6 +538,7 @@ module.exports = class extends Command {
                 crestImage = 'N/A'
                 startingClass = 'Commoner'
                 vA = 'Shougo Yano (Japanese)\nChristian Le Monte (English)'
+                heightInCM = 164
                 break;
             case 'Lysithea':
             case 'lysithea':
@@ -531,6 +560,8 @@ module.exports = class extends Command {
                 startingClass = 'Noble, Mage'
                 crestImage = lysitheaCrest
                 vA = 'Aoi Yuki (Japanese)\nJanice Roman Roku (English)'
+                heightInCM = 148
+                heightInCMPart2 = 160
                 break;
             case 'Marianne':
             case 'marianne':
@@ -552,6 +583,7 @@ module.exports = class extends Command {
                 startingClass = 'Noble'
                 crestImage = 'https://i.imgur.com/qPQz1gu.png'
                 vA = 'Sawako Hata (Japanese)\nXanthe Huynh (English)'
+                heightInCM = 163
                 break;
             case 'Leonie':
             case 'leonie':
@@ -573,6 +605,7 @@ module.exports = class extends Command {
                 crestImage = 'N/A'
                 startingClass = 'Commoner'
                 vA = 'Sakura Nogawa (Japanese)\nRatana (English)'
+                heightInCM = 168
                 break;
             case 'Flayn':
             case 'flayn':
@@ -596,6 +629,7 @@ module.exports = class extends Command {
                 occupation = 'Unofficial student at the Officers Academy'
                 startingClass = 'Priest'
                 vA = 'Yuko Ono (Japanese)\nDeva Marie Gregory (English)'
+                heightInCM = 151
                 break;
             case 'Seteth':
             case 'seteth':
@@ -619,6 +653,7 @@ module.exports = class extends Command {
                 thumbnail = 'https://i.imgur.com/s35oLUZ.png'
                 crestImage = 'https://i.imgur.com/mJsn0KU.png'
                 vA = 'Takehito Koyasu (Japanese)\nMark Whitten (English)'
+                heightInCM = 182
               break;
             case 'Cyril':
             case 'cyril':
@@ -640,6 +675,8 @@ module.exports = class extends Command {
                 occupation = 'Aid to Archbishop Rhea'
                 startingClass = 'Commoner'
                 vA = 'Kengo Kawanishi (Japanese)\nGriffin Burns (English)'
+                heightInCM = 148
+                heightInCMPart2 = 168
                 break;
             case 'Anna':
             case 'anna':
@@ -661,6 +698,7 @@ module.exports = class extends Command {
                 faction = 'N/A'
                 startingClass = 'Myrmidon (Academy Phase)/Thief (War Phase)'
                 vA = 'Saori Seto (Japanese)\nKaren Strassman (English)'
+                heightInCM = 168
                 break;
             case 'Jeritza':
             case 'jeritza':
@@ -684,6 +722,7 @@ module.exports = class extends Command {
                 crest = 'Minor Crest of Lamine'
                 crestImage = 'https://i.imgur.com/I7c4voa.png'
                 vA = 'Atsushi Imaruoka (Japanese)\nPatrick Seitz (English)'
+                heightInCM = 193
                 break;
             case 'Hanneman':
             case 'hanneman':
@@ -705,6 +744,7 @@ module.exports = class extends Command {
                 faction = 'Church of Seiros'
                 occupation = 'Teacher at the Officers Academy'
                 vA = 'Kenji Hamada (Japanese)\nW. T. Falke (English)'
+                heightInCM = 190
                 break;
             case 'Manuela':
             case 'manuela':
@@ -726,6 +766,7 @@ module.exports = class extends Command {
                 vA = 'Sachiko Kojima (English)\nVeronica Taylor (English)'
                 crest = 'N/A'
                 crestImage = 'N/A'
+                heightInCM = 172
                 break;
             case 'Gilbert':
             case 'gilbert':
@@ -749,6 +790,7 @@ module.exports = class extends Command {
                 crest = 'N/A'
                 crestImage = 'N/A'
                 vA = 'Hiriomichi Kogami (Japanese)\nDoug Stone (English)'
+                heightInCM = 186
                 break;
             case 'Alois':
             case 'alois':
@@ -770,6 +812,7 @@ module.exports = class extends Command {
                 vA = 'Manabu Sakamaki (Japanese)\nRaymond K. Essel (English)'
                 crest = 'N/A'
                 crestImage = 'N/A'
+                heightInCM = 174
                 break;
             case 'Catherine':
             case 'catherine':
@@ -794,6 +837,7 @@ module.exports = class extends Command {
                 occupation = 'Teacher at the Officers Academy, One of the Holy Knights of Seiros'
                 vA = 'Chie Matsuura (Japanese)\nLaura Post (English)'
                 crestImage = 'https://i.imgur.com/2oGFZnj.png'
+                heightInCM = 175
                 break;
             case 'Shamir':
             case 'shamir':
@@ -815,6 +859,7 @@ module.exports = class extends Command {
                 crest = 'N/A'
                 startingClass = 'Sniper'
                 crestImage = 'N/A'
+                heightInCM = 169
                 break;
             case 'jeralt':
             case 'Jeralt':
@@ -836,6 +881,7 @@ module.exports = class extends Command {
                 crest = 'Major Crest of Seiros'
                 crestImage = 'https://i.imgur.com/PeVchzu.png'
                 vA = 'Akio Ōtsuka (Japanese)\nDavid Lodge (English)'
+                heightInCM = 185
                 break;
             case 'rhea':
             case 'Rhea':
@@ -859,15 +905,96 @@ module.exports = class extends Command {
                 occupation = 'Archbishop and supreme leader of the Church of Seiros'
                 crest = 'Major Crest of Seiros'
                 crestImage = 'https://i.imgur.com/PeVchzu.png'
+                heightInCM = 172
                 break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                aliases = 'N/A'
+                relatives = 'Aubin (Ancestor)'
+                gender = 'Male'
+                race = 'Human'
+                crest = 'Major Crest of Aubin'
+                crestImage = 'https://i.imgur.com/5jOb1um.png'
+                startingClass = 'Noble'
+                fodlanBirth = '12th of the Verdant Rain Moon, Imperial Year 1160'
+                birthday = 'August 12th'
+                heightInCM = 171
+                nationality = 'N/A'
+                hometown = 'N/A'
+                residence = 'Garreg Mach Monastery, Abyss'
+                occupation = 'Student at the Officers Academy, House Leader of the Ashen Wolves'
+                faction = 'Ashen Wolves'
+                vA = 'Junya Enoki (Japanese)\n??? (English)'
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                gender = 'Female'
+                race = 'Human'
+                aliases = 'N/A'
+                relatives = 'Timotheos (Ancestor)'
+                crest = 'Major Crest of Timotheos'
+                crestImage = 'https://i.imgur.com/jFZjWXK.png'
+                startingClass = 'Noble'
+                birthday = 'January 15th'
+                fodlanBirth = '15th of the Guardian Moon, Imperial Year 1160'
+                nationality = 'N/A'
+                hometown = 'N/A'
+                faction = 'Ashen Wolves'
+                residence = 'Garreg Mach Monastery, Abyss'
+                occupation = 'Student at the Officers Academy'
+                vA = 'Sachika Misawa (Japanese)\n??? (English)'
+                heightInCM = 169
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                aliases = 'Almighty King of Grappling'
+                gender = 'Male'
+                race = 'Human'
+                crest = 'Major Crest of Chevalier'
+                crestImage = 'https://i.imgur.com/p12opKa.png'
+                startingClass = 'Noble'
+                relatives = 'Chevalier (Ancestor)'
+                birthday = 'July 9th'
+                fodlanBirth = '9th of the Blue Sea Moon, Imperial Year 1153'
+                hometown = 'N/A'
+                nationality = 'N/A'
+                faction = 'Ashen Wolves'
+                residence = 'Garreg Mach Monastery, Abyss'
+                occupation = 'Student at the Officers Academy'
+                vA = 'Subaru Kimura (Japanese)\n??? (English)'
+                heightInCM = 198
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance von Nuvelle'
+                aliases = 'Coco'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                crest = 'Major Crest of Noa'
+                crestImage = 'https://i.imgur.com/3V6hwKT.png'
+                startingClass = 'Noble'
+                birthday = 'March 20th'
+                fodlanBirth = '20th of the Lone Moon, Imperial Year ????'
+                heightInCM = 164
+                gender = 'Female'
+                race = 'Human'
+                relatives = 'Noa (Ancestor)'
+                nationality = 'Adrestian Empire'
+                hometown = 'N/A'
+                residence = 'Garreg Mach Monastery, Abyss'
+                occupation = 'Student at the Officers Academy'
+                faction = 'Ashen Wolves'
+                vA = 'Sarah Emi Bridcutt (Japanese)\n??? (English)'
+                break;
             // case 'alphard':
             // case 'Alphard':
             default:
@@ -898,10 +1025,18 @@ module.exports = class extends Command {
                 .addField('Hometown', hometown, true)
                 .addField('Residence', residence, true)
                 .addField('Faction', faction, true)
+                if(heightInCMPart2) {
+                    unitBioEmbed.addField('Height', heightInCM + `cm (${this.toFeet(heightInCM)})\n
+                    ${heightInCMPart2}cm (${this.toFeet(heightInCMPart2)}) (Part 2)`, true)
+                } else {
+                    unitBioEmbed.addField('Height', heightInCM + `cm (${this.toFeet(heightInCM)})`, true)
+                }
+                
+                unitBioEmbed
                 .addField('Occupation', occupation)
                 .addField('Starting Class', startingClass, true)
                 .addField('VAs', vA, true)
-
+                
             return unitBioEmbed
         }
     }
@@ -909,5 +1044,12 @@ module.exports = class extends Command {
     async run(msg, [unit]) {
         let result = this.verifyUnit(unit);
         msg.send(result);
+    }
+
+    toFeet(n) {
+        var realFeet = ((n*0.393700) / 12);
+        var feet = Math.floor(realFeet);
+        var inches = Math.round((realFeet - feet) * 12);
+        return feet + "'" + inches + '"';
     }
 };
