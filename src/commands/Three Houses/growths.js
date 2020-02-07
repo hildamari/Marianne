@@ -300,14 +300,34 @@ module.exports = class extends Command {
               hexColor = '#57587e'
               hp = 35, str = 40, mag = 20, dex = 55, spd = 40, lck = 55, def = 20, res = 15, cha = 30
               break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                hp = 30, str = 35, mag = 35, dex = 50, spd = 60, lck = 45, def = 30, res = 30, cha = 55
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                hp = 35, str = 35, mag = 35, dex = 45, spd = 55, lck = 45, def = 30, res = 40, cha = 50
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                hp = 50, str = 50, mag = 30, dex = 25, spd = 30, lck = 20, def = 45, res = 30, cha = 30
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                hp = 20, str = 20, mag = 60, dex = 30, spd = 35, lck = 15, def = 15, res = 30, cha = 25
+                break;
             default:
               name = "N/A"
         }
