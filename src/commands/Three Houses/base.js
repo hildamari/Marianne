@@ -220,8 +220,7 @@ module.exports = class extends Command {
                 name = 'Flayn'
                 thumbnail = 'https://i.imgur.com/1PcDmnL.png'
                 hexColor = '#9ae5b9'
-                reasonSpells = ["Wind (D)", "Fire (D+)", "Cutting Gale (C)", "Excalibur (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Restore (C)", "Rescue (B)", "Fortify (A)"]
+                hp = 24, str = 6, mag = 9, dex = 6, spd = 5, lck = 4, def = 5, res = 10, cha = 9
                 break;
             case 'Seteth':
             case 'seteth':
@@ -230,16 +229,14 @@ module.exports = class extends Command {
                 name = 'Seteth'
                 thumbnail = 'https://i.imgur.com/s35oLUZ.png'
                 hexColor = '#71bea4'
-                reasonSpells = ["Wind (D)", "Cutting Gale (C)", "Bolganone (B)", "Excalibur (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                hp = 27, str = 9, mag = 8, dex = 8, spd = 5, lck = 6, def = 6, res = 4, cha = 9
                 break;
             case 'Cyril':
             case 'cyril':
                 name = 'Cyril'
                 thumbnail = 'https://i.imgur.com/Oss58fD.png'
                 hexColor = '#71bea4'
-                reasonSpells = ["Wind (D)", "Cutting Gale (C)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                hp = 24, str = 7, mag = 4, dex = 6, spd = 6, lck = 6, def = 5, res = 2, cha = 4
                 break;
             case 'Anna':
             case 'anna':
@@ -262,16 +259,14 @@ module.exports = class extends Command {
                 name = 'Hanneman'
                 thumbnail = 'https://i.imgur.com/fCG6C12.png'
                 hexColor = '#969794'
-                reasonSpells = ["Wind (D)", "Sagittae (C)", "Thoron (B)", "Ragnarok (A)", "Meteor (A+)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Ward (B)"]
+                hp = 25, str = 6, mag = 10, dex = 6, spd = 6, lck = 4, def = 5, res = 7, cha = 5
                 break;
             case 'Manuela':
             case 'manuela':
                 name = 'Manuela'
                 thumbnail = 'https://i.imgur.com/af5exR9.png'
                 hexColor = '#b09b80'
-                reasonSpells = ["Thunder (D)", "Bolganone (C)", "Bolting (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Ward (C)", "Silence (B)", "Warp (A)"]
+                hp = 26, str = 10, mag = 8, dex = 6, spd = 8, lck = 6, def = 5, res = 4, cha = 7
                 break;
             case 'Gilbert':
             case 'gilbert':
