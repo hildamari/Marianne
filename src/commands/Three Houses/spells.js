@@ -340,14 +340,38 @@ module.exports = class extends Command {
                 reasonSpells = ["Blizzard (D)", "Wind (D+)", "Sagittae (C)", "Fimbulvetr (A)"]
                 faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)"]
                 break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                reasonSpells = ["Wind (D)", "Cutting Gale (C)", "Sagittae (B)", "Excalibur (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Silence (B)", "Aura (A)"]
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                reasonSpells = ["Miasma Δ (D)", "Swarm Ζ (D+)", "Banshee Θ (C)", "Death Γ (B)", "Hades Ω (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Seraphim (B)", "Warp (A)"]
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                reasonSpells = ["Fire (D)", "Bolganone (C)", "Ragnarok (A)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Seraphim (B)", "Restore (A)"]
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                reasonSpells = ["Fire (D)", "Sagittae (C)", "Fimbulvetr (B)", "Bolting (A)", "Agnea’s Arrow (A+)"]
+                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Ward (C)", "Rescue (B)", "Abraxas (A)"]
+                break;
             default:
                 name = "N/A"
           }
