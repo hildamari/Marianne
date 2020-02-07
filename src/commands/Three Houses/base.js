@@ -316,32 +316,28 @@ module.exports = class extends Command {
                 name = 'Yuri'
                 thumbnail = 'https://i.imgur.com/Paxgdl2.png'
                 hexColor = '#afacdb'
-                reasonSpells = ["Wind (D)", "Cutting Gale (C)", "Sagittae (B)", "Excalibur (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Silence (B)", "Aura (A)"]
+                hp = 24, str = 10, mag = 7, dex = 8, spd = 9, lck = 7, def = 5, res = 6, cha = 8
                 break;
             case 'hapi':
             case 'Hapi':
                 name = 'Hapi'
                 thumbnail = 'https://i.imgur.com/r5qfcC9.png'
                 hexColor = '#dc5f65'
-                reasonSpells = ["Miasma Δ (D)", "Swarm Ζ (D+)", "Banshee Θ (C)", "Death Γ (B)", "Hades Ω (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Seraphim (B)", "Warp (A)"]
+                hp = 26, str = 6, mag = 11, dex = 8, spd = 6, lck = 4, 	def = 4, res = 7, cha = 4
                 break;
             case 'Balthus':
             case 'balthus':
                 name = 'Balthus'
                 thumbnail = 'https://i.imgur.com/AUfVNC2.png'
                 hexColor = '#5f5c6f'
-                reasonSpells = ["Fire (D)", "Bolganone (C)", "Ragnarok (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Seraphim (B)", "Restore (A)"]
+                hp = 28, str = 11, mag = 5, dex = 4, spd = 7, lck = 3, def = 7, res = 4, cha = 4
                 break;
             case 'constance':
             case 'Constance':
                 name = 'Constance'
                 thumbnail = 'https://i.imgur.com/n7XHQLu.png'
                 hexColor = '#fffebb'
-                reasonSpells = ["Fire (D)", "Sagittae (C)", "Fimbulvetr (B)", "Bolting (A)", "Agnea’s Arrow (A+)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Ward (C)", "Rescue (B)", "Abraxas (A)"]
+                hp = 23, str = 5, mag = 11, dex = 6, spd = 6, lck = 4, def = 3, res = 4, cha = 6
                 break;
             default:
                 name = "N/A"
