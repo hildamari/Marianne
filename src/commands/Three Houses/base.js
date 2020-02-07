@@ -162,64 +162,56 @@ module.exports = class extends Command {
                 name = 'Claude'
                 thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
                 hexColor = '#4a4240'
-                reasonSpells = ["Wind (D)", "Sagittae (C)", "Cutting Gale (B)", "Excalibur (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Silence (A)"]
+                hp = 26, str = 11, mag = 5, dex = 8, spd = 8, lck = 7, def = 6, res = 4, cha = 8
                 break;
             case 'Hilda':
             case 'hilda':
                 name = 'Hilda'
                 thumbnail = 'https://i.imgur.com/zoScHRC.png'
                 hexColor = '#fcafb7'
-                reasonSpells = ["Thunder (D)", "Thoron (C)", "Bolting (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                hp = 29, str = 10, mag = 5, dex = 5, spd = 8, lck = 6, def = 6, res = 3, cha = 7
                 break;
             case 'Lorenz':
             case 'lorenz':
                 name = 'Lorenz'
                 thumbnail = 'https://i.imgur.com/uYopDET.png'
                 hexColor = '#7373ac'
-                reasonSpells = ["Fire (D)", "Sagittae (C)", "Ragnarok (B)", "Agnea’s Arrow (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Ward (B)"]
+                hp = 28, str = 8, mag = 7, dex = 6, spd = 7, lck = 5, def = 6, res = 6, cha = 3
                 break;
             case 'Raphael':
             case 'raphael':
                 name = 'Raphael'
                 thumbnail = 'https://i.imgur.com/MB3wRvI.png'
                 hexColor = '#f0d9a1'
-                reasonSpells = ["Fire (D)", "Bolganone (C)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                hp = 30, str = 11, mag = 3, dex = 5, spd = 6, lck = 6, def = 7, res = 1, cha = 4
                 break;
             case 'Ignatz':
             case 'ignatz':
                 name = 'Ignatz'
                 thumbnail = 'https://i.imgur.com/TUREZkF.png'
                 hexColor = '#c6c69d'
-                reasonSpells = ["Blizzard (D)", "Cutting Gale (C)", "Fimbulvetr (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Ward (B)"]
+                hp = 25, str = 8, mag = 5, dex = 7, spd = 8, lck = 8, def = 4, res = 6, cha = 4
                 break;
             case 'Lysithea':
             case 'lysithea':
                 name = 'Lysithea'
                 thumbnail = 'https://i.imgur.com/EIm3Zof.png'
                 hexColor = '#fefcfd'
-                reasonSpells = ["Miasma Δ (D)", "Swarm Ζ (D+)", "Luna Λ (C)", "Dark Spikes Τ (B)", "Hades Ω (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Seraphim (C)", "Warp (B)", "Abraxas (A)"]
+                hp = 22, str = 4, mag = 11, dex = 7, spd = 7, lck = 4, def = 3, res = 4, cha = 5
                 break;
             case 'Marianne':
             case 'marianne':
                 name = 'Marianne'
                 thumbnail = 'https://i.imgur.com/OyUl9he.png'
                 hexColor = '#aad0fa'
-                reasonSpells = ["Blizzard (D)", "Thoron (C)", "Cutting Gale (B)", "Fimbulvetr (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Silence (B)", "Aura (A)"]
+                hp = 23, str = 5, mag = 11, dex = 6, spd = 7, lck = 6, def = 4, res = 8, cha = 7
                 break;
             case 'Leonie':
             case 'leonie':
                 name = 'Leonie'
                 thumbnail = 'https://i.imgur.com/yZxvJG4.png'
                 hexColor = '#f17d5b'
-                reasonSpells = ["Fire (D)", "Bolganone (C)", "Ragnarok (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Restore (B)"]
+                hp = 26, str = 9, mag = 5, dex = 8, spd = 9, lck = 6, def = 7, res = 2, cha = 7
                 break;
             case 'Flayn':
             case 'flayn':
