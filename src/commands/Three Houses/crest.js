@@ -114,7 +114,7 @@ module.exports = class extends Command {
                 effect = 'Sometimes restores HP equal to 30% of damage dealt when using Combat Arts.'
                 majorBearer = 'Balthus'
                 minorBearer = 'N/A'
-                legendaryWeapons = ["N/A"]
+                legendaryWeapons = ["Vajra-Mushti"]
                 crestItem = 'Snow Dragon Sign'
                 break;
             case 'riegan':
