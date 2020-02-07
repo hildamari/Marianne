@@ -1,6 +1,6 @@
 {
   "name": "marianne",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Multipurpose Discord.js bot built with Klasa",
   "main": "src/Marianne.js",
   "author": "KunoichiZ",
