@@ -467,14 +467,50 @@ module.exports = class extends Command {
                 unlock = 'N/A'
                 unlockDescription = 'N/A'
                 break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                proficientIn = [sword, reason, faith, authority]
+                weakTo = [lance, axe, riding, flying]
+                buddingTalent = bow
+                unlock = 'Deadeye'
+                unlockDescription = 'A bow attack with a long range.'
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                proficientIn = [reason, riding, flying]
+                weakTo = [brawling, authority, heavyArmor]
+                buddingTalent = axe
+                unlock = 'Exhaustive Strike'
+                unlockDescription = 'An attack that consumes all remaining durability and adds 30% of it to Mt.'
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                proficientIn = [sword, axe, brawling, faith, heavyArmor]
+                weakTo = [lance, bow, flying]
+                buddingTalent = reason
+                unlock = 'Black Magic Crit +10'
+                unlockDescription = 'Grants Crit +10 when using black magic.'
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                proficientIn = [sword, reason, authority, flying]
+                weakTo = [axe, heavyArmor]
+                buddingTalent = brawling
+                unlock = 'Mystic Blow'
+                unlockDescription = 'A magic attack'
+                break;
             default:
                 name = "N/A"
           }
