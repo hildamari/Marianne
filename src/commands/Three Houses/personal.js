@@ -353,7 +353,7 @@ module.exports = class extends Command {
                 thumbnail = 'https://i.imgur.com/gK1Iz5F.png'
                 hexColor = '#57587e'
                 personalSkillName = 'Survival Instinct'
-                personalSkillDesc = '	If unit initiates combat and defeats foe, grants Str/Mag/Dex/Spd +4 for one turn'
+                personalSkillDesc = 'If unit initiates combat and defeats foe, grants Str/Mag/Dex/Spd +4 for one turn'
                 break;
             // case 'yuri':
             // case 'Yuri':
