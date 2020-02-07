@@ -4,6 +4,7 @@ module.exports = class extends Command {
 
     constructor(...args) {
         super(...args, { 
+            aliases: ['base-stats'],
             description: 'Replies with information about specific units\' base stats',
             extendedHelp: 'This command contains spoilers for Fire Emblem Three Houses!',
             usage: '<unit:string>'
@@ -105,64 +106,56 @@ module.exports = class extends Command {
                 name = 'Dimitri'
                 thumbnail = 'https://i.imgur.com/Ddl1C8a.png'
                 hexColor = '#fcfba8'
-                reasonSpells = ["Thunder (D)", "Thoron (C)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Aura (A)"]
+                hp = 28, str = 12, mag = 4, dex = 7, spd = 7, lck = 5, def = 7, res = 4, cha = 9
                 break;
             case 'Dedue':
             case 'dedue':
                 name = 'Dedue'
                 thumbnail = 'https://i.imgur.com/quIqslt.png'
                 hexColor = '#e8e9e2'
-                reasonSpells = ["Fire (D)", "Bolganone (C)", "Ragnarok (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)"]
+                hp = 30, str = 12, mag = 2, dex = 5, spd = 7, lck = 5, def = 8, res = 1, cha = 4
                 break;
             case 'Felix':
             case 'felix':
                 name = 'Felix'
                 thumbnail = 'https://i.imgur.com/YJcGEiK.png'
                 hexColor = '#403f64'
-                reasonSpells = ["Thunder (D)", "Thoron (C)"]
-                faithSpells = ["Heal (D)", "Noferatu (D+)", "Recover (C)", "Restore (B)"]
+                hp = 26, str = 10, mag = 5, dex = 6, spd = 9, lck = 5, def = 5, res = 3, cha = 5
                 break;
             case 'Ashe':
             case 'ashe':
                 name = 'Ashe'
                 thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
                 hexColor = '#b5bdc6'
-                reasonSpells = ["Wind (D)", "Cutting Gale (C)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)"]
+                hp = 23, str = 8, mag =	5, dex = 8, spd = 9, lck = 6, def = 5, res = 6, cha = 5
                 break;
             case 'Sylvain':
             case 'sylvain':
                 name = 'Sylvain'
                 thumbnail = 'https://i.imgur.com/77T2SRt.png'
                 hexColor = '#e06c53'
-                reasonSpells = ["Fire (D)", "Bolganone (C)", "Sagittae (B)", "Ragnarok (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Seraphim (B)"]
+                hp = 27, str = 9, mag = 5, dex = 5, spd = 8, lck = 6, def = 6, res = 2, cha = 7
                 break;
             case 'Mercedes':
             case 'mercedes':
                 name = 'Mercedes'
                 thumbnail = 'https://i.imgur.com/y1BWI7T.png'
                 hexColor = '#f4dcc4'
-                reasonSpells = ["Fire (D)", "Thunder (D+)", "Bolganone (C)", "Ragnarok (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Restore (B)", "Fortify (A)"]
+                hp = 25, str = 6, mag = 10, dex = 6, spd = 8, lck = 5, def = 5, res = 9, cha = 8
                 break;
             case 'Annette':
             case 'annette':
                 name = 'Annette'
                 thumbnail = 'https://i.imgur.com/lnE7TRE.png'
                 hexColor = '#f6a67d'
-                reasonSpells = ["Wind (D)", "Cutting Gale (C)", "Sagittae (B)", "Excalibur (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Abraxas (A)"]
+                hp = 23, str = 6, mag = 11, dex = 7, spd = 7, lck = 6, def = 5, res = 4, cha = 6
                 break;
             case 'Ingrid':
             case 'ingrid':
                 name = 'Ingrid'
                 thumbnail = 'https://i.imgur.com/t8fCo54.png'
                 hexColor = '#f8e5a0'
-                reasonSpells = ["Blizzard (D)", "Thoron (C)", "Fimbulvetr (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Physic (C)", "Seraphim (B)"]
+                hp = 27, str = 8, mag = 6, dex = 6, spd = 8, lck = 6, def = 5, res = 8, cha = 8
                 break;
             case 'Claude':
             case 'claude':
