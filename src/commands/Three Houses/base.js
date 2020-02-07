@@ -246,8 +246,7 @@ module.exports = class extends Command {
                 name = 'Anna'
                 thumbnail = 'https://i.imgur.com/d2dCJxN.png'
                 hexColor = '#d85e77'
-                reasonSpells = ["Fire (D)", "Thunder (D+)", "Meteor (A)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Ward (C)", "Rescue (B)"]
+                hp = 26, str = 7, mag = 7, dex = 7, spd = 7, lck = 7, def = 5, res = 7, cha = 7
                 break;
             case 'Jeritza':
             case 'jeritza':
@@ -256,8 +255,7 @@ module.exports = class extends Command {
                 name = 'Jeritza'
                 thumbnail = 'https://i.imgur.com/SSXUCCn.png'
                 hexColor = '#f4dcc4'
-                reasonSpells = ["Wind (D)", "Sagittae (C)", "Thoron (B)", "Ragnarok (A)", "Meteor (A+)"]
-                faithSpells = ["Heal (D)", "Nosferatu (D+)", "Restore (C)"]
+                hp = 30, str = 8, mag = 6, dex = 6, spd = 8, lck = 4, def = 7, res = 5, cha = 3
                 break;
             case 'Hanneman':
             case 'hanneman':
