@@ -17,7 +17,7 @@ module.exports = class extends Command {
     verifyUnit(unit) {
         const unitGrowthsEmbed = new MessageEmbed()
 
-        let thumbnail = '', name = '', hp, str, mag, dex, spd, lck, def , res, cha, hexColor = ''
+        let thumbnail = '', name = '', hp, str, mag, dex, spd, lck, def, res, cha, hexColor = ''
 
         switch(unit) {
             case 'BylethM':
