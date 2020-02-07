@@ -976,9 +976,9 @@ module.exports = class extends Command {
             case 'constance':
             case 'Constance':
                 name = 'Constance von Nuvelle'
-                aliases = 'Coco'
                 thumbnail = 'https://i.imgur.com/n7XHQLu.png'
                 hexColor = '#fffebb'
+                aliases = 'Coco'
                 crest = 'Major Crest of Noa'
                 crestImage = 'https://i.imgur.com/3V6hwKT.png'
                 startingClass = 'Noble'
