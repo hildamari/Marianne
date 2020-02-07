@@ -870,6 +870,18 @@ module.exports = class extends Command {
                 image = 'https://i.imgur.com/EW4nf1y.png'
                 characters = ['Any male with Grappler Class Mastery']
                 break;
+            case "Pneuma Gale":
+            case "Pneuma Gale":
+                name = "Pneuma Gale"
+                might = 'N/A'
+                hit = 'N/A'
+                crit = 'N/A'
+                range = 'N/A'
+                durCost = 'N/A'
+                desc = 'Magical attack'
+                image = 'https://i.imgur.com/EW4nf1y.png'
+                characters = ["N/A"]
+                break;
 
             // Other Combat Arts
             case "Healing Focus":
