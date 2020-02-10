@@ -973,7 +973,7 @@ module.exports = class extends Command {
         }
         
         if(name == "N/A") {
-            return "Not a playable unit"
+            return "Not a valid combat art"
         } else {
             artEmbed
                .setAuthor(name)
