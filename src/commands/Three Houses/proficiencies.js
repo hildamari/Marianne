@@ -509,7 +509,7 @@ module.exports = class extends Command {
                 weakTo = [axe, heavyArmor]
                 buddingTalent = brawling
                 unlock = 'Mystic Blow'
-                unlockDescription = 'A magic attack'
+                unlockDescription = 'A magic attack; Deals magic-based damage.'
                 break;
             default:
                 name = "N/A"
