@@ -523,7 +523,7 @@ module.exports = class extends Command {
                .setColor(hexColor)
                .setThumbnail(thumbnail)
                .addField(`${profUp} Proficient In`, proficientIn.join(" "))
-               .addField(`${profDown} Weak To`, weakTo.join(" "))
+               .addField(`${profDown} Weak In`, weakTo.join(" "))
                .addField(`${buddingTalentEmote} Budding Talent`, `${buddingTalent}`)
                .addField('Unlock', unlock)
                .addField('Unlock Description', unlockDescription)
