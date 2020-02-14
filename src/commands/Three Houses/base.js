@@ -1,4 +1,5 @@
 const { Command } = require('klasa');
+const { MessageEmbed } = require('discord.js');
 
 module.exports = class extends Command {
 
@@ -305,7 +306,7 @@ module.exports = class extends Command {
                 name = 'Yuri'
                 thumbnail = 'https://i.imgur.com/Paxgdl2.png'
                 hexColor = '#afacdb'
-                hp = 24, str = 10, mag = 7, dex = 8, spd = 9, lck = 7, def = 5, res = 6, cha = 8
+                hp = 24, str = 10, mag = 6, dex = 7, spd = 9, lck = 7, def = 5, res = 7, cha = 8
                 break;
             case 'hapi':
             case 'Hapi':
