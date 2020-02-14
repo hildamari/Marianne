@@ -60,7 +60,7 @@ module.exports = class extends Command {
             .setThumbnail('https://i.imgur.com/lw6FPDQ.jpg')
             .setImage('https://i.imgur.com/NrBIXMZ.jpg')
             .addField('Release Date', 'February 12th, 2020')
-            .addField('Game Version', 'Ver ???')
+            .addField('Game Version', 'Ver 1.2.0')
         const freeUpdateEmbed = new MessageEmbed()
             .setTitle("Free Update")
             .setDescription(stripIndents`
