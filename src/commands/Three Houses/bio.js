@@ -909,7 +909,7 @@ module.exports = class extends Command {
                 break;
             case 'yuri':
             case 'Yuri':
-                name = 'Yuri'
+                name = 'Yuri Leclerc'
                 thumbnail = 'https://i.imgur.com/Paxgdl2.png'
                 hexColor = '#afacdb'
                 aliases = 'N/A'
@@ -918,7 +918,7 @@ module.exports = class extends Command {
                 race = 'Human'
                 crest = 'Major Crest of Aubin'
                 crestImage = 'https://i.imgur.com/5jOb1um.png'
-                startingClass = 'Noble'
+                startingClass = 'Commoner'
                 fodlanBirth = '12th of the Verdant Rain Moon, Imperial Year 1160'
                 birthday = 'August 12th'
                 heightInCM = 171
@@ -940,7 +940,7 @@ module.exports = class extends Command {
                 relatives = 'Timotheos (Ancestor)'
                 crest = 'Major Crest of Timotheos'
                 crestImage = 'https://i.imgur.com/jFZjWXK.png'
-                startingClass = 'Noble'
+                startingClass = 'Commoner'
                 birthday = 'January 15th'
                 fodlanBirth = '15th of the Guardian Moon, Imperial Year 1160'
                 nationality = 'N/A'
@@ -953,7 +953,7 @@ module.exports = class extends Command {
                 break;
             case 'Balthus':
             case 'balthus':
-                name = 'Balthus'
+                name = 'Balthus von Albrecht'
                 thumbnail = 'https://i.imgur.com/AUfVNC2.png'
                 hexColor = '#5f5c6f'
                 aliases = 'Almighty King of Grappling'
