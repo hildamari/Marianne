@@ -340,8 +340,15 @@ module.exports = class extends Command {
                .setAuthor(name)
                .setColor(hexColor)
                .setThumbnail(thumbnail)
-               .addField(`${reason} Reason Spells`, reasonSpells.join(", "))
-               .addField(`${faith} Faith Spells`, faithSpells.join(", "))
+               .addField('HP', hp, true)
+               .addField('Strength (Str)', str, true)
+               .addField('Magic (Mag)', mag, true)
+               .addField('Dexterity (Dex)', dex, true) 
+               .addField('Speed (Spd)', spd, true)
+               .addField('Luck (Lck)', lck, true)
+               .addField('Defense (Def)', def, true)
+               .addField('Resistence (Res)', res, true)
+               .addField('Charm (Cha)', cha, true)
 
             return unitBaseStatsEmbed
           }
