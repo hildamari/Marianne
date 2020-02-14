@@ -927,7 +927,7 @@ module.exports = class extends Command {
                 residence = 'Garreg Mach Monastery, Abyss'
                 occupation = 'Student at the Officers Academy, House Leader of the Ashen Wolves'
                 faction = 'Ashen Wolves'
-                vA = 'Junya Enoki (Japanese)\n??? (English)'
+                vA = 'Junya Enoki (Japanese)\nAlejandro Saab (English)'
                 break;
             case 'hapi':
             case 'Hapi':
@@ -948,7 +948,7 @@ module.exports = class extends Command {
                 faction = 'Ashen Wolves'
                 residence = 'Garreg Mach Monastery, Abyss'
                 occupation = 'Student at the Officers Academy'
-                vA = 'Sachika Misawa (Japanese)\n??? (English)'
+                vA = 'Sachika Misawa (Japanese)\nChristine Marie Cabanos (English)'
                 heightInCM = 169
                 break;
             case 'Balthus':
@@ -970,7 +970,7 @@ module.exports = class extends Command {
                 faction = 'Ashen Wolves'
                 residence = 'Garreg Mach Monastery, Abyss'
                 occupation = 'Student at the Officers Academy'
-                vA = 'Subaru Kimura (Japanese)\n??? (English)'
+                vA = 'Subaru Kimura (Japanese)\nAaron Hendrick(English)'
                 heightInCM = 198
                 break;
             case 'constance':
@@ -993,7 +993,7 @@ module.exports = class extends Command {
                 residence = 'Garreg Mach Monastery, Abyss'
                 occupation = 'Student at the Officers Academy'
                 faction = 'Ashen Wolves'
-                vA = 'Sarah Emi Bridcutt (Japanese)\n??? (English)'
+                vA = 'Sarah Emi Bridcutt (Japanese)\nKirsten Day (English)'
                 break;
             // case 'alphard':
             // case 'Alphard':
