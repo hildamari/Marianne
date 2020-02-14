@@ -355,14 +355,37 @@ module.exports = class extends Command {
                 personalSkillName = 'Survival Instinct'
                 personalSkillDesc = 'If unit initiates combat and defeats foe, grants Str/Mag/Dex/Spd +4 for one turn'
                 break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                personalSkillName = "Honorable Spirit"
+                personalSkillDesc = "If unit is not near an ally, grants Atk +3 when in combat with a foe one space away."
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                personalSkillName = "Monstrous Appeal"
+                personalSkillDesc = "Makes all attacks effective against monsters and makes it easier for monsters to target unit."
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus von Albrecht'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                personalSkillName = "King of Grappling"
+                personalSkillDesc = "Grants Str / Def +6 when HP is less than or equal to 50%."
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                personalSkillName = "Circadian Beat"
+                personalSkillDesc = "Grants Str/Mag +3 when indoors and Def/ Res +3 when outdoors."
             default:
                 name = "N/A"
         }
