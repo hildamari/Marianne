@@ -305,7 +305,7 @@ module.exports = class extends Command {
                 name = 'Yuri'
                 thumbnail = 'https://i.imgur.com/Paxgdl2.png'
                 hexColor = '#afacdb'
-                hp = 30, str = 35, mag = 35, dex = 50, spd = 60, lck = 45, def = 30, res = 30, cha = 55
+                hp = 30, str = 40, mag = 35, dex = 40, spd = 65, lck = 45, def = 30, res = 35, cha = 50
                 break;
             case 'hapi':
             case 'Hapi':
