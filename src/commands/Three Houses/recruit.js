@@ -345,14 +345,42 @@ module.exports = class extends Command {
                 fromChapter = 14
                 recruitment = "Need to be Level 15 \n(If leading the Black Eagles, automatically joins during Chapter 12 if you ||ally with the church|| during Chapter 11)"
                 break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                startingClass = "Commoner"
+                fromChapter = 2
+                recruitment = "Clear Chapter 6 of Side Story"
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                startingClass = "Commoner"
+                fromChapter = 2
+                recruitment = "Clear Chapter 5 of Side Story"
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                startingClass = "Noble"
+                fromChapter = 2
+                recruitment = "Clear Chapter 4 of Side Story"
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                startingClass = "Noble"
+                fromChapter = 2
+                recruitment = "Clear Chapter 2 of Side Story"
+                break;
             default:
                 name = "N/A"
         }
