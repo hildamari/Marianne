@@ -870,17 +870,29 @@ module.exports = class extends Command {
                 image = 'https://i.imgur.com/EW4nf1y.png'
                 characters = ['Any male with Grappler Class Mastery']
                 break;
+            case "Eviscerate":
+            case "eviscerate":
+                name = "Eviscerate"
+                might = 10
+                hit = 10
+                crit = 10
+                range = 1
+                durCost = 3
+                desc = "Vajra-Mushti only; Calculates damage using the lower of foe's Def or Res"
+                image = 'https://i.imgur.com/EW4nf1y.png'
+                characters = ['Balthus']
+                break;
             case "Pneuma Gale":
             case "Pneuma Gale":
                 name = "Pneuma Gale"
-                might = 'N/A'
-                hit = 'N/A'
+                might = 7
+                hit = 10
                 crit = 'N/A'
-                range = 'N/A'
-                durCost = 'N/A'
-                desc = 'Magical attack'
+                range = '1-2'
+                durCost = 3
+                desc = 'Magic attack. Can attack from long range. Exclusive to the War Monk class'
                 image = 'https://i.imgur.com/EW4nf1y.png'
-                characters = ["N/A"]
+                characters = ["War Monks only"]
                 break;
 
             // Other Combat Arts
@@ -967,6 +979,18 @@ module.exports = class extends Command {
                 desc = "Can only be triggered when 3 allied Flying units (including the user) are adjacent to the same enemy."
                 image = 'https://i.imgur.com/YaSwwty.png'
                 characters = ['All female characters']
+                break;
+            case "Foul Play":
+            case "foul play":
+                name = "Foul Play"
+                might = "-"
+                hit = "-"
+                crit = "-"
+                range = "1-5"
+                durCost = "-"
+                desc = "Unit swaps positions with an ally in range. Exclusive to the Trickster class."
+                image = 'https://i.imgur.com/YaSwwty.png'
+                characters = ['Tricksters only']
                 break;
             default:
                 name = "N/A"
