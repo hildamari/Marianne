@@ -883,8 +883,8 @@ module.exports = class extends Command {
                 vA = 'Akio Ōtsuka (Japanese)\nDavid Lodge (English)'
                 heightInCM = 185
                 break;
-            case 'rhea':
-            case 'Rhea':
+            // case 'rhea':
+            // case 'Rhea':
             case 'seiros':
             case 'Seiros':
                 name = 'Rhea'
