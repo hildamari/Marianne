@@ -182,7 +182,7 @@ module.exports = class extends Command {
                 effect = 'Occasionally prevents enemy counterattacks when using a weapon.'
                 majorBearer = 'Yuri'
                 minorBearer = 'N/A'
-                legendaryWeapons = ["N/A"]
+                legendaryWeapons = ["Fetters of Dromi"]
                 crestItem = 'Ice Dragon Sign'
                 break;
             case 'cichol':
