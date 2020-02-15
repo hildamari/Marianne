@@ -320,14 +320,38 @@ module.exports = class extends Command {
                 likedGifts = ["Landscape Painting", "Goddess Statuette", "Ancient Coin"]
                 dislikedGifts = ["Exotic Spices"]
                 break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                likedGifts = ['Board Game', 'Tasty Baked Treat', 'Goddess Statuette', 'Arithmetic Textbook']
+                dislikedGifts = ['Book of Sheet Music', 'Riding Boots']
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                likedGifts = ['Pitcher Plant', 'Tasty Baked Treat', 'Smoked Meat', 'Exotic Spices', 'Coffee Beans', 'Hunting Dagger']
+                dislikedGifts = ['Training Weight', 'Monarch Studies Book', 'Legend of Chivalry']
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                likedGifts = ['Ancient Coin', 'Ceremonial Sword', 'Whetstone', 'Blue Cheese']
+                dislikedGifts = ['Fishing Float', 'Watering Can', 'Armored Bear Stuffy']
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                likedGifts = ['Lily of the Valley', 'Tea Leaves', 'Arithmetic Textbook', 'Book of Crest Designs']
+                dislikedGifts = ['Blue Cheese', 'Exotic Spices']
+                break;
             default:
                 name = "N/A"
         }
