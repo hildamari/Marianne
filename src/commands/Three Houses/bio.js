@@ -38,7 +38,7 @@ module.exports = class extends Command {
                 birthday = 'September 20th'
                 fodlanBirth = '20th of the Horsebow Moon, Year 1159'
                 crest = 'Crest of Flames'
-                relatives = 'Jeralt, unnamed mother'
+                relatives = 'Jeralt (father), ||Sitri (mother)||'
                 nationality = 'Fódlan'
                 hometown = 'N/A'
                 residence = 'Garreg Mach Monastery'
@@ -62,7 +62,7 @@ module.exports = class extends Command {
                 birthday = 'September 20th'
                 fodlanBirth = '20th of the Horsebow Moon, Year 1159'
                 crest = 'Crest of Flames'
-                relatives = 'Jeralt, unnamed mother'
+                relatives = 'Jeralt (father), ||Sitri (mother)||'
                 nationality = 'N/A'
                 hometown = 'N/A'
                 residence = 'Garreg Mach Monastery'
@@ -883,8 +883,8 @@ module.exports = class extends Command {
                 vA = 'Akio Ōtsuka (Japanese)\nDavid Lodge (English)'
                 heightInCM = 185
                 break;
-            // case 'rhea':
-            // case 'Rhea':
+            case 'rhea':
+            case 'Rhea':
             case 'seiros':
             case 'Seiros':
                 name = 'Rhea'
@@ -893,7 +893,7 @@ module.exports = class extends Command {
                 aliases = '||Seiros, Immaculate One||'
                 gender = 'Female'
                 race = '||Sky Dragon||'
-                relatives = '||Sothis (Mother), Cichol (Seteth, Brother), Indech (Brother), Macuil (Brother), Cethleann (Flayn, Niece)||'
+                relatives = '||Sothis (Mother), Cichol (Seteth, Brother), Indech (Brother), Macuil (Brother), Cethleann (Flayn, Niece), Sitri (Creation)||'
                 birthday = 'January 11th'
                 fodlanBirth = '11th of the Guardian Moon, Imperial Year ????'
                 nationality = '||Nabatean||'
@@ -995,8 +995,28 @@ module.exports = class extends Command {
                 faction = 'Ashen Wolves'
                 vA = 'Sarah Emi Bridcutt (Japanese)\nKirsten Day (English)'
                 break;
-            // case 'alphard':
-            // case 'Alphard':
+            case 'aelfric':
+            case 'Aelfric':
+                name = 'Aelfric Dahlman'
+                thumbnail = 'https://i.imgur.com/R5nMTf7.png'
+                hexColor = '#595648'
+                aliases = 'Elfie'
+                crest = 'N/A'
+                crestImage = 'N/A'
+                startingClass = 'Monk'
+                gender = 'Male'
+                race = 'Human'
+                birthday = 'N/A'
+                fodlanBirth = 'N/A'
+                heightInCM = 182
+                relatives = 'N/A'
+                nationality = 'N/A'
+                hometown = 'N/A'
+                residence = 'Garreg Mach Monastery, Abyss'
+                occupation = 'N/A'
+                faction = 'Church of Seiros'
+                vA = 'Daisuke Hirakawa (Japanese)\nMichael Sinterniklaas (English)'
+                break;
             default:
                 name = "N/A"
           }
