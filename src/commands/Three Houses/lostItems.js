@@ -283,14 +283,41 @@ module.exports = class extends Command {
                 hexColor = '#d2bc93'
                 lostItems = ["Wooden Flask"]
                 break;
-            // case 'yuri':
-            // case 'Yuri':
-            // case 'hapi':
-            // case 'Hapi':
-            // case 'Balthus':
-            // case 'balthus':
-            // case 'constance':
-            // case 'Constance':
+            case 'Rhea':
+            case 'rhea':
+                name = 'Rhea'
+                thumbnail = 'https://i.imgur.com/HdH739v.png'
+                hexColor = '#bbf7d0'
+                lostItems = ['Elegant Hair Clip', 'Seiros Sculptures', 'Faded Star Chart']
+                break;
+            case 'yuri':
+            case 'Yuri':
+                name = 'Yuri'
+                thumbnail = 'https://i.imgur.com/Paxgdl2.png'
+                hexColor = '#afacdb'
+                lostItems = ['Makeup Brush', 'Suspicious Dice']
+                break;
+            case 'hapi':
+            case 'Hapi':
+                name = 'Hapi'
+                thumbnail = 'https://i.imgur.com/r5qfcC9.png'
+                hexColor = '#dc5f65'
+                lostItems = ['Shiny Striated Pebble', 'Basket of Beries']
+                break;
+            case 'Balthus':
+            case 'balthus':
+                name = 'Balthus'
+                thumbnail = 'https://i.imgur.com/AUfVNC2.png'
+                hexColor = '#5f5c6f'
+                lostItems = ['Well-Worn Hammock', 'Stiff Hand Wrap']
+                break;
+            case 'constance':
+            case 'Constance':
+                name = 'Constance'
+                thumbnail = 'https://i.imgur.com/n7XHQLu.png'
+                hexColor = '#fffebb'
+                lostItems = ['Nimbus Charm', 'Repellent Powder']
+                break;
             default:
                 name = "N/A"
         }
