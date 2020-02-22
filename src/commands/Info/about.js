@@ -14,7 +14,7 @@ module.exports = class extends Command {
         let displayName = '';
     
         const aboutEmbed = new MessageEmbed()
-            .setColor(msg.member.displayHexColor)
+            .setColor('#aad0fa')
             .setDescription("Marianne displays information about Fire Emblem Three Houses, including character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.")
             .setAuthor(`${this.client.user.username} Stats`, this.client.user.displayAvatarURL({ format: 'png' }));
 
