@@ -5,7 +5,7 @@ module.exports = class extends Command {
     constructor(...args) {
         super(...args, { 
             description: 'Gives the "Marianne Subscriber" role to those who want to be notified of new updates',
-            extendedHelp: 'Use the command again to remove the role'
+            extendedHelp: 'Use the command again to remove the role. This command can only be used in the support server.'
         });
     }
 
