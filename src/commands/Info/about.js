@@ -15,10 +15,10 @@ module.exports = class extends Command {
     
         const aboutEmbed = new MessageEmbed()
             .setColor(msg.member.displayHexColor)
-            .setDescription("Marianne displays information about character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.")
+            .setDescription("Marianne displays information about Fire Emblem Three Houses, including character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.")
             .setAuthor(`${this.client.user.username} Stats`, this.client.user.displayAvatarURL({ format: 'png' }));
 
-        if(typeof nickname == 'undefined' || typeof nickname == null) {
+        if(typeof nickname == 'undefined' || nickname == null) {
             displayName = "No nickname";
             aboutEmbed.addField('Owner', (this.client.users.get(this.client.options.owner).username + '#' + this.client.users.get(this.client.options.owner).discriminator) + ' (' + displayName + ')', true)
         } else {
