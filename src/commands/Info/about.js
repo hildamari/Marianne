@@ -25,10 +25,10 @@ module.exports = class extends Command {
             aboutEmbed.addField('Owner', (this.client.users.get(this.client.options.owner).username + '#' + this.client.users.get(this.client.options.owner).discriminator) + ' (' + nickname + ')', true)
         }
             
-        aboutEmbed.addField('Uptime', moment.duration(process.uptime() * 1000).format('D [days], H [hours] [and] m [minutes]'))
-        aboutEmbed.addField('License', 'Apache 2.0')
-        aboutEmbed.addField('Source Code', 'https://github.com/hildamari/Marianne');
-        aboutEmbed.addField('Documentation', 'https://hilda.pw');
+        aboutEmbed.addField('Uptime', moment.duration(process.uptime() * 1000).format('D [days], H [hours] [and] m [minutes]'), true)
+        aboutEmbed.addField('License', 'Apache 2.0', true)
+        aboutEmbed.addField('Source Code', 'https://github.com/hildamari/Marianne', true);
+        aboutEmbed.addField('Documentation', 'https://hilda.pw', true);
 
         return msg.channel.send(aboutEmbed);
     }
