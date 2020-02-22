@@ -18,7 +18,7 @@ module.exports = class extends Command {
             .setDescription("Marianne displays information about character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.")
             .setAuthor(`${this.client.user.username} Stats`, this.client.user.displayAvatarURL({ format: 'png' }));
 
-        if(typeof nickname == 'undefined') {
+        if(typeof nickname == 'undefined' || typeof nickname == null) {
             displayName = "No nickname";
             aboutEmbed.addField('Owner', (this.client.users.get(this.client.options.owner).username + '#' + this.client.users.get(this.client.options.owner).discriminator) + ' (' + displayName + ')', true)
         } else {
