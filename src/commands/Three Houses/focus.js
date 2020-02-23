@@ -127,19 +127,18 @@ module.exports = class extends Command {
                 goals[1] = "Focus on **axe and flying** skills to excel as a Wyvern Rider."
                 descriptions[0] = "People are calling me a Thief, but I would never be doing bad things. It is because I am moving very quickly without my enemies noticing. This is why I must be learning the bow and sword."
                 descriptions[1] = "There are no wyverns in Brigid, but I am wanting practice soaring in the sky. I would like to be training my axe skills as well. I have excitement for being a Wyvern Rider!"
-                thumbnail = "https://i.imgur.com/Ddl1C8a.png"
                 break;
             case 'Dimitri':
             case 'dimitri':
                 name = "Dimitri"
                 hexColor = "#fcfba8"
+                thumbnail = "https://i.imgur.com/Ddl1C8a.png"
                 titles[0] = "__**Lead Like a Lord**__"
                 titles[1] = "__**His Father's Footsteps**__"
                 goals[0] = "Focus on **sword and authority** skills to excel as a Lord."
                 goals[1] = "Focus on **lance and riding** skills to excel as a cavalry class."
                 descriptions[0] = "Lords must be leaders, so strong authority should be considered a requirement. They also fight from the front lines, and thus need to know how to handle a sword. Such are my goals... Are we aligned?"
                 descriptions[1] = "My father was renowned for his horsemanship in battle, even from a young age. I, too, have a fondness for that pursuit, but to reach his heights, my lance and riding skills will need some polish."
-                thumbnail = "https://i.imgur.com/Ddl1C8a.png"
                 break;
             case 'dedue':
             case 'Dedue':
@@ -388,12 +387,52 @@ module.exports = class extends Command {
                 break;
             // case 'yuri':
             // case 'Yuri':
+                // titles[0] = ''
+                // titles[1] = ''
+                // titles[2] = ''
+                // goals[0] = ''
+                // goals[1] = ''
+                // goals[2] = ''
+                // descriptions[0] = 'Some degree of injury is inevitable in battle, but I\'m not one to stand idly by while my people get hurt. That\'s why, in addition to honing my sword skills, it\'s best for me to study faith so I can tend to my allies\' wounds as needed.'
+                // descriptions[1] = 'To be frank, I\'ve never been at ease with lances or axes. I\'d suggest that, rather than thrusting one of those clumsy weapons into my hands, you help me achieve mastery with the sword.'
+                // descriptions[2] = 'By shooting down our foes before they get near us, I can greatly reduce the risk of harm to my friends. That in mind, my aim is to master bow skills. Any objections?'
+                // break;
             // case 'hapi':
             // case 'Hapi':
+                // titles[0] = ''
+                // titles[1] = ''
+                // titles[2] = ''
+                // goals[0] = ''
+                // goals[1] = ''
+                // goals[2] = ''
+                // descriptions[0] = 'Chatterbox, you know what a Valkyrie is? They\'re magic wielders who ride horses. As soon as I heard that was a thing, I knew it was right up my alley. So I gotta get really good in reason and riding, OK?'
+                // descriptions[1] = 'I definitely like the horse-and-magic combo, but I think it\'s good for me to use a weapon, too. If I master lance skills and riding I can be a Dark Knight that nobody dares to mess with.'
+                // descriptions[2] = 'Swinging an axe is so...cathartic. It\'s a great non-monster-summoning way for me to blow off steam. So if it\'s all the same to you, I want to fly around on a wyvern swinging an axe left and right.'
+                // break;
             // case 'Balthus':
             // case 'balthus':
+                // titles[0] = ''
+                // titles[1] = ''
+                // titles[2] = ''
+                // goals[0] = ''
+                // goals[1] = ''
+                // goals[2] = ''
+                // descriptions[0] = 'I\'m a believer, believe it or not. Big on the goddess. Crazy about her. What do you think about me studying faith and brawling at the same time, so I can show my devotion...with my fists?!'
+                // descriptions[1] = 'I won\'t name names, but a friend of mine told me off for getting wounded too often. If I strap myself into a big honking suit of armor, they shouldn\'t have anything to complain about, yeah?'
+                // descriptions[2] = 'Here\'s the perfect combo for a scrappy guy like me: axe skills and brawling. Yeah? Swinging my axe left and right and then punching guys out if I lose my weapon... I was born to be a War Master!'
+                // break;
             // case 'constance':
             // case 'Constance':
+                // titles[0] = ''
+                // titles[1] = ''
+                // titles[2] = ''
+                // goals[0] = ''
+                // goals[1] = ''
+                // goals[2] = ''
+                // descriptions[0] = 'What better way to complement my magical abilities than flying over the battlefield? Picture yours truly, raining spells onto our foes from above! By studying reason and flying at the same time, I can make this vision manifest.'
+                // descriptions[1] = 'You are no doubt aware of my magical prowess. However, I may find myself unable to use magic in certain situations. Help me master sword skills, so I can protect myself no matter what may transpire in the heat of battle.'
+                // descriptions[2] = 'I have come to a realization! Only by achieving mastery in faith and brawling can I restore my house in the eyes of the goddess—and the eyes of mortals as well! Ahaha!'
+                // break;
             default:
                 name = "N/A"
         }
