@@ -15,10 +15,10 @@ const MarianneClient = new Client ({
     commandEditing: true,
     disableEveryone: true,
     ignoreBots: false,
-    dashboardHooks: {
-        apiPrefix: '',
-		port: 1123
-    },
+    // dashboardHooks: {
+    //     apiPrefix: '',
+	// 	port: 1123
+    // },
     providers: { default: 'json' },
     presence: { activity: { name: 'Dorte', type: 'LISTENING' } },
     typing: false,
