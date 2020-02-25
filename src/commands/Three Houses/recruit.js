@@ -45,7 +45,7 @@ module.exports = class extends Command {
                 hexColor = '#feb472'
                 startingClass = "Noble"
                 fromChapter = 2
-                recruitment = "Need 10 Dexterity and C in Riding"
+                recruitment = "Need 10 Dexterity and C in Heavy Armor"
                 break;
             case 'Linhardt':
             case 'linhardt':
