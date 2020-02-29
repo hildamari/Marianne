@@ -17,7 +17,7 @@ module.exports = class extends Route {
 		const url = new URL('https://discordapp.com/api/oauth2/token');
 		url.search = new URLSearchParams([
 			['grant_type', 'authorization_code'],
-			['redirect_uri', `http://localhost:3003/oauth/callback`],
+			['redirect_uri', `http://localhost:1123/oauth/callback`],
 			['code', request.body.code]
 		]);
 		const res = await fetch(url, {
