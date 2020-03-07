@@ -1,6 +1,6 @@
 <p align="center">
         <a href="https://discord.gg/phsGJdh"><img src="https://discordapp.com/api/guilds/650595160849121300/widget.png?style=banner3" alt="Join Discord Server" height="145px"/></a>
-        <img src="https://top.gg/api/widget/650566385881317376.svg">
+        <a href="https://top.gg/bot/650566385881317376"><img src="https://top.gg/api/widget/650566385881317376.svg"></a>
 </p>
 
 # Marianne
