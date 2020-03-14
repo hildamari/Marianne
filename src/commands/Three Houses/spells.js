@@ -285,7 +285,7 @@ module.exports = class extends Command {
                 name = 'Jeritza'
                 thumbnail = 'https://i.imgur.com/SSXUCCn.png'
                 hexColor = '#f4dcc4'
-                reasonSpells = ["Wind (D)", "Sagittae (C)", "Thoron (B)", "Ragnarok (A)", "Meteor (A+)"]
+                reasonSpells = ["Thunder (D)", "Thoron (C)", "Death Γ (B)"]
                 faithSpells = ["Heal (D)", "Nosferatu (D+)", "Restore (C)"]
                 break;
             case 'Hanneman':
