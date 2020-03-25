@@ -26,6 +26,9 @@
     "moment-duration-format": "2.2.2",
     "node-fetch": "^2.6.0"
   },
+  "resolutions": { 
+    "**/**/minimist": "^1.2.2"
+  },
   "bugs": {
     "url": "https://github.com/hildamari/Marianne/issues"
   },
