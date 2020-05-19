@@ -13,7 +13,7 @@ module.exports = class extends Command {
                 const message = `${marianne} I don't have uno so go fuck off.`
                 return msg.send(message);
             } else {
-                msg.send("You cannot use this command in a non-nsfw channel! Please go to <#649063924607614978>")
+                msg.send("You cannot use this command in this channel! Please go to <#669560106614259722>")
             }
         } else {
             const message = `${marianne} I don't have uno so go fuck off.`
