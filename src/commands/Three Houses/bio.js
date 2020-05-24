@@ -716,7 +716,7 @@ module.exports = class extends Command {
                 relatives = 'Lamine (Ancestor), ||Baron Bartels (Father)||, Unnamed Mother, ||Mercedes (Elder Half-Sister)||, Unnamed Half-Siblings'
                 nationality = 'Adrestian Empire'
                 hometown = 'Viscounty of Hrym'
-                residence = 'Barony of Bartels (Formerly), Garreg Mach Monastery'
+                residence = '||Barony of Bartels (Formerly)||, Garreg Mach Monastery'
                 faction = '||Flame Emperor Army||'
                 occupation = 'Teacher at the Officers Academy, ||General of the Adrestian Empire||, Viscount of Hrym, ||Heir of House Bartels (Formerly)||'
                 crest = 'Minor Crest of Lamine'
@@ -906,6 +906,28 @@ module.exports = class extends Command {
                 crest = 'Major Crest of Seiros'
                 crestImage = 'https://i.imgur.com/PeVchzu.png'
                 heightInCM = 172
+                break;
+            case 'rodrigue':
+            case 'Rodrigue':
+                name = 'Rodrigue Achille Fraldarius'
+                thumbnail = 'https://i.imgur.com/aONARqA.png'
+                hexColor = '#3a3b58'
+                aliases = 'Shield of Faerghus'
+                gender = 'Male'
+                race = 'Human'
+                relatives = 'Fraldarius (Ancestor), Kyphon (Presumed Ancestor), Unnamed Younger Brother, Glenn (First Son, deceased), Felix (Second Son)'
+                nationality = 'Holy Kingdom of Faerghus'
+                hometown = 'Fraldarius'
+                residence = 'Garreg Mach Monastery (Formerly)'
+                faction = 'Blue Lions (Formerly)'
+                occupation = 'Head of House Fraldarius, Student at the Officers Academy (Formerly)'
+                birthday = 'N/A'
+                fodlanBirth = 'N/A'
+                startingClass = 'Holy Knight'
+                vA = 'Taira Kikumoto (Japanese)\nJake Eberle (English)'
+                heightInCM = ''
+                crest = 'Minor Crest of Fraldarius'
+                crestImage = 'https://i.imgur.com/2yiRHM4.png'
                 break;
             case 'yuri':
             case 'Yuri':
