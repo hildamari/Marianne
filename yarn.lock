@@ -251,10 +251,10 @@ fsevents@~2.1.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
   integrity sha512-R4wDiBwZ0KzpgOWetKDug1FZcYhqYnUYKtfZYt4mD5SBz76q0KR4Q9o7GIPamsVPGmW3EYPPJ0dOOjvx32ldZA==
 
-fuse.js@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.0.0.tgz#6fc16cd7555648deda392892402d4188553552b2"
-  integrity sha512-e5Ap6mhF/WQ9bKqsMFTTR5/DS9qbYab4VXHtMdxCanH+VZkdUV2LqcgMO31etSQv53NXsguQF1bdqkrrPAM2HQ==
+fuse.js@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.0.2.tgz#dad4a0ae20806531499ce0c92a8ccbc1793a352c"
+  integrity sha512-A8cRxrkDt/JZuFDAZyV2g+gNDuFpBkH9tWqLs1qegKWzulEXca+xwKLXpuJTZhf0YDRtDGBRrqBpy1FInE9SPA==
 
 gauge@~2.7.3:
   version "2.7.4"
