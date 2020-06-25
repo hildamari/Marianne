@@ -251,10 +251,10 @@ fsevents@~2.1.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
   integrity sha512-R4wDiBwZ0KzpgOWetKDug1FZcYhqYnUYKtfZYt4mD5SBz76q0KR4Q9o7GIPamsVPGmW3EYPPJ0dOOjvx32ldZA==
 
-fuse.js@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.2.1.tgz#b426eacf6f9938de6b43ef3ba9fd71700657fc4a"
-  integrity sha512-+KkpmQBV7RRcHPlY/CiZYDXspPaDDUC5ZrH4fWJwt/BWogCirEvcaTRYvUEb5DYRnj3wvBsx5tfPMTabAH7x1g==
+fuse.js@^6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.3.1.tgz#0d71c7e264a8a869d64feb0fbdb3a5d54ad3918e"
+  integrity sha512-oDh14IrQJoCGxg2pooP7AlAhNnNwCNnS3FvUEJN1wT4yLl6v1p8f9je4q4aEEKo6l3lMQWtBhhdvN2POGOJZAw==
 
 gauge@~2.7.3:
   version "2.7.4"
@@ -564,12 +564,7 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-picomatch@^2.0.4:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.1.1.tgz#ecdfbea7704adb5fe6fb47f9866c4c0e15e905c5"
-  integrity sha512-OYMyqkKzK7blWO/+XZYP6w8hH0LDvkBvdvKukti+7kqYFCiEAk+gI3DWnryapc0Dau05ugGTy0foQ6mqn4AHYA==
-
-picomatch@^2.2.1:
+picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
