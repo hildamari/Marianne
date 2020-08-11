@@ -17,7 +17,7 @@
     "canvas-constructor": "^4.1.0",
     "chokidar": "^3.4.2",
     "common-tags": "^1.8.0",
-    "dblapi.js": "^2.4.0",
+    "dblapi.js": "^2.4.1",
     "discord.js": "discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140",
     "dotenv": "^8.2.0",
     "fuse.js": "^6.4.1",
