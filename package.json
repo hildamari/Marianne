@@ -14,7 +14,7 @@
     "@klasa/request-handler": "^0.0.3",
     "@klasa/timestamp": "^0.0.1",
     "canvas": "^2.8.0",
-    "canvas-constructor": "^4.1.0",
+    "canvas-constructor": "^5.0.1",
     "chokidar": "^3.5.2",
     "common-tags": "^1.8.0",
     "dblapi.js": "^2.4.1",
