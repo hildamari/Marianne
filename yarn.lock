@@ -139,12 +139,12 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.0.1"
 
-canvas-constructor@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/canvas-constructor/-/canvas-constructor-5.0.1.tgz#3e3c1cc26853508974ce475818c94a4b8ee6b2ac"
-  integrity sha512-6dYtwB6D9/QS4oG2QaA8eu2jXOFD+V+HdbNdvJDn2gll9GrdVvnLoSNh0a/+bXsWp19DF53pYyv9bXG49Gfhtw==
+canvas-constructor@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/canvas-constructor/-/canvas-constructor-5.0.2.tgz#8bde89a5605ceb73208cd76eca01d58535300687"
+  integrity sha512-KtiXom85CxcS6uFhj9CEi8tBXcsLgmgX1oQji6jNemDiGtozvpoWAQZ6rQ3we4zLmcqUm/xUcCrG4Uwut6WaPg==
   dependencies:
-    tslib "^2.3.0"
+    tslib "^2.3.1"
 
 canvas@^2.9.0:
   version "2.9.0"
@@ -739,7 +739,7 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
-tslib@^2.3.0:
+tslib@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
