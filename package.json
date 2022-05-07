@@ -20,7 +20,7 @@
     "dblapi.js": "^2.4.1",
     "discord.js": "discordjs/discord.js#fe7df708e44e0280dfaf0f8e457b154781bb5140",
     "dotenv": "^16.0.0",
-    "fuse.js": "^6.6.0",
+    "fuse.js": "^6.6.1",
     "klasa": "github:dirigeants/klasa#settings",
     "klasa-dashboard-hooks": "github:kyranet/klasa-dashboard-hooks#master",
     "moment": "^2.29.3",
