@@ -23,7 +23,7 @@
     "fuse.js": "^6.6.2",
     "klasa": "github:dirigeants/klasa#settings",
     "klasa-dashboard-hooks": "github:kyranet/klasa-dashboard-hooks#master",
-    "moment": "^2.29.3",
+    "moment": "^2.29.4",
     "moment-duration-format": "2.2.2",
     "node-fetch": "^3.2.6"
   },
