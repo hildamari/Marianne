@@ -2,6 +2,7 @@
 	"extends": "../tsconfig.base.json",
 	"compilerOptions": {
 		"experimentalDecorators": true,
+		"skipLibCheck": true,
 		"outDir": "../dist",
 		"rootDir": ".",
 		"baseUrl": ".",
