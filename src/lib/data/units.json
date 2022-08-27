@@ -1,0 +1,47 @@
+{
+    "threehouses": {
+        "units": {
+            "name": {
+                "bylethm": {
+                    "name": "Byleth Eisner",
+                    "id": "bylethm",
+                    "hexcolor": "4a7588",
+                    "basehp": 27, "basestr": 13, "basedef": 6, "basemag": 6, "basedex": 9, "baseres": 6, "basespd": 8, "baselck": 8, "basecha": 7,
+                    "aliases": "The Ashen Demon, Professor, Teach",
+                    "gender": "Male",
+                    "race": "Human",
+                    "birthday": "September 20th",
+                    "fodlanBirthday": "20th of the Horsebow Moon, Year 1159",
+                    "crest": "Crest of Flames",
+                    "relatives": ["Jeralt (father)", "||Sitri (mother)||"],
+                    "nationality": "Fódlan",
+                    "hometown": "N/A",
+                    "residence": "Garreg Mach",
+                    "faction": "Church of Seiros",
+                    "occupation": "Teacher at the Officers Academy; Mercenary (Formerly)",
+                    "startingClass": "Commoner",
+                    "va": "Yūsuke Kobayashi (Japanese)\nChris Niosi (Former, English), Zach Aguilar (Current, English)",
+                    "crestimage": "https://i.imgur.com/nBEWjAw.png",
+                    "heightInCM": 175,
+                    "gifts": ["N/A"],
+                    "hpgrowth": 45, "strgrowth": 45, "maggrowth": 35, "dexgrowth": 45, "defgrowth": 35, "resgrowth": 30, "spdgrowth": 45, "lckgrowth": 45, "chagrowth": 45,
+                    "lostitems": ["N/A"],
+                    "personalskillname": "Professor\"s Guidance",
+                    "personalskilldesc": "+20% Experience Gained to user and adjacent ally",
+                    "personalskillnamets": "Professor\"s Guidance+",
+                    "personalskilldescts": "+20% Experience Gained to user and adjacent ally, +2 Damage Dealt",
+                    "proficientin": ["sword", "brawling", "authority"],
+                    "notproficientin": ["Nothing"],
+                    "buddingtalent": "Faith",
+                    "unlock": "White Magic Avoid +20",
+                    "unlockdesc": "Grants Avo +20 when using white magic.",
+                    "fromchapter": "1",
+                    "recruitment": "Unlocked at the start",
+                    "reasonspells": ["Fire (D)",	"Thunder (D+)",	"Bolganone (C)", "Ragnarok (A)"],
+                    "faithspells": ["Heal (D)", "Nosferatu (D+)", "Recover (C)", "Aura (A)"],
+                    "thumbnail": "https://i.imgur.com/6WmePDH.png"
+                }
+            }
+        }
+    }
+}

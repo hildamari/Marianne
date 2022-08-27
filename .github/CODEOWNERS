@@ -1,0 +1,92 @@
+# Just RealShadowNova
+/src/arguments/emoji @RealShadowNova
+/src/lib/utils/durationFormat @RealShadowNova
+
+# RealShadowNova & KunoichiZ
+/src/commands/System/conf @RealShadowNova @KunoichiZ
+
+# RealShadowNova, KunoichiZ, favna
+/src/commands/General/Chat Bot Info/help @RealShadowNova @KunoichiZ @Favna
+
+# Just Stitch07
+/src/commands/Info/ping @Stitch07
+/src/commands/Info/info @Stitch07
+/src/commands/Info/stats @Stitch07
+/src/listeners/mentionPrefixOnly @Stitch07
+/src/preconditions/AdminOnly @Stitch07
+
+# Just KunoichiZ
+/src/commands/Friend Codes/fc @KunoichiZ
+/src/commands/Info/about @KunoichiZ
+/src/commands/Info/emoji @KunoichiZ
+/src/commands/Info/emojiinfo @KunoichiZ
+/src/commands/Info/info @KunoichiZ
+/src/commands/Info/server @KunoichiZ
+/src/commands/Info/uptime @KunoichiZ
+/src/commands/Info/userinfo @KunoichiZ
+/src/commands/Fun/8ball @KunoichiZ
+/src/commands/Fun/coinflip @KunoichiZ
+/src/commands/Fun/dice @KunoichiZ
+/src/commands/Fun/fortune @KunoichiZ
+/src/commands/Fun/quote @KunoichiZ
+/src/commands/General/Chat Bot Info/invite @KunoichiZ
+/src/commands/Memes/ @KunoichiZ
+/src/commands/Test/ @KunoichiZ
+/src/listeners/ready @KunoichiZ
+/src/lib/data/fortunes @KunoichiZ
+/src/lib/data/assets/images/ @KunoichiZ
+/src/lib/data/predictions @KunoichiZ
+/src/lib/types/Augments.d @KunoichiZ
+/src/lib/types/Discord.d @KunoichiZ
+/src/lib/utils/Branding @KunoichiZ
+/src/lib/utils/constants @KunoichiZ
+/src/lib/utils/utils @KunoichiZ
+/src/lib/HildaCommand @KunoichiZ
+/src/preconditions/GuildOnly @KunoichiZ
+/src/preconditions/ModeratorOnly @KunoichiZ
+/src/listeners/messageCreate @KunoichiZ
+/src/listeners/guildCreate @KunoichiZ
+/src/Hilda @KunoichiZ
+/src/tsconfig @KunoichiZ
+.gitattributes @KunoichiZ
+.gitignore @KunoichiZ
+LICENSE @KunoichiZ
+/.github/ISSUE_TEMPLATE/bug_report @KunoichiZ
+/.github/ISSUE_TEMPLATE/feature_request @KunoichiZ
+/.github/CODE_OF_CONDUCT @KunoichiZ
+/.github/CODEOWNERS @KunoichiZ
+/.github/PULL_REQUEST_TEMPLATE @KunoichiZ
+package.json @KunoichiZ
+yarn.lock @KunoichiZ
+README @KunoichiZ
+/src/commands/Test/test @KunoichiZ
+/src/slash-commands/General/Chat Bot Info/ping @KunoichiZ
+/src/slash-commands/Memes/uno @KunoichiZ
+/src/slash-commands/Test/test @KunoichiZ
+
+# YorkAARGH & UndiedGamer
+/src/lib/structures/HildaSlashCommand @YorkAARGH @UndiedGamer
+/src/lib/structures/SlashCommandStore @YorkAARGH @UndiedGamer
+/src/listeners/interactions/interactionCreate @YorkAARGH @UndiedGamer
+
+# kyranet & favna
+/src/preconditions/OwnerOnly @favna @kyranet
+/.github/workflows/continuous-integration.yml @favna @kyranet
+/.github/CONTRIBUTING @favna @kyranet
+
+# KunoichiZ & favna
+/src/Hilda @KunoichiZ @favna
+/src/config.example @KunoichiZ @favna
+/src/lib/HildaClient @KunoichiZ @favna
+/src/tsconfig @KunoichiZ @favna
+
+# RealShadowNova & favna
+/src/commands/General/Chat Bot Info/help @RealShadowNova @favna
+
+# Just favna
+tsconfig.base.json @favna
+tsconfig.eslint.json @favna
+
+# jurienhamaker & Favna
+/src/listeners/commands/commandDenied @jurienhamaker @Favna
+/src/listeners/commands/commandSuccessLogger @jurienhamaker @Favna
