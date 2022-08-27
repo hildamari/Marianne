@@ -1,32 +1,31 @@
-# node_modules
-node_modules
+# Ignore a blackhole and the folder for development
+node_modules/
+.vs/
+.idea/
+*.iml
 
-# environment variables
-src/data/.env
+# Yarn files
+.yarn/install-state.gz
+.yarn/build-state.yml
 
-# txt files
-*.txt
-*.rtf
-
-# logs
-*.log
-
-# unneeded folders
-Misc/
-
-# .DS_Store
+# Environment variables
 .DS_Store
 
-# bwd folder
-src/bwd/
+dist/
 
-# webp files
-*.webp
+# Ignore the config file (contains sensitive information such as tokens)
+config.ts
 
-# package-lock.json
+# Ignore heapsnapshot and log files
+*.heapsnapshot
+*.log
+
+# Ignore npm lockfiles file
 package-lock.json
 
-# Testing stuff
-Testing/
-monitors/
-src/data/messages.json
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
