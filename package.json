@@ -29,7 +29,7 @@
     "@sapphire/utilities": "^3.9.1",
     "colorette": "^2.0.19",
     "discord-api-types": "^0.33.5",
-    "discord.js": "^13.10.2",
+    "discord.js": "^14.3.0",
     "dotenv-cra": "^3.0.2",
     "reflect-metadata": "^0.1.13"
   },
