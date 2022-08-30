@@ -19,7 +19,7 @@
     "@sapphire/discord-utilities": "next",
     "@sapphire/discord.js-utilities": "next",
     "@sapphire/fetch": "^2.4.1",
-    "@sapphire/framework": "next",
+    "@sapphire/framework": "^3.1.0",
     "@sapphire/plugin-api": "next",
     "@sapphire/plugin-editable-commands": "next",
     "@sapphire/plugin-logger": "next",
