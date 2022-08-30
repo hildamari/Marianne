@@ -43,10 +43,10 @@
   resolved "https://registry.yarnpkg.com/@sapphire/async-queue/-/async-queue-1.5.0.tgz#2f255a3f186635c4fb5a2381e375d3dfbc5312d8"
   integrity sha512-JkLdIsP8fPAdh9ZZjrbHWR/+mZj0wvKS5ICibcLrRI1j84UmLMshx5n9QmL8b95d4onJ2xxiyugTgSAX7AalmA==
 
-"@sapphire/decorators@^4.3.8":
-  version "4.3.8"
-  resolved "https://registry.yarnpkg.com/@sapphire/decorators/-/decorators-4.3.8.tgz#706c701ad1c5b0fa6ffa18163a62a7e030c7bb3f"
-  integrity sha512-W8vU0AHuyx5mRAEG/YvxPs6Th99zNyIlsmw+JjUtk8S+fUd2TZor2JfFPMdNvQhUPDzAzdCagCM7cNNOOtLfXQ==
+"@sapphire/decorators@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/decorators/-/decorators-5.0.0.tgz#a7437402d613fea8bc09139ed3bc74b51ac6efc8"
+  integrity sha512-jEHsE79nacjlwbfX2zyRCQ15lEzJLI4gEVZGU9iKmqbXVM0FcwrqZeQoGovIGxq5y0UIymvtYZJXhGkHLBpSdg==
   dependencies:
     tslib "^2.4.0"
 
@@ -92,30 +92,30 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@sapphire/framework@next":
-  version "3.1.0-next.8031e9b.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/framework/-/framework-3.1.0-next.8031e9b.0.tgz#a92a660040d83bcd20c554ab57e54fe17f9f4696"
-  integrity sha512-ZNS63qbPrYUW81NUE32R1iPeYi2tePrl4y4rj0zQVj7YrFWPyIOaR2TtFX50mvptldXuQri2UFeuTFskBjtpqQ==
+"@sapphire/framework@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/framework/-/framework-3.1.0.tgz#2c2ce4d3886dd9653054341b4c3503df52b71213"
+  integrity sha512-23DY+YKKcl0y7BhAfoD3yw6J/mkJxjeKFaUjmrNtkoiXBAsPxd/RnYRCerAjAMfIiSwHe36CuCw7EnLjjTYUwg==
   dependencies:
     "@discordjs/builders" "^0.16.0"
     "@sapphire/discord-utilities" "^2.11.6"
     "@sapphire/discord.js-utilities" "^5.0.0"
-    "@sapphire/lexure" "^1.0.1"
+    "@sapphire/lexure" "^1.0.2"
     "@sapphire/pieces" "^3.5.1"
     "@sapphire/ratelimits" "^2.4.4"
-    "@sapphire/result" "^2.4.0"
+    "@sapphire/result" "^2.4.1"
     "@sapphire/stopwatch" "^1.4.1"
     "@sapphire/utilities" "^3.9.2"
     "@types/object-hash" "^2.2.1"
     object-hash "^3.0.0"
     tslib "^2.4.0"
 
-"@sapphire/lexure@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/lexure/-/lexure-1.0.1.tgz#a2cf516f2c8e08d4d6e4e020391cf8de741c4296"
-  integrity sha512-bxI85SqPERicAC8fyZNRjrK2SroXFtpa/vgUNExH8VSM1LIysZE6zDRGCvllAfOdEVGSGBKjNRLfT9kYwNDhXg==
+"@sapphire/lexure@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@sapphire/lexure/-/lexure-1.0.2.tgz#6a5dd4a92690d114b3c3e35354048e3e4f323aa5"
+  integrity sha512-KKKcCvjkB6AImGzpWdrbLVI++VnRinpus+a4yu+PUT7zUlzUZdma1P/P8XlRDFEx6U+d5jk8ygKyTPzQKvkqRA==
   dependencies:
-    "@sapphire/result" "^2.1.1"
+    "@sapphire/result" "^2.4.1"
 
 "@sapphire/pieces@^3.5.1":
   version "3.5.1"
@@ -177,10 +177,10 @@
   dependencies:
     "@sapphire/time-utilities" "^1.7.4"
 
-"@sapphire/result@^2.1.1", "@sapphire/result@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/result/-/result-2.4.0.tgz#48444d8faad71ab4324f6c48ecfa246292af933b"
-  integrity sha512-BJkBsXYjTr6nQmKQnUriA1IyQrVDd7rKHTnbk2n03d/sri9ZFYYCRZ8wfFv+Z8QUasFWliypg3Qstz29G1nnjQ==
+"@sapphire/result@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/result/-/result-2.4.1.tgz#6303973dcc005914f30b20e7fc68ca15ae32cc7c"
+  integrity sha512-RWgp+cCm1dhE/voMGwp3z5xGmsOluXW9EPIXyO+khMXxZDL3iAgp4/ZCSFEw3nI98njwGmgWYIzdQfCu3WA4OA==
 
 "@sapphire/shapeshift@^3.5.1":
   version "3.5.1"
