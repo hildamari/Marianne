@@ -22,7 +22,7 @@ export class ServerCommand extends Command {
 			  .setDMPermission(false),
 	
 		  {
-			idHints: ['1011101489416130570'],
+			idHints: ['1014618956000137327'],
 		  }
 		);
 	}

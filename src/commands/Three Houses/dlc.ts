@@ -16,7 +16,7 @@ export class DLCCommand extends Command {
             .setName(this.name)
             .setDescription(this.description),
             {
-                idHints: ['1013206676645621810'],
+                idHints: ['1014618869345829074'],
             }
         );
     }
@@ -97,8 +97,8 @@ export class DLCCommand extends Command {
             This update lets you equip Byleth with an outfit inspired by Sothis herself.`)
             .setThumbnail("https://i.imgur.com/7CopRth.jpg")
             .setImage("https://i.imgur.com/sOsNOWT.jpg")
-            .addField("Release Date", "December 18th, 2019")
-            .addField('Game Version', 'Ver 1.1.1');
+            .addFields({ name: "Release Date", value: "December 18th, 2019", inline: false })
+            .addFields({ name: 'Game Version', value: 'Ver 1.1.1', inline: false});
 
             return buildWave3Part2Embed
         });

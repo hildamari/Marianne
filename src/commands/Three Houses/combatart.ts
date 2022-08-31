@@ -20,7 +20,7 @@ export class CombatArtCommand extends Command {
                 .setRequired(true)
             ),
             {
-                idHints: ['1013216813129150584'],
+                idHints: ['1014618868129464422'],
             }
         );
     }

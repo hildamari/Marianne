@@ -20,7 +20,7 @@ export class InviteCommand extends Command {
 			  .setDMPermission(false),
 	
 		  {
-			idHints: ['1011043761318539305'],
+			idHints: ['1014618953542275124'],
 		  }
 		);
 	}

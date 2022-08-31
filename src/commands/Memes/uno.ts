@@ -19,7 +19,7 @@ export class UnoCommand extends Command {
 			  .setDMPermission(false),
 	
 		  {
-			idHints: ['1011088862933688380'],
+			idHints: ['1014618865835184279'],
 		  }
 		);
 	}

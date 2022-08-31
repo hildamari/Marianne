@@ -27,7 +27,7 @@ export class HelpCommand extends Command {
                 .setRequired(false)
             ),
             {
-                idHints: ['1013484908649390131'],
+                idHints: ['1014618957120020551'],
             }
         );
     }
