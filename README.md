@@ -11,9 +11,6 @@
 
 Marianne is a sister Discord bot to [Hilda](https://github.com/hildamari/Hilda). Marianne is a character from Fire Emblem: Three Houses. She is written with [Discord.js](https://discord.js.org/) and [Sapphire](https://www.sapphirejs.dev/). Displays information about character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.
 
-## Todo
-- N/A
-
 ## Credits
 * All packages in [package.json](./package.json)
 * Fire Emblem Three Houses data and images from [SerenesForest](https://serenesforest.net/three-houses/), and both Fire Emblem Wikis ([https://fireemblem.fandom.com/wiki/](https://fireemblem.fandom.com/wiki/) and [https://www.fireemblemwiki.org/wiki/](https://www.fireemblemwiki.org/wiki/))
