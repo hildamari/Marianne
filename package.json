@@ -23,7 +23,7 @@
     "@sapphire/plugin-api": "next",
     "@sapphire/plugin-editable-commands": "^2.0.1",
     "@sapphire/plugin-logger": "next",
-    "@sapphire/plugin-subcommands": "next",
+    "@sapphire/plugin-subcommands": "^3.2.0",
     "@sapphire/time-utilities": "^1.7.5",
     "@sapphire/type": "^2.2.4",
     "@sapphire/utilities": "^3.9.1",
