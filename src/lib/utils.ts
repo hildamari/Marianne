@@ -4,7 +4,7 @@ import { send } from '@sapphire/plugin-editable-commands';
 import { cyan } from 'colorette';
 import type { APIUser } from 'discord-api-types/v9';
 import { Guild, Message, MessageEmbed, User } from 'discord.js';
-import { RandomLoadingMessage } from './constants';
+import { RandomLoadingMessage } from '#lib/constants';
 
 /**
  * Picks a random item from an array

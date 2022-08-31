@@ -1,6 +1,6 @@
-import './lib/setup';
+import '#lib/setup';
 import { LogLevel } from '@sapphire/framework';
-import { MarianneClient } from './lib/MarianneClient';
+import { MarianneClient } from '#lib/MarianneClient';
 
 const client = new MarianneClient({
 	defaultPrefix: 'm?',
