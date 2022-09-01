@@ -16,7 +16,8 @@ const client = new MarianneClient({
 		'GUILD_MESSAGE_REACTIONS'
 	],
 	partials: ['CHANNEL'],
-	loadMessageCommandListeners: true
+	loadMessageCommandListeners: true,
+	presence: { activities: [{ name: 'Dorte', type: 'LISTENING' }] }
 });
 
 const main = async () => {
