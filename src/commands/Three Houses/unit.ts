@@ -1828,9 +1828,9 @@ export class UnitCommand extends Command {
                 .addFields({ name: 'Residence', value: `${residence}`, inline: true})
                 .addFields({ name: 'Faction', value: `${faction}`, inline: true});
                 if(heightInCMPart2) {
-                    buildBioEmbed.addFields({ name: 'Height', value: `${heightInCM} + cm (${toFeet(heightInCM)})\n${heightInCMPart2}cm (${toFeet(heightInCMPart2)}) (Part 2)`, inline: true })
+                    buildBioEmbed.addFields({ name: 'Height', value: `${heightInCM}cm (${toFeet(heightInCM)})\n${heightInCMPart2}cm (${toFeet(heightInCMPart2)}) (Part 2)`, inline: true })
                 } else {
-                    buildBioEmbed.addFields({ name: 'Height', value: `${heightInCM} + cm (${toFeet(heightInCM)})`, inline: true})
+                    buildBioEmbed.addFields({ name: 'Height', value: `${heightInCM}cm (${toFeet(heightInCM)})`, inline: true})
                 }
                 buildBioEmbed
                 .addFields({ name: 'Occupation', value: `${occupation}`, inline: false })
