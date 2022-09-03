@@ -221,7 +221,7 @@
     nan "^2.15.0"
     tslib "^2.4.0"
 
-"@sapphire/utilities@^3.9.1", "@sapphire/utilities@^3.9.2":
+"@sapphire/utilities@^3.9.2":
   version "3.9.2"
   resolved "https://registry.npmjs.org/@sapphire/utilities/-/utilities-3.9.2.tgz"
   integrity sha512-CG8mFPse+VDUVenj3PqZyh9PATFd/pzrQaX2gZqv0f7AzGnlyfm/ygh0tnQRVKpMDFr39uCQqVse8i0f51DAkg==
