@@ -7,7 +7,7 @@ import type { Guild, Role } from 'discord.js';
     name: 'Subscribe',
 	description: 'Gives the "Marianne Subscriber" role to those who want to be notified of new updates'
 })
-export class UnoCommand extends Command {
+export class SubscribeCommand extends Command {
 	// Register slash and context menu command
 	public override registerApplicationCommands(
 		registry: ChatInputCommand.Registry
