@@ -43,7 +43,8 @@ export class AboutCommand extends Command {
             //  addField('Uptime', moment.duration(process.uptime() * 1000).format('D [days], H [hours] [and] m [minutes]'), true)
             .addFields({ name: 'Uptime', value: `${uptime}`, inline: true})
             .addFields({ name: 'License', value: 'Apache 2.0', inline: true})
-            .addFields({ name: 'Source Code', value: 'https://github.com/hildamari/Marianne', inline: true});
+            .addFields({ name: 'Source Code', value: 'https://github.com/hildamari/Marianne', inline: true})
+			.addFields({ name: 'Support Server', value: 'https://discord.gg/WAVdN4E', inline: false});
 //         aboutEmbed.addField('Documentation', 'https://hilda.pw', true);
 
 		return interaction.reply({ embeds: [ aboutEmbed ] });
