@@ -454,7 +454,7 @@ detect-libc@^2.0.0:
   resolved "https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.1.tgz"
   integrity sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==
 
-discord-api-types@^0.33.3, discord-api-types@^0.33.5:
+discord-api-types@^0.33.3:
   version "0.33.5"
   resolved "https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.33.5.tgz"
   integrity sha512-dvO5M52v7m7Dy96+XUnzXNsQ/0npsYpU6dL205kAtEDueswoz3aU3bh1UMoK4cQmcGtB1YRyLKqp+DXi05lzFg==
@@ -463,6 +463,11 @@ discord-api-types@^0.36.2:
   version "0.36.3"
   resolved "https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.36.3.tgz"
   integrity sha512-bz/NDyG0KBo/tY14vSkrwQ/n3HKPf87a0WFW/1M9+tXYK+vp5Z5EksawfCWo2zkAc6o7CClc0eff1Pjrqznlwg==
+
+discord-api-types@^0.37.7:
+  version "0.37.7"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.7.tgz#78cc48d2ea563e3e04ec294991afb21ebe588d29"
+  integrity sha512-aQEx4JP1wYn6vRsPsIuVdcQq9hB1EAw9vnQFtuciI3Uqgis0CP/hfJxDkY+hOoAwq6vcCl8kWuMoMK50agCg9w==
 
 discord.js@^13.10.2:
   version "13.10.3"
