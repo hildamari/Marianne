@@ -251,10 +251,15 @@
     nan "^2.15.0"
     tslib "^2.4.0"
 
-"@sapphire/utilities@^3.10.0", "@sapphire/utilities@^3.10.1":
+"@sapphire/utilities@^3.10.0":
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-3.10.1.tgz#472defafae75e027fbac5eb70c3f29f4b1112434"
   integrity sha512-nHK27Y+Z0NmK8p9wIlvLcrIgXdaICBYQZ78fgwobBj+2GLNU/4PV9QPLqcJ3io5TleQGTGvuNh1JdpGaa+kD/Q==
+
+"@sapphire/utilities@^3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-3.11.0.tgz#2dccfb332dc5c119e1425cce6b2c64160b770bad"
+  integrity sha512-ich7J+329UTEgWxgk8b871rMhbFW/hvXdabdiKaUKd6g10eIMkIakWf+EGkDQsiDSiebIXll9TIPPmWtN3cVSw==
 
 "@sapphire/utilities@^3.9.2":
   version "3.9.2"
