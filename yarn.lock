@@ -28,10 +28,10 @@
   resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-1.2.0.tgz#5cad4bb47521c6f0abd175bf55c84528d1ac94f7"
   integrity sha512-VvrrtGb7vbfPHzbhGq9qZB5o8FOB+kfazrxdt0OtxzSkoBuw9dURMkCwWizZ00+rDpiK2HmLHBZX+y6JsG9khw==
 
-"@discordjs/node-pre-gyp@^0.4.2":
-  version "0.4.4"
-  resolved "https://registry.npmjs.org/@discordjs/node-pre-gyp/-/node-pre-gyp-0.4.4.tgz"
-  integrity sha512-x569MMtdk6jdGo2S58iiZoyv4p/N2Ju8Nh6vvzZb1wyouV7IE3VuU0hg2kqUmTfD0z6r4uD6acvMTuc+iA3f8g==
+"@discordjs/node-pre-gyp@^0.4.5":
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/@discordjs/node-pre-gyp/-/node-pre-gyp-0.4.5.tgz#b33e38cedd821268c75923641783c68fcd1b55ae"
+  integrity sha512-YJOVVZ545x24mHzANfYoy0BJX5PDyeZlpiJjDkUBM/V/Ao7TFX9lcUvCN4nr0tbr5ubeaXxtEBILUrHtTphVeQ==
   dependencies:
     detect-libc "^2.0.0"
     https-proxy-agent "^5.0.0"
@@ -256,14 +256,14 @@
     tslib "^2.3.1"
     typescript "^4.6.3"
 
-"@sapphire/type@^2.2.4":
-  version "2.2.4"
-  resolved "https://registry.npmjs.org/@sapphire/type/-/type-2.2.4.tgz"
-  integrity sha512-H3kRw22kscxtwUsb6oN6iXZj9JOUDXyO0qVid4voLVKHlysmK7RIwflt5G+Jc4EQ+JuVGriKNgi7NRcLDPoTRA==
+"@sapphire/type@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@sapphire/type/-/type-2.2.6.tgz#ef680da5fece8dd61394869b21fddcf48213dae3"
+  integrity sha512-jU7v98eJB7Fr4MArqKb7ln0EkpAMTRS4gAbcYGQKlP8HD1rbJpXkyq0qz9UBNkhqr1XdrkFB+nwb8C7rOpRI5g==
   dependencies:
-    "@discordjs/node-pre-gyp" "^0.4.2"
-    nan "^2.15.0"
-    tslib "^2.4.0"
+    "@discordjs/node-pre-gyp" "^0.4.5"
+    nan "^2.17.0"
+    tslib "^2.4.1"
 
 "@sapphire/utilities@^3.10.0":
   version "3.10.1"
@@ -989,10 +989,10 @@ ms@2.1.2:
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nan@^2.15.0:
-  version "2.16.0"
-  resolved "https://registry.npmjs.org/nan/-/nan-2.16.0.tgz"
-  integrity sha512-UdAqHyFngu7TfQKsCBgAA6pWDkT8MAO7d0jyOecVhN5354xbLqdn8mV9Tat9gepAupm0bt2DbeaSC8vS52MuFA==
+nan@^2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.17.0.tgz#c0150a2368a182f033e9aa5195ec76ea41a199cb"
+  integrity sha512-2ZTgtl0nJsO0KQCjEpxcIr5D+Yv90plTitZt9JBfQvVJDS5seMl3FOvsh3+9CoYWXf/1l5OaZzzF6nDm4cagaQ==
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -1426,6 +1426,11 @@ tslib@^2.3.1, tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.4.0.tgz"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
+
+tslib@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
+  integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
 
 typescript@^4.6.3:
   version "4.8.2"
