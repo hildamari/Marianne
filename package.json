@@ -20,7 +20,7 @@
     "@sapphire/utilities": "^3.11.0",
     "colorette": "^2.0.19",
     "common-tags": "^1.8.2",
-    "discord-api-types": "^0.33.5",
+    "discord-api-types": "^0.37.27",
     "discord.js": "^13.11.0",
     "dotenv-cra": "^3.0.2",
     "reflect-metadata": "^0.1.13"
