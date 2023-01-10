@@ -5,7 +5,7 @@
   "author": "KunoichiZ",
   "license": "Apache-2.0",
   "dependencies": {
-    "@sapphire/decorators": "^5.0.0",
+    "@sapphire/decorators": "^6.0.0",
     "@sapphire/discord-utilities": "next",
     "@sapphire/discord.js-utilities": "next",
     "@sapphire/fetch": "^2.4.1",
