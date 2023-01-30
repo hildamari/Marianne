@@ -517,10 +517,10 @@ discord.js@^13.11.0:
     node-fetch "^2.6.7"
     ws "^8.8.1"
 
-dotenv-cra@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/dotenv-cra/-/dotenv-cra-3.0.2.tgz"
-  integrity sha512-4SJ1L6tAzAmRgBw7k6B7XaP8ARV8nFvQb2pfLC8Tiudz27auSgkzPPvtfLmmSg6jzhHtsQ6c/USNlqLfWE7mfg==
+dotenv-cra@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv-cra/-/dotenv-cra-3.0.3.tgz#edcc1bd810a55b55f7deac2f350ea6cace46b2ea"
+  integrity sha512-p/EaxmpLem27Oy/z776GdYnWcHuwWJAzq1XJZvjhqqPPKAoFSn8/PuLradZIiGbX8P2Z5GY7PtswvLH1BYJibQ==
   dependencies:
     dotenv "^10.0.0"
     dotenv-expand "^5.1.0"
