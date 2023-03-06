@@ -13,7 +13,7 @@
     "@sapphire/pieces": "^3.6.0",
     "@sapphire/plugin-api": "next",
     "@sapphire/plugin-editable-commands": "next",
-    "@sapphire/plugin-logger": "next",
+    "@sapphire/plugin-logger": "^3.0.1",
     "@sapphire/plugin-subcommands": "^4.0.0",
     "@sapphire/time-utilities": "^1.7.8",
     "@sapphire/type": "^2.3.0",
