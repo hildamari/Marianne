@@ -13,6 +13,18 @@
     ts-mixer "^6.0.1"
     tslib "^2.4.0"
 
+"@discordjs/builders@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@discordjs/builders/-/builders-1.4.0.tgz#b951b5e6ce4e459cd06174ce50dbd51c254c1d47"
+  integrity sha512-nEeTCheTTDw5kO93faM1j8ZJPonAX86qpq/QVoznnSa8WWcCgJpjlu6GylfINTDW6o7zZY0my2SYdxx2mfNwGA==
+  dependencies:
+    "@discordjs/util" "^0.1.0"
+    "@sapphire/shapeshift" "^3.7.1"
+    discord-api-types "^0.37.20"
+    fast-deep-equal "^3.1.3"
+    ts-mixer "^6.0.2"
+    tslib "^2.4.1"
+
 "@discordjs/collection@^0.7.0":
   version "0.7.0"
   resolved "https://registry.npmjs.org/@discordjs/collection/-/collection-0.7.0.tgz"
@@ -38,6 +50,11 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
+"@discordjs/util@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@discordjs/util/-/util-0.1.0.tgz#e42ca1bf407bc6d9adf252877d1b206e32ba369a"
+  integrity sha512-e7d+PaTLVQav6rOc2tojh2y6FE8S7REkqLldq1XF4soCx74XB/DIjbVbVLtBemf0nLW77ntz0v+o5DytKwFNLQ==
+
 "@sapphire/async-queue@^1.5.0":
   version "1.5.0"
   resolved "https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.0.tgz"
@@ -62,13 +79,6 @@
   resolved "https://registry.npmjs.org/@sapphire/discord-utilities/-/discord-utilities-2.11.7-pr-434.549335e.0.tgz"
   integrity sha512-PDeJyr9tq1Qjn5s+/8KT4Idib9Oy3FmIC/fbvAG4AeIXshO1w50n7krSd1/y1TOfzUCGnrHNBT3oYIO5YOhNAA==
 
-"@sapphire/discord-utilities@^2.12.0":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-2.12.0.tgz#d0ec3d345877593142cddbfcd08e5420868bf055"
-  integrity sha512-E/Qqb8PwEoX/WLVfcGvTglTgEGGcc/2rGtKBqhMcHcEEtNIY8dhQVYbW/KMNJpR/J81OqUJquVzpkzRe6fQWiw==
-  dependencies:
-    discord-api-types "^0.36.3"
-
 "@sapphire/discord-utilities@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-3.0.0.tgz#3e578942950ea512dd79a23af5dd5df3c24c480e"
@@ -76,15 +86,15 @@
   dependencies:
     discord-api-types "^0.37.25"
 
-"@sapphire/discord.js-utilities@^5.1.2":
-  version "5.1.2"
-  resolved "https://registry.yarnpkg.com/@sapphire/discord.js-utilities/-/discord.js-utilities-5.1.2.tgz#0dec0c700375fa5f787d2f9ebd7fdaed7bcc5a95"
-  integrity sha512-zKXUkVzueT3Zag9D/ubpey0g/vLXLCVVFlmYoZqpkx1HsTLSTKz4hxbD7IQ/8q7rvI5Pm/Ex1jajPHMLXKmlpw==
+"@sapphire/discord.js-utilities@6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@sapphire/discord.js-utilities/-/discord.js-utilities-6.0.2.tgz#7a4af6f1300674d0d37fcdc6c860b83ed8f8416d"
+  integrity sha512-07ZATRSWFe0SJSU/7vRkEGl8DQhZ9qGDDuajOlC88uKM/RKLWPYWWAZT2Wa4LkBqYCK/TYfY1dAPNmbsvnjyYg==
   dependencies:
-    "@sapphire/discord-utilities" "^2.12.0"
+    "@sapphire/discord-utilities" "^3.0.0"
     "@sapphire/duration" "^1.0.0"
     "@sapphire/utilities" "^3.11.0"
-    tslib "^2.4.1"
+    tslib "^2.5.0"
 
 "@sapphire/discord.js-utilities@next":
   version "5.0.1-next.3f06ac5.0"
@@ -108,14 +118,14 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@sapphire/framework@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/framework/-/framework-3.2.0.tgz#c33e5a34360c668ee6d425df9c1851b75cf6a2cd"
-  integrity sha512-GrxOlyxrydhwXH68zVwhaEys0XLqEJg6o0TCZLtEYhhDY6oRoOl1MwEiomS1cbDYNRpPkdY7ljHcxD44U6cZ9g==
+"@sapphire/framework@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/framework/-/framework-4.2.0.tgz#6436a35e801a1149b5b4e8cef7248c3cecb46a0c"
+  integrity sha512-UEM1tinRkFxbkLpGRh4I7mcTrZNUPHMYcRdvPrlvaUfUP/FPg5DVSPZ26Iu9wgqdUCe9co9WEH9mBz6E+zQA3A==
   dependencies:
-    "@discordjs/builders" "^0.16.0"
-    "@sapphire/discord-utilities" "^2.12.0"
-    "@sapphire/discord.js-utilities" "^5.1.2"
+    "@discordjs/builders" "^1.4.0"
+    "@sapphire/discord-utilities" "^3.0.0"
+    "@sapphire/discord.js-utilities" "6.0.2"
     "@sapphire/lexure" "^1.1.2"
     "@sapphire/pieces" "^3.6.0"
     "@sapphire/ratelimits" "^2.4.5"
@@ -201,6 +211,14 @@
   dependencies:
     fast-deep-equal "^3.1.3"
     lodash.uniqwith "^4.5.0"
+
+"@sapphire/shapeshift@^3.7.1":
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/shapeshift/-/shapeshift-3.8.1.tgz#b98dc6a7180f9b38219267917b2e6fa33f9ec656"
+  integrity sha512-xG1oXXBhCjPKbxrRTlox9ddaZTvVpOhYLmKmApD/vIWOV1xEYXnpoFs68zHIZBGbqztq6FrUPNPerIrO1Hqeaw==
+  dependencies:
+    fast-deep-equal "^3.1.3"
+    lodash "^4.17.21"
 
 "@sapphire/stopwatch@^1.5.0":
   version "1.5.0"
@@ -505,12 +523,12 @@ discord-api-types@^0.33.5:
   resolved "https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.33.5.tgz"
   integrity sha512-dvO5M52v7m7Dy96+XUnzXNsQ/0npsYpU6dL205kAtEDueswoz3aU3bh1UMoK4cQmcGtB1YRyLKqp+DXi05lzFg==
 
-discord-api-types@^0.36.2, discord-api-types@^0.36.3:
+discord-api-types@^0.36.2:
   version "0.36.3"
   resolved "https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.36.3.tgz"
   integrity sha512-bz/NDyG0KBo/tY14vSkrwQ/n3HKPf87a0WFW/1M9+tXYK+vp5Z5EksawfCWo2zkAc6o7CClc0eff1Pjrqznlwg==
 
-discord-api-types@^0.37.25:
+discord-api-types@^0.37.20, discord-api-types@^0.37.25:
   version "0.37.35"
   resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.35.tgz#d0dad0bce7ce5bffc633030f17464e45148d9f28"
   integrity sha512-iyKZ/82k7FX3lcmHiAvvWu5TmyfVo78RtghBV/YsehK6CID83k5SI03DKKopBcln+TiEIYw5MGgq7SJXSpNzMg==
@@ -922,6 +940,11 @@ lodash.uniqwith@^4.5.0:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.uniqwith/-/lodash.uniqwith-4.5.0.tgz"
   integrity sha512-7lYL8bLopMoy4CTICbxygAUq6CdRJ36vFc80DucPueUee+d5NBRxz3FdT9Pes/HEx5mPoT9jwnsEJWz1N7uq7Q==
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -1422,6 +1445,11 @@ ts-mixer@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.1.tgz"
   integrity sha512-hvE+ZYXuINrx6Ei6D6hz+PTim0Uf++dYbK9FFifLNwQj+RwKquhQpn868yZsCtJYiclZF1u8l6WZxxKi+vv7Rg==
+
+ts-mixer@^6.0.2:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-6.0.3.tgz#69bd50f406ff39daa369885b16c77a6194c7cae6"
+  integrity sha512-k43M7uCG1AkTyxgnmI5MPwKoUvS/bRvLvUb7+Pgpdlmok8AoqmUaZxUUw8zKM5B1lqZrt41GjYgnvAi0fppqgQ==
 
 tsc-watch@^6.0.0:
   version "6.0.0"
