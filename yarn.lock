@@ -169,13 +169,13 @@
     tslib "^2.5.0"
     undici "^5.20.0"
 
-"@sapphire/plugin-editable-commands@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/plugin-editable-commands/-/plugin-editable-commands-3.0.0.tgz#6b613f33c8381bd20d944c45e8dbfde7f8b84662"
-  integrity sha512-RcmBOeBBOIPcwet/7AxFgbyRuHnW0Tpy1G/m897lSwkhDFG7zXUeJ9gEEWcoYCavJsC6mqiBSieI5pAC7vYMwQ==
+"@sapphire/plugin-editable-commands@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/plugin-editable-commands/-/plugin-editable-commands-3.0.1.tgz#e66a8bea588067b00f709fcc8ead5ae77f78d048"
+  integrity sha512-KEozdnWAmdxuCR0f4DaenSPP6XXxwp5htunnDzJZ9hvd6s50kEFA/ZjseUCQDCdZct76h+UOJwcGGk99KiOsLg==
   dependencies:
-    "@skyra/editable-commands" "^3.0.0"
-    tslib "^2.4.1"
+    "@skyra/editable-commands" "^3.0.1"
+    tslib "^2.5.0"
 
 "@sapphire/plugin-logger@^3.0.1":
   version "3.0.1"
@@ -287,10 +287,10 @@
   resolved "https://registry.npmjs.org/@sapphire/utilities/-/utilities-3.9.2.tgz"
   integrity sha512-CG8mFPse+VDUVenj3PqZyh9PATFd/pzrQaX2gZqv0f7AzGnlyfm/ygh0tnQRVKpMDFr39uCQqVse8i0f51DAkg==
 
-"@skyra/editable-commands@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@skyra/editable-commands/-/editable-commands-3.0.0.tgz#f22ea15bab8c74627fff006b0a9ee68c9ec23208"
-  integrity sha512-xP0yQDvNAjK1SsEqa9kwnkvr/jvzrrc5a6vp64hQULQezMXFBD23NBYMphV0CgLIDCifJHZfgQPBPL3zUAz5+A==
+"@skyra/editable-commands@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@skyra/editable-commands/-/editable-commands-3.0.1.tgz#b7b8b513dbe63cac1151c116bd4a0c8daa4e36a3"
+  integrity sha512-Dvx7k9D3XMVHT8+GTagh+/87RIOmYHx5uVsETFjUx3DutbTpNcynYsoHA+U4JcKSLj4ziR5zk0xgYOAMBNYIlw==
 
 "@types/common-tags@^1.8.1":
   version "1.8.1"
