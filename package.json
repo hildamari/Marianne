@@ -17,7 +17,7 @@
     "@sapphire/plugin-subcommands": "^4.0.0",
     "@sapphire/time-utilities": "^1.7.9",
     "@sapphire/type": "^2.3.0",
-    "@sapphire/utilities": "^3.11.0",
+    "@sapphire/utilities": "^3.11.1",
     "colorette": "^2.0.19",
     "common-tags": "^1.8.2",
     "discord-api-types": "^0.33.5",
