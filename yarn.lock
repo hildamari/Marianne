@@ -177,14 +177,14 @@
     "@skyra/editable-commands" "^3.0.0"
     tslib "^2.4.1"
 
-"@sapphire/plugin-logger@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/plugin-logger/-/plugin-logger-3.0.1.tgz#4b411eebb4dd49ad03b89dc93f5280aaa8fbf2d0"
-  integrity sha512-sGAYL16bIe8SrUk8k+HOFGVWppSYi8T0F4T+hVCfYw9eiqTvqy5wPQcrzmd5hkvGINb8Ob8INNEl0In7PxXT6Q==
+"@sapphire/plugin-logger@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@sapphire/plugin-logger/-/plugin-logger-3.0.3.tgz#198304b29ac5f6665faca795fe57372061f8ed54"
+  integrity sha512-pBEQhXi3PWPpXxfljg7pLYoI99gO6iyA9rCy6ntBttrJiM1ZirnaSm6p1/uon3/T4gW0poauFS44+S3Jf4MSZA==
   dependencies:
-    "@sapphire/timestamp" "^1.0.0"
+    "@sapphire/timestamp" "^1.0.1"
     colorette "^2.0.19"
-    tslib "^2.4.0"
+    tslib "^2.5.0"
 
 "@sapphire/plugin-subcommands@^4.0.0":
   version "4.0.0"
@@ -249,11 +249,6 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@sapphire/timer-manager/-/timer-manager-1.0.0.tgz#e8ecf15a7042ee611048b4f90fab1399653d3934"
   integrity sha512-vxxnv75QPMGKt6IB6nL2xRJfwzcUQ9DBGzJLg6G8eS5O4u7j3IR/yr/GQsa4gIpjw6kQOgn8lUdnSTlpnERTbQ==
-
-"@sapphire/timestamp@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/timestamp/-/timestamp-1.0.0.tgz#572571e8cfc3515265d719704fb2818135f3ad31"
-  integrity sha512-80g0xYP4zxsgNizMO0HVf+LcM1mD/jxke4feSytDzw8u1pEPr1APfIz3Ix7JB9VI113p0KjLBMywl+ceaN7jrw==
 
 "@sapphire/timestamp@^1.0.1":
   version "1.0.1"
