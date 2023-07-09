@@ -177,14 +177,14 @@
     "@skyra/editable-commands" "^3.0.1"
     tslib "^2.5.0"
 
-"@sapphire/plugin-logger@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/plugin-logger/-/plugin-logger-3.0.1.tgz#4b411eebb4dd49ad03b89dc93f5280aaa8fbf2d0"
-  integrity sha512-sGAYL16bIe8SrUk8k+HOFGVWppSYi8T0F4T+hVCfYw9eiqTvqy5wPQcrzmd5hkvGINb8Ob8INNEl0In7PxXT6Q==
+"@sapphire/plugin-logger@^3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@sapphire/plugin-logger/-/plugin-logger-3.0.4.tgz#f546a5fea31f1743c34fabdddaf4207315621fac"
+  integrity sha512-a5TnOouMiwTjXEj5HBbmq22csNijP07Xncsc5/eJA1e13lRCGoTbfQjQQ0/AOA4/g31hixycG8btQ4GOWptCIg==
   dependencies:
-    "@sapphire/timestamp" "^1.0.0"
-    colorette "^2.0.19"
-    tslib "^2.4.0"
+    "@sapphire/timestamp" "^1.0.1"
+    colorette "^2.0.20"
+    tslib "^2.5.0"
 
 "@sapphire/plugin-subcommands@^4.0.1":
   version "4.0.1"
@@ -249,11 +249,6 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@sapphire/timer-manager/-/timer-manager-1.0.0.tgz#e8ecf15a7042ee611048b4f90fab1399653d3934"
   integrity sha512-vxxnv75QPMGKt6IB6nL2xRJfwzcUQ9DBGzJLg6G8eS5O4u7j3IR/yr/GQsa4gIpjw6kQOgn8lUdnSTlpnERTbQ==
-
-"@sapphire/timestamp@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/timestamp/-/timestamp-1.0.0.tgz#572571e8cfc3515265d719704fb2818135f3ad31"
-  integrity sha512-80g0xYP4zxsgNizMO0HVf+LcM1mD/jxke4feSytDzw8u1pEPr1APfIz3Ix7JB9VI113p0KjLBMywl+ceaN7jrw==
 
 "@sapphire/timestamp@^1.0.1":
   version "1.0.1"
@@ -444,6 +439,11 @@ colorette@^2.0.19:
   version "2.0.19"
   resolved "https://registry.npmjs.org/colorette/-/colorette-2.0.19.tgz"
   integrity sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==
+
+colorette@^2.0.20:
+  version "2.0.20"
+  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.20.tgz#9eb793e6833067f7235902fcd3b09917a000a95a"
+  integrity sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==
 
 combined-stream@^1.0.8:
   version "1.0.8"
