@@ -26,7 +26,7 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "@sapphire/prettier-config": "^1.4.5",
+    "@sapphire/prettier-config": "^2.0.0",
     "@sapphire/ts-config": "^3.3.4",
     "@types/common-tags": "^1.8.1",
     "@types/node": "^20.4.4",
