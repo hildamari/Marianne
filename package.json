@@ -11,7 +11,7 @@
     "@sapphire/fetch": "^2.4.1",
     "@sapphire/framework": "^3.2.0",
     "@sapphire/pieces": "^3.6.1",
-    "@sapphire/plugin-api": "^5.1.1",
+    "@sapphire/plugin-api": "^5.1.2",
     "@sapphire/plugin-editable-commands": "^3.0.3",
     "@sapphire/plugin-logger": "^3.0.6",
     "@sapphire/plugin-subcommands": "^4.2.1",

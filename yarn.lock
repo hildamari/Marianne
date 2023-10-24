@@ -43,6 +43,11 @@
     semver "^7.3.5"
     tar "^6.1.11"
 
+"@fastify/busboy@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.0.0.tgz#f22824caff3ae506b18207bad4126dbc6ccdb6b8"
+  integrity sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==
+
 "@sapphire/async-queue@^1.5.0":
   version "1.5.0"
   resolved "https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.0.tgz"
@@ -158,15 +163,15 @@
     "@sapphire/utilities" "^3.11.0"
     tslib "^2.5.0"
 
-"@sapphire/plugin-api@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/plugin-api/-/plugin-api-5.1.1.tgz#42df4956ae581ae130ae2c2ac43818649716092f"
-  integrity sha512-txfOKvCQO1J5ldlwleN1dVhs4ATTwefOngbLHWESCSthNsVf/YPKhf2PytwYWzZdr4hhPmqQBgwJFSsilgFxcw==
+"@sapphire/plugin-api@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@sapphire/plugin-api/-/plugin-api-5.1.2.tgz#d289a5865d52e4926356a14b4c097669016b19b8"
+  integrity sha512-uXDb4s7pf8oLlWwzKB/td5tC9+I4AosB2/2glEn/Ff4KxDDmoS37PV196gYYNSAvvjYeQKX5SCqBed+gm05GHA==
   dependencies:
-    "@types/ws" "^8.5.5"
-    tldts "^6.0.14"
+    "@types/ws" "^8.5.8"
+    tldts "^6.0.17"
     tslib "^2.6.2"
-    undici "^5.23.0"
+    undici "^5.26.5"
 
 "@sapphire/plugin-editable-commands@^3.0.3":
   version "3.0.3"
@@ -319,17 +324,17 @@
   dependencies:
     "@types/node" "*"
 
-"@types/ws@^8.5.5":
-  version "8.5.5"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.5.tgz#af587964aa06682702ee6dcbc7be41a80e4b28eb"
-  integrity sha512-lwhs8hktwxSjf9UaZ9tG5M03PGogvFaH8gUgLNbN9HKIg0dvv6q+gkSuJ8HN4/VbyxkuLzCjlN7GquQ0gUJfIg==
-  dependencies:
-    "@types/node" "*"
-
 "@types/ws@^8.5.6":
   version "8.5.6"
   resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.6.tgz#e9ad51f0ab79b9110c50916c9fcbddc36d373065"
   integrity sha512-8B5EO9jLVCy+B58PLHvLDuOD8DRVMgQzq8d55SjLCOn9kqGyqOvy27exVaTio1q1nX5zLu8/6N0n2ThSxOM6tg==
+  dependencies:
+    "@types/node" "*"
+
+"@types/ws@^8.5.8":
+  version "8.5.8"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.8.tgz#13efec7bd439d0bdf2af93030804a94f163b1430"
+  integrity sha512-flUksGIQCnJd6sZ1l5dqCEG/ksaoAg/eUwiLAGTJQcfgvZJKF++Ta4bJA6A5aPSJmsr+xlseHn4KLgVlNnvPTg==
   dependencies:
     "@types/node" "*"
 
@@ -387,13 +392,6 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
-
-busboy@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/busboy/-/busboy-1.6.0.tgz#966ea36a9502e43cdb9146962523b92f531f6893"
-  integrity sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==
-  dependencies:
-    streamsearch "^1.1.0"
 
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
@@ -1332,11 +1330,6 @@ stream-combiner@~0.0.4:
   dependencies:
     duplexer "~0.1.1"
 
-streamsearch@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/streamsearch/-/streamsearch-1.1.0.tgz#404dd1e2247ca94af554e841a8ef0eaa238da764"
-  integrity sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==
-
 string-argv@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/string-argv/-/string-argv-0.3.1.tgz#95e2fbec0427ae19184935f816d74aaa4c5c19da"
@@ -1426,17 +1419,17 @@ through@2, through@~2.3, through@~2.3.1:
   resolved "https://registry.npmjs.org/through/-/through-2.3.8.tgz"
   integrity sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==
 
-tldts-core@^6.0.14:
-  version "6.0.14"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.0.14.tgz#66a325500fc46826b85719b588715f23e167b0e7"
-  integrity sha512-ESYhU/bgs6jiHlnl5h029f+0dB7EKRiTaxM/jHLZ6powScbmsgsrFcFjmyrjDgCvI/BRY79TEBBClmqLNEPyjQ==
+tldts-core@^6.0.17:
+  version "6.0.17"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.0.17.tgz#79926a93e7b44121a72075c4e28efcd054479701"
+  integrity sha512-uMwywA3xjriVrbX28gwflFsf3UAaW7fleo1cBbi605PiByydyldo8QlZRVq5a8SF8zwypCac7icn6UODN5+xWg==
 
-tldts@^6.0.14:
-  version "6.0.14"
-  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.0.14.tgz#bd126027d456b61e833aa4a49b85f4e7074c3f97"
-  integrity sha512-mYU7xwVGfiiC4lkWr4h3Q6U4kfAq3aWP1KsJZyRlVVeDQ3ZSBLmE20543dWSqI0U799PNzhpHObex5n60TeBGw==
+tldts@^6.0.17:
+  version "6.0.17"
+  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.0.17.tgz#4b1b25dcd50e6d50a7afe7f4484cd52f2795fdea"
+  integrity sha512-q6EKgujbfAcbx/X7vKEmGZZDPVqzmDvelXQ2LsOXykFQ726Mx8/oCFRWvAqDdoxxQy/1RIrpPzRZPQHnk6SSfg==
   dependencies:
-    tldts-core "^6.0.14"
+    tldts-core "^6.0.17"
 
 tr46@~0.0.3:
   version "0.0.3"
@@ -1503,12 +1496,12 @@ unbox-primitive@^1.0.2:
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
 
-undici@^5.23.0:
-  version "5.23.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.23.0.tgz#e7bdb0ed42cebe7b7aca87ced53e6eaafb8f8ca0"
-  integrity sha512-1D7w+fvRsqlQ9GscLBwcAJinqcZGHUKjbOmXdlE/v8BvEGXjeWAax+341q44EuTcHXXnfyKNbKRq4Lg7OzhMmg==
+undici@^5.26.5:
+  version "5.26.5"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.26.5.tgz#f6dc8c565e3cad8c4475b187f51a13e505092838"
+  integrity sha512-cSb4bPFd5qgR7qr2jYAi0hlX9n5YKK2ONKkLFkxl+v/9BvC0sOpZjBHDBSXc5lWAf5ty9oZdRXytBIHzgUcerw==
   dependencies:
-    busboy "^1.6.0"
+    "@fastify/busboy" "^2.0.0"
 
 util-deprecate@^1.0.1:
   version "1.0.2"
