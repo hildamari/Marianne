@@ -8,7 +8,7 @@
     "@sapphire/decorators": "^6.0.2",
     "@sapphire/discord-utilities": "^3.2.0",
     "@sapphire/discord.js-utilities": "next",
-    "@sapphire/fetch": "^2.4.1",
+    "@sapphire/fetch": "^2.4.2",
     "@sapphire/framework": "^3.2.0",
     "@sapphire/pieces": "^3.6.1",
     "@sapphire/plugin-api": "^5.1.1",
