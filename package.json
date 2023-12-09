@@ -23,7 +23,7 @@
     "discord-api-types": "^0.33.5",
     "discord.js": "^13.11.0",
     "dotenv-cra": "^3.0.3",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.14"
   },
   "devDependencies": {
     "@sapphire/prettier-config": "^2.0.0",
