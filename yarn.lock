@@ -116,12 +116,10 @@
   resolved "https://registry.yarnpkg.com/@sapphire/duration/-/duration-1.1.1.tgz#070f6107ef834125202e27660e6b936ec73695bb"
   integrity sha512-c6+ZvVEmZ82+G5aZOz8QbTLNY1nN0j/fxykFNULnmoc2WspFO7PbXUDZMeHQoanWbFRC83U2DszhF2Zl5BwjrA==
 
-"@sapphire/fetch@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@sapphire/fetch/-/fetch-2.4.2.tgz#8900e234c83b653b0e69e36e0d6de033bcb9bc25"
-  integrity sha512-aLZJ+ij3vAkHH6JlCbkT7Nj0dNLFdOEv0m1apNPFtUzHpaFdFeayYjLVfsY1JFVssvzjVr4x+mQTQ+XQIqraSg==
-  dependencies:
-    cross-fetch "^4.0.0"
+"@sapphire/fetch@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/fetch/-/fetch-3.0.1.tgz#06fc02745d9f01c9fc22342df9078a77272dbf21"
+  integrity sha512-BNnt4sA2yjQLKy6RBkkR93DCuUYP9wsC5FRdZoHxFPPB25K+C+Tf5pqige+vJHq54Qp8fZQWG2w9JZYOsGWYIg==
 
 "@sapphire/framework@^3.2.0":
   version "3.2.0"
@@ -480,13 +478,6 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/console-control-strings/-/console-control-strings-1.1.0.tgz"
   integrity sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==
-
-cross-fetch@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-4.0.0.tgz#f037aef1580bb3a1a35164ea2a848ba81b445983"
-  integrity sha512-e4a5N8lVvuLgAWgnCrLr2PP0YyDOTHa9H/Rj54dirp61qXnNq46m82bRhNqIA5VccJtWBvPTFRV3TtvHUKPB1g==
-  dependencies:
-    node-fetch "^2.6.12"
 
 cross-spawn@^6.0.5:
   version "6.0.5"
@@ -1043,13 +1034,6 @@ node-cleanup@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/node-cleanup/-/node-cleanup-2.1.2.tgz"
   integrity sha512-qN8v/s2PAJwGUtr1/hYTpNKlD6Y9rc4p8KSmJXyGdYGZsDGKXrGThikLFP9OCHFeLeEpQzPwiAtdIvBLqm//Hw==
-
-node-fetch@^2.6.12:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
-  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
-  dependencies:
-    whatwg-url "^5.0.0"
 
 node-fetch@^2.6.7:
   version "2.6.7"
