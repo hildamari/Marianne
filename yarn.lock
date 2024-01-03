@@ -173,10 +173,10 @@
     tslib "^2.6.2"
     undici "^5.23.0"
 
-"@sapphire/plugin-editable-commands@^3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@sapphire/plugin-editable-commands/-/plugin-editable-commands-3.0.3.tgz#bc19ea27ddd498bd420b1f84718ef7ee68fc1bec"
-  integrity sha512-YjvnkqM9mRy41J/4l23VQh0Bh0jguJJnlaKBjR/Qd2/0z9EGuqCvAgnu+S1HfvN3nSnVCzO11u/Z/Lp31Qfc8A==
+"@sapphire/plugin-editable-commands@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/plugin-editable-commands/-/plugin-editable-commands-4.0.1.tgz#6ae13dfd7b35c8050fc7a959d3ef81369036033d"
+  integrity sha512-Xv9W99DphGdvJ2k/XvBVNynMOmQefYtAIwaHS0QderHOmpdLIo9RDbot7fq5gLjH+KtagpvlnGIbBUX1CZ0bOw==
   dependencies:
     "@skyra/editable-commands" "^3.0.1"
 
