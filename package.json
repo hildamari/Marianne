@@ -15,7 +15,7 @@
     "@sapphire/plugin-editable-commands": "^3.0.3",
     "@sapphire/plugin-logger": "^3.0.6",
     "@sapphire/plugin-subcommands": "^4.2.1",
-    "@sapphire/time-utilities": "^1.7.11",
+    "@sapphire/time-utilities": "^1.7.12",
     "@sapphire/type": "^2.4.4",
     "@sapphire/utilities": "^3.15.2",
     "colorette": "^2.0.20",
