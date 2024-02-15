@@ -25,7 +25,7 @@ export class SubscribeCommand extends Command {
 		);
 	}
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
         if(interaction.guild?.id == '650595160849121300') {
             const marianneSubscriberRole = interaction.guild?.roles.cache.find(roles => roles.name === "Marianne Subscriber") as Role;
 

@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
 import { Command } from '@sapphire/framework';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 
 @ApplyOptions<Command.Options>({
     name: 'CombatArt',
@@ -25,8 +25,8 @@ export class CombatArtCommand extends Command {
         );
     }
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
-        const combatArtEmbed = new MessageEmbed()
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
+        const combatArtEmbed = new EmbedBuilder()
 
         const cA = interaction.options.getString('art', true).toLowerCase();
 

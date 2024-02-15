@@ -1,6 +1,7 @@
 import '#lib/setup';
 import { LogLevel } from '@sapphire/framework';
 import { MarianneClient } from '#lib/MarianneClient';
+import { ActivityType } from 'discord.js';
 
 const client = new MarianneClient({
 	defaultPrefix: 'm?',
@@ -11,13 +12,12 @@ const client = new MarianneClient({
 	},
 	shards: 'auto',
 	intents: [
-		'GUILDS',
-		'GUILD_MESSAGES',
-		'GUILD_MESSAGE_REACTIONS'
+		'Guilds',
+		'GuildMessages',
+		'GuildMessageReactions'
 	],
-	partials: ['CHANNEL'],
 	loadMessageCommandListeners: true,
-	presence: { activities: [{ name: 'Dorte', type: 'LISTENING' }] }
+	presence: { activities: [{ name: 'Dorte', type: ActivityType.Listening }] },
 });
 
 const main = async () => {

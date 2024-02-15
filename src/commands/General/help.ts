@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
 import { Command, CommandStore } from '@sapphire/framework';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 import { PaginatedMessage } from '@sapphire/discord.js-utilities';
 import { inlineCodeBlock } from '@sapphire/utilities';
 
@@ -32,7 +32,7 @@ export class HelpCommand extends Command {
         );
     }
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
         const commandName = interaction.options.getString('command', false)?.toLowerCase();
 
         if (!commandName) {
@@ -47,7 +47,7 @@ export class HelpCommand extends Command {
 
 			if (!command) throw 'Command not found. To view all commands run `help`';
 
-			const embed = new MessageEmbed().setColor('#aad0fa');
+			const embed = new EmbedBuilder().setColor('#aad0fa');
 
 			if (command.aliases.length) embed.addFields({ name: '❯ Aliases', value: `${command.aliases.map((alias) => `\`${alias}\``).join(' ')}`, inline: false });
 
@@ -60,11 +60,11 @@ export class HelpCommand extends Command {
 		}
     }
 
-    private async menu(interaction: Command.ChatInputInteraction) {
+    private async menu(interaction: Command.ChatInputCommandInteraction) {
         this.commands = this.container.client.stores.get('commands');
 
 		const paginatedMessage = new PaginatedMessage({
-			template: new MessageEmbed()
+			template: new EmbedBuilder()
                 .setDescription('All of these commands are slash commands. You must use `/` to use them.\nFor example, `/ping`.')
 				.setColor('#aad0fa')
 				// .setFooter('')

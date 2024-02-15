@@ -25,7 +25,7 @@ export class InviteCommand extends Command {
 		);
 	}
 	// slash command
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
 		const msg = await interaction.reply({ content: `To add me to your Discord guild: <https://discordapp.com/oauth2/authorize?client_id=650566385881317376&scope=bot&permissions=322630>\nDon't be afraid to uncheck some permissions, I will let you know if you're trying to run a command without permissions.`, fetchReply: true });
 
 		return msg;

@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
 import { Command } from '@sapphire/framework';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 import { PaginatedMessage } from '@sapphire/discord.js-utilities';
 
 @ApplyOptions<Command.Options>({
@@ -27,7 +27,7 @@ export class UnitCommand extends Command {
         );
     }
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
         this.container.client.application?.commands
         const unitName = interaction.options.getString('unit', true);
         const lowerCase = unitName.toLowerCase()
@@ -354,7 +354,7 @@ export class UnitCommand extends Command {
                     quote = 'I do like my time alone. Actually, it\'s more of a need. But you\'re right. I also need to venture out every once in a while. Maybe if I work as hard as you do, I can try it a little more.'
                     name = 'Bernadetta von Varley'
                     thumbnail = 'https://i.imgur.com/xowUlBr.png'
-                    hexColor = '#a080a8'
+                    hexColor = '#a080a8' as `#${string}`
                     aliases = ['Bernie', 'Bern']
                     gender = 'Female'
                     race = 'Human'
@@ -396,7 +396,7 @@ export class UnitCommand extends Command {
                     quote = 'Oh my, you look like a wonderful person. Is this your first time at the monastery? Shall I show you around? Ah, my name is Dorothea. Before enrolling in school, I was in an opera company at the capital.'
                     name = 'Dorothea Arnault'
                     thumbnail = 'https://i.imgur.com/S3FNa04.png'
-                    hexColor = '#7b585b'
+                    hexColor = '#7b585b' as `#${string}`
                     basehp = 24, basestr = 5, basemag = 11, basedex = 6, basespd = 7, baselck = 6, basedef = 4, baseres = 7, basecha = 8
                     titles = ['__**Locking Down the Magic**__', '__**Faith in You**__', '__**A Graceful Blade**__']
                     goals = ['Focus on the **reason** skill to excel as a Warlock.', 'Focus on the **faith** skill to excel as a Priest or Bishop.', 'Focus on the **sword** skill to excel as a sword fighting class.']
@@ -437,7 +437,7 @@ export class UnitCommand extends Command {
                     quote = 'You will be slapped down!'
                     name = 'Petra Macneary'
                     thumbnail = 'https://i.imgur.com/ZfvRIX6.png'
-                    hexColor = '#824364'
+                    hexColor = '#824364' as `#${string}`
                     gender = 'Female'
                     race = 'Human'
                     aliases = ['N/A']
@@ -478,7 +478,7 @@ export class UnitCommand extends Command {
                     name = 'Dimitri Alexandre Bladdyid'
                     quote = 'Someone must put a stop to this cycle of the strong trampling the weak.'
                     thumbnail = 'https://i.imgur.com/Ddl1C8a.png'
-                    hexColor = '#fcfba8'
+                    hexColor = '#fcfba8' as `#${string}`
                     basehp = 28, basestr = 12, basemag = 4, basedex = 7, basespd = 7, baselck = 5, basedef = 7, baseres = 4, basecha = 9
                     titles = ['__**Lead Like a Lord**__', '__**His Father\'s Footsteps**__']
                     goals = ['Focus on **sword and authority** skills to excel as a Lord.', 'Focus on **lance and riding** skills to excel as a cavalry class.']
@@ -520,7 +520,7 @@ export class UnitCommand extends Command {
                     quote = 'I have heard that you rescued His Highness. Words cannot express my gratitude. Should you ever require my strength, please know that I will hasten to repay this debt.'
                     name = 'Dedue Molinaro'
                     thumbnail = 'https://i.imgur.com/quIqslt.png'
-                    hexColor = '#e8e9e2'
+                    hexColor = '#e8e9e2' as `#${string}`
                     aliases = ['N/A']
                     gender = 'Male'
                     race = 'Human'
@@ -561,7 +561,7 @@ export class UnitCommand extends Command {
                     quote = 'There\'s nothing to be gained from fighting someone not worth dueling, after all.'
                     name = 'Felix Hugo Fraldarius'
                     thumbnail = 'https://i.imgur.com/YJcGEiK.png'
-                    hexColor = '#403f64'
+                    hexColor = '#403f64' as `#${string}`
                     basehp = 26, basestr = 10, basemag = 5, basedex = 6, basespd = 9, baselck = 5, basedef = 5, baseres = 3, basecha = 5
                     titles = ['__**Becoming a Master**__', '__**A Reasonable Advantage**__', '__**Aiming for Perfection**__']
                     goals = ['Focus on the **sword** skill to excel as a Swordmaster.', 'Focus on **sword and reason** skills to excel as a Mortal Savant.', 'Focus on the **bow** skill to excel as a Sniper.']
@@ -603,7 +603,7 @@ export class UnitCommand extends Command {
                     quote = 'I\'ll prove myself!'
                     name = 'Ashe Ubert'
                     thumbnail = 'https://i.imgur.com/L4iJ8Ug.png'
-                    hexColor = '#b5bdc6'
+                    hexColor = '#b5bdc6' as `#${string}`
                     aliases = ['N/A']
                     crest = 'N/A'
                     crestImage = 'N/A'
@@ -645,7 +645,7 @@ export class UnitCommand extends Command {
                     quote = 'Well, there\'s Dorothea, Hilda, and Mercedes. Lady Rhea\'s quite the beauty too. And I must admit, I\'ve even checked out Professor Manuela once or twice. You know, Professor, I think I\'m going to like it at the Officers Academy. There are beautiful girls as far as the eye can see...'
                     name = 'Sylvain Jose Gautier'
                     thumbnail = 'https://i.imgur.com/77T2SRt.png'
-                    hexColor = '#e06c53'
+                    hexColor = '#e06c53' as `#${string}`
                     basehp = 27, basestr = 9, basemag = 5, basedex = 5, basespd = 8, baselck = 6, basedef = 6, baseres = 2, basecha = 7
                     titles = ['__**Man of the People**__', '__**Protector of the People**__', '__**A Change of Pace**__']
                     goals = ['Focus on **lance and riding** skills to excel as a cavalry class.', 'Focus on **axe and heavy armor** skills to excel as a Great Knight.', 'Focus on **reason and faith** skills to excel as a magic class.']
@@ -686,7 +686,7 @@ export class UnitCommand extends Command {
                     quote = 'Here goes!'
                     name = 'Mercedes von Martritz'
                     thumbnail = 'https://i.imgur.com/y1BWI7T.png'
-                    hexColor = '#f4dcc4'
+                    hexColor = '#f4dcc4' as `#${string}`
                     aliases = ['Mercie', 'Mercedes von Bartels']
                     gender = 'Female'
                     race = 'Human'
@@ -727,7 +727,7 @@ export class UnitCommand extends Command {
                     quote = 'I\'ve got to find out everyone\'s likes and dislikes, so I know what to cook! Who knows when it\'ll be my turn at kitchen duty?'
                     name = 'Annette Fantine Dominic'
                     thumbnail = 'https://i.imgur.com/lnE7TRE.png'
-                    hexColor = '#f6a67d'
+                    hexColor = '#f6a67d' as `#${string}`
                     basehp = 23, basestr = 6, basemag = 11, basedex = 7, basespd = 7, baselck = 6, basedef = 5, baseres = 4, basecha = 6
                     titles = ['__**A Reasonable Passion**__', '__**Full of Surprises**__']
                     goals = ['Focus on the **reason** skill to excel as a Warlock.', 'Focus on the **axe** skill to excel as a Warrior.']
@@ -769,7 +769,7 @@ export class UnitCommand extends Command {
                     quote = 'Living as a knight is certainly not an easy task. I know it will mean much pain, strife, and heartache. But I still want to pursue that dream. Talking to you has reminded me... I\'m not the type who gives up easily.'
                     name = 'Ingrid Brandl Galatea'
                     thumbnail = 'https://i.imgur.com/t8fCo54.png'
-                    hexColor = '#f8e5a0'
+                    hexColor = '#f8e5a0' as `#${string}`
                     gender = 'Female'
                     race = 'Human'
                     aliases = ['N/A']
@@ -810,7 +810,7 @@ export class UnitCommand extends Command {
                     name = 'Claude von Riegan'
                     quote = 'My moment has arrived!'
                     thumbnail = 'https://i.imgur.com/A4i8b9Z.png'
-                    hexColor = '#4a4240'
+                    hexColor = '#4a4240' as `#${string}`
                     basehp = 26, basestr = 11, basemag = 5, basedex = 8, basespd = 8, baselck = 7, basedef = 6, baseres = 4, basecha = 8
                     titles = ['__**Lead Like a Lord**__', '__**Rite of Passage**__']
                     goals = ['Focus on **sword and authority** skills to excel as a Lord.', 'Focus on **axe and flying** skills to excel as a Wyvern Rider.']
@@ -866,7 +866,7 @@ export class UnitCommand extends Command {
                     thumbnail = 'https://i.imgur.com/zoScHRC.png'
                     crestImage = 'https://i.imgur.com/mKK2nws.png'
                     vA = 'Yūki Kuwahara (Japanese)\nSalli Saffioti (English)'
-                    hexColor = '#fcafb7'
+                    hexColor = '#fcafb7' as `#${string}`
                     heightInCM = 154
                     likedGifts = ["Anemone", "Gemstone Beads", "Dapper Handkerchief", "Book of Sheet Music", "Stylish Hair Clip", "Armored Bear Stuffy"]
                     dislikedGifts = ["Training Weight", "Ancient Coin", "Legends of Chivalry"]
@@ -1807,7 +1807,7 @@ export class UnitCommand extends Command {
             }
 
             const paginatedMessage = new PaginatedMessage({
-                template: new MessageEmbed()
+                template: new EmbedBuilder()
             });
 
             paginatedMessage.addPageEmbed((buildBioEmbed) => {

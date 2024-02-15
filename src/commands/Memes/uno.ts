@@ -24,7 +24,7 @@ export class UnoCommand extends Command {
 		);
 	}
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
         const marianne = this.container.client.emojis.cache.find(emoji => emoji.name === "Marianne2");
  
 		const msg = await interaction.reply({ content: `${marianne} I don't have uno so go fuck off.`, fetchReply: true });

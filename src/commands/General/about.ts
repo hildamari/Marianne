@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
 import { ChatInputCommand, Command } from '@sapphire/framework';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 
 @ApplyOptions<Command.Options>({
     name: 'About',
@@ -25,7 +25,7 @@ export class AboutCommand extends Command {
 		);
 	}
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
 
         let totalSeconds = (this.container.client.uptime as number / 1000);
 		let days = Math.floor(totalSeconds / 86400);
@@ -36,10 +36,10 @@ export class AboutCommand extends Command {
 		let seconds = Math.floor(totalSeconds % 60);
 		let uptime = `${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds`;
 
-        const aboutEmbed = new MessageEmbed()
+        const aboutEmbed = new EmbedBuilder()
              .setColor('#aad0fa')
              .setDescription("Marianne displays information about Fire Emblem Three Houses, including character bios, combat arts, crests, DLC, focuses, personal skills, proficiencies, recruitment, and learned spells.")
-             .setAuthor({ name: `${this.container.client.user?.username} Stats`, iconURL: this.container.client.user?.displayAvatarURL({ format: 'png' })})
+             .setAuthor({ name: `${this.container.client.user?.username} Stats`, iconURL: this.container.client.user?.displayAvatarURL({ size: 4096 })})
             //  addField('Uptime', moment.duration(process.uptime() * 1000).format('D [days], H [hours] [and] m [minutes]'), true)
             .addFields({ name: 'Uptime', value: `${uptime}`, inline: true})
             .addFields({ name: 'License', value: 'Apache 2.0', inline: true})

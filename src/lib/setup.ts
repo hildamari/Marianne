@@ -9,7 +9,7 @@ import * as colorette from 'colorette';
 import { config } from 'dotenv-cra';
 import { join } from 'path';
 import { inspect } from 'util';
-import { srcDir } from '#lib/constants';
+import { srcDir } from './constants.js';
 
 // Read env var
 config({ path: join(srcDir, '.env') });
@@ -19,3 +19,4 @@ inspect.defaultOptions.depth = 1;
 
 // Enable colorette
 colorette.createColors({ useColor: true });
+

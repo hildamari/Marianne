@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
+import { isMessageInstance } from '@sapphire/discord.js-utilities';
 import { ChatInputCommand, Command } from '@sapphire/framework';
-import { Message } from 'discord.js';
 
 @ApplyOptions<Command.Options>({
 	name: 'Ping',
@@ -25,16 +25,15 @@ export class PingCommand extends Command {
 		);
 	}
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
-		const msg = await interaction.reply({ content: 'Ping?', fetchReply: true });
-		const createdTime = msg instanceof Message ? msg.createdTimestamp : Date.parse(msg.timestamp);
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
+		const msg = await interaction.reply({ content: `Ping?`, fetchReply: true });
 
-		const content = `Pong! Bot Latency ${Math.round(this.container.client.ws.ping)}ms. API Latency ${
-			createdTime - interaction.createdTimestamp
-		}ms.`;
+        if (isMessageInstance(msg)) {
+        const diff = msg.createdTimestamp - interaction.createdTimestamp;
+        const ping = Math.round(this.container.client.ws.ping);
+        return interaction.editReply(`Pong 🏓! (Round trip took: ${diff}ms. Heartbeat: ${ping}ms.)`);
+        }
 
-		return await interaction.editReply({
-			content: content
-		});
+        return interaction.editReply('Failed to retrieve ping :(');
 	}
 }

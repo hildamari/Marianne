@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
 import { Command } from '@sapphire/framework';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 
 @ApplyOptions<Command.Options>({
     name: 'Crest',
@@ -25,8 +25,8 @@ export class CrestCommand extends Command {
         );
     }
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
-        const crestEmbed = new MessageEmbed()
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
+        const crestEmbed = new EmbedBuilder()
         let name = '', thumbnail = '', description = '', majorBearer = '', minorBearer = '', legendaryWeapons: string[] = [], crestItem = '', effect = '';
 
         const crest = interaction.options.getString('crest', true).toLowerCase();

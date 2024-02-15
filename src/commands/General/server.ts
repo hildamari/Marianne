@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
 import { ChatInputCommand, Command } from '@sapphire/framework';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 // import { isMessageInstance } from '@sapphire/discord.js-utilities';
 
 @ApplyOptions<Command.Options>({
@@ -27,7 +27,7 @@ export class ServerCommand extends Command {
 		);
 	}
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
         // const owner = await this.container.client.users.fetch(interaction.guild?.ownerId as string);
         let rolemap = interaction.guild?.roles.cache
             .sort((a, b) => b.position - a.position)
@@ -39,7 +39,7 @@ export class ServerCommand extends Command {
         const owner = await interaction.guild?.fetchOwner()
         const createdAt = interaction.guild?.createdAt as Date
 
-        const serverEmbed = new MessageEmbed()
+        const serverEmbed = new EmbedBuilder()
             .setTitle(`${interaction.guild?.name} [${interaction.guild?.id}]`)
             .setDescription(`Roles: ${rolemap}`)
             .addFields({ name: 'Members', value: `• **${interaction.guild?.memberCount}** members\n • Owner: **${owner?.displayName}** (ID: **${owner?.id}**)`, inline: true})

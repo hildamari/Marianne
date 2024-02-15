@@ -1,6 +1,6 @@
 import { ApplyOptions } from '@sapphire/decorators';
 import { Command } from '@sapphire/framework';
-import { MessageEmbed } from 'discord.js';
+import { EmbedBuilder } from 'discord.js';
 import { PaginatedMessage } from '@sapphire/discord.js-utilities';
 import { stripIndents } from 'common-tags';
 
@@ -21,9 +21,9 @@ export class DLCCommand extends Command {
         );
     }
 
-	public async chatInputRun(interaction: Command.ChatInputInteraction) {
+	public async chatInputRun(interaction: Command.ChatInputCommandInteraction) {
         const paginatedMessage = new PaginatedMessage({
-            template: new MessageEmbed()
+            template: new EmbedBuilder()
         });
 
         paginatedMessage.addPageEmbed((buildWave1Embed) => {
