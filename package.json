@@ -7,7 +7,7 @@
   "type": "module",
   "dependencies": {
     "@sapphire/decorators": "^6.0.4",
-    "@sapphire/discord-utilities": "^3.2.2",
+    "@sapphire/discord-utilities": "^3.2.3",
     "@sapphire/discord.js-utilities": "7.1.6",
     "@sapphire/fetch": "^3.0.2",
     "@sapphire/framework": "^5.0.7",
