@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "dependencies": {
-    "@sapphire/decorators": "^6.0.4",
+    "@sapphire/decorators": "^6.1.0",
     "@sapphire/discord-utilities": "^3.2.3",
     "@sapphire/discord.js-utilities": "7.1.6",
     "@sapphire/fetch": "^3.0.2",
