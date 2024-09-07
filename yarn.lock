@@ -113,12 +113,12 @@
   dependencies:
     discord-api-types "^0.37.67"
 
-"@sapphire/discord-utilities@^3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-3.4.0.tgz#03c964aff0b934fd942bbcb10b0caf835472d975"
-  integrity sha512-V8LhRQyFOjo4I4QQL+GTlS+heXnJsDCpwmbS3+V9wGrefkGNm8JcQDOThkEVcYwl87MVv/LyypRW4DcEKa/Mzw==
+"@sapphire/discord-utilities@^3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-3.4.1.tgz#9ba96f0d675c86b116a6ad9678a7f93900d2140c"
+  integrity sha512-DmBrle7uorAJUoh1mJo6aZ5pVjVnAOt9n5DXcZRN3ZWlu28cz0g3X6JYdwjAFdvBHlJIt9nobVPDMNDLUg6O4Q==
   dependencies:
-    discord-api-types "^0.37.97"
+    discord-api-types "^0.37.98"
 
 "@sapphire/discord.js-utilities@7.1.6", "@sapphire/discord.js-utilities@^7.1.6":
   version "7.1.6"
@@ -513,10 +513,10 @@ discord-api-types@^0.37.67:
   resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.67.tgz#c4280aa122104ea74e103884ba27e8218210bef8"
   integrity sha512-4HEzUEmwGPXWJdVhGZ/K+9eWs8kurdn5r/I8qD3/0hb14I0MZvx8K/JOyLhKLgcR4/8/jcr6Xej820BNgNXN7A==
 
-discord-api-types@^0.37.97:
-  version "0.37.98"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.98.tgz#65484b63f51f67c7bc60555b0f247716a8d573c0"
-  integrity sha512-xsH4UwmnCQl4KjAf01/p9ck9s+/vDqzHbUxPOBzo8fcVUa/hQG6qInD7Cr44KAuCM+xCxGJFSAUx450pBrX0+g==
+discord-api-types@^0.37.98:
+  version "0.37.100"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.100.tgz#5979892d39511bc7f1dbb9660d2d2cad698b3de7"
+  integrity sha512-a8zvUI0GYYwDtScfRd/TtaNBDTXwP5DiDVX7K5OmE+DRT57gBqKnwtOC5Ol8z0mRW8KQfETIgiB8U0YZ9NXiCA==
 
 discord-api-types@^0.37.99:
   version "0.37.99"
