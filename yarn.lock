@@ -113,10 +113,10 @@
   dependencies:
     discord-api-types "^0.37.67"
 
-"@sapphire/discord-utilities@^3.4.2":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-3.4.2.tgz#c7ed17b6fa720b1081fdec866edbab17a4c13440"
-  integrity sha512-UcvznqANszKaYYS56ld4xHIycE0xI4fzrLZ86Z5Dnssn5FTGNJEZpNn6tbB5QeGTTONJRsXbDgqmraWdSMa2gQ==
+"@sapphire/discord-utilities@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-3.4.3.tgz#723554c3faba4d52cb1efc94c35d183c716f2e2d"
+  integrity sha512-QVh0KN+UYKnOZBhjMCe7IS2Wr0Ug3IT4evyygIDXZz2fRpfup7peHW2w1QplwLfEbpBTW9Uzr/9aONOYIobpxg==
   dependencies:
     discord-api-types "0.37.100"
 
