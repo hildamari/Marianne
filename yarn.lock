@@ -113,12 +113,12 @@
   dependencies:
     discord-api-types "^0.37.67"
 
-"@sapphire/discord-utilities@^3.4.3":
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-3.4.3.tgz#723554c3faba4d52cb1efc94c35d183c716f2e2d"
-  integrity sha512-QVh0KN+UYKnOZBhjMCe7IS2Wr0Ug3IT4evyygIDXZz2fRpfup7peHW2w1QplwLfEbpBTW9Uzr/9aONOYIobpxg==
+"@sapphire/discord-utilities@^3.4.4":
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/@sapphire/discord-utilities/-/discord-utilities-3.4.4.tgz#ab03f3949a0c2c2f2c837c05aaa3647bfccaa221"
+  integrity sha512-P7bCL5U2s+U5oy9OFpC4lr4Y0bGoNrSCPu2bgxP9AaqK90hcwpoLWWKouvGgaY9tCbUZmaf8E98/SlZZoakhAQ==
   dependencies:
-    discord-api-types "0.37.100"
+    discord-api-types "^0.37.114"
 
 "@sapphire/discord.js-utilities@7.1.6", "@sapphire/discord.js-utilities@^7.1.6":
   version "7.1.6"
@@ -513,17 +513,12 @@ detect-libc@^2.0.0:
   resolved "https://registry.npmjs.org/detect-libc/-/detect-libc-2.0.1.tgz"
   integrity sha512-463v3ZeIrcWtdgIg6vI6XUncguvr2TnGl4SzDXinkt9mSLpBJKXT3mW6xT3VQdDN11+WVs29pgvivTc4Lp8v+w==
 
-discord-api-types@0.37.100:
-  version "0.37.100"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.100.tgz#5979892d39511bc7f1dbb9660d2d2cad698b3de7"
-  integrity sha512-a8zvUI0GYYwDtScfRd/TtaNBDTXwP5DiDVX7K5OmE+DRT57gBqKnwtOC5Ol8z0mRW8KQfETIgiB8U0YZ9NXiCA==
-
 discord-api-types@0.37.61:
   version "0.37.61"
   resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.61.tgz#9dd8e58c624237e6f1b23be2d29579af268b8c5b"
   integrity sha512-o/dXNFfhBpYHpQFdT6FWzeO7pKc838QeeZ9d91CfVAtpr5XLK4B/zYxQbYgPdoMiTDvJfzcsLW5naXgmHGDNXw==
 
-discord-api-types@^0.37.115:
+discord-api-types@^0.37.114, discord-api-types@^0.37.115:
   version "0.37.115"
   resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.115.tgz#b7f1675efe9ba047bd6ddc9785551d015ae14939"
   integrity sha512-ivPnJotSMrXW8HLjFu+0iCVs8zP6KSliMelhr7HgcB2ki1QzpORkb26m71l1pzSnnGfm7gb5n/VtRTtpw8kXFA==
