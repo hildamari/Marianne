@@ -303,6 +303,11 @@
   resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-3.18.1.tgz#c8b06bf5bd1e188d3bf1d7851adc84cda02143b4"
   integrity sha512-zyEyQOQb2/t2mKRmu8T+M4r1Ulb+54BjwDS5pfzf6abGzTAcUg4VDWjHeKX7p3IgiZTcpN4Ij77b9k+K1KV4Lg==
 
+"@sapphire/utilities@^3.18.2":
+  version "3.18.2"
+  resolved "https://registry.yarnpkg.com/@sapphire/utilities/-/utilities-3.18.2.tgz#42f1cec0b9bc5fac411b21f40893bed5770d4a0b"
+  integrity sha512-QGLdC9+pT74Zd7aaObqn0EUfq40c4dyTL65pFnkM6WO1QYN7Yg/s4CdH+CXmx0Zcu6wcfCWILSftXPMosJHP5A==
+
 "@skyra/editable-commands@^3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@skyra/editable-commands/-/editable-commands-3.0.1.tgz#b7b8b513dbe63cac1151c116bd4a0c8daa4e36a3"
