@@ -1,4 +1,4 @@
-FROM node:25.2.0
+FROM node:25.2.1
 
 # Create app directory
 WORKDIR /src
