@@ -533,10 +533,10 @@ discord-api-types@^0.38.30:
   resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.34.tgz#eb2bdad107d833f4e550aa781e4a68a2d4b8e150"
   integrity sha512-muq7xKGznj5MSFCzuIm/2TO7DpttuomUTemVM82fRqgnMl70YRzEyY24jlbiV6R9tzOTq6A6UnZ0bsfZeKD38Q==
 
-discord-api-types@^0.38.51:
-  version "0.38.51"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.51.tgz#c02ef4dc45bd62bf50f9ebbb6a9928d7d8eab91d"
-  integrity sha512-SnaFHd+b8Z3HgjEIoSA1wkstXCt6J0Zrxvny0BJZZz7AhmFSetRY3DMrIdO3LFDMeeTxF7WKornnAGxaws5Adw==
+discord-api-types@^0.38.52:
+  version "0.38.52"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.52.tgz#73ea825743de5e9d98f26327d4825f403e5f9c48"
+  integrity sha512-uwe9EKfbjsmgWc2fdFjvDbj+dQqx3lp7wqDCmIha0jInuU+xeQjkCK9tMMn+p7RXfdVQORCInq4cD3U2ymDmyg==
 
 discord.js@^14.14.1:
   version "14.14.1"
